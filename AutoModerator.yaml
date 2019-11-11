@@ -1,0 +1,2347 @@
+---
+    reports: 5
+    modmail: The above {{kind}} by /u/{{author}} has received 5 reports. Please investigate.
+---
+    title+body (includes-word): ["ass fuck","ass hole","assshole","black cock","boong","cockfucker","cocksucker","coonnass","Fuck off","fuck you","fuckass","fuckhole","gook","homoerotic","hore","negro","nigger","orgasim","penisfucker","son of a bitch","4r5e","5h1t","5hit","a55","anal","anus","ar5e","arrse","arse","ass","ass-fucker","asses","assfucker","assfukka","asshole","assholes","asswhole","a_s_s","b!tch","b00bs","b17ch","b1tch","ballbag","ballsack","bastard","bi+ch","biatch","bitch","bitcher","bitchers","bitches","bitchin","bitching","bloody","blow job","blowjob","blowjobs","boiolas","bollock","bollok","boner","boob","boobs","booobs","boooobs","booooobs","booooooobs","buceta","bunny fucker","buttmuch","buttplug","c0ck","c0cksucker","carpet muncher","cawk","chink","cipa","cl1t","cock-sucker","cockface","cockhead","cockmunch","cockmuncher","cocksuck" ,"cocksucked","cocksucker","cocksucking","cocksucks" ,"cocksuka","cocksukka","cok","cokmuncher","coksucka","coon","cox","crap","cum","cummer","cumming","cums","cumshot","cunilingus","cunillingus","cunnilingus","cunt","cuntlick" ,"cuntlicker","cuntlicking","cunts","cyalis","cyberfuc","cyberfuck","cyberfucked","cyberfucker","cyberfuckers","cyberfucking","d1ck","dick","dickhead","dink","dinks","dirsa","dlck","dog-fucker","doggin","dogging","donkeyribber","doosh","duche","dyke","f u c k","f u c k e r","f4nny","fag","fagging","faggitt","faggot","faggs","fagot","fagots","fags","fanny","fannyflaps","fannyfucker","fanyy","fatass","fcuk","fcuker","fcuking","feck","fecker","felching","fellate","fellatio","fingerfuck","fingerfucked","fingerfucker","fingerfuckers","fingerfucking","fingerfucks","fistfuck","fistfucked","fistfucker","fistfuckers","fistfucking","fistfuckings","fistfucks","flange","fook","fooker","fuck","fucka","fucked","fucker","fuckers","fuckhead","fuckheads","fuckin","fucking","fuckings","fuckingshitmotherfucker","fuckme","fucks","fuckwhit","fuckwit","fudge packer","fudgepacker","fuk","fuker","fukker","fukkin","fuks","fukwhit","fukwit","fux","fux0r","f_u_c_k","gangbang","gangbanged","gangbangs","gaylord","gaysex","goatse","hardcoresex","heshe","hoar","hoare","hoer","hore","hotsex","jack-off","jackoff","jap","jerk-off","jism","jiz","jizm","jizz,kawk","knob","knobead","knobed","knobend","knobhead","knobjocky","knobjokey","kock","kondum","kondums","kum","kummer","kumming","kums","kunilingus","l3i+ch","l3itch","labia","lmfao","m0f0","m0fo","m45terbate","ma5terb8","ma5terbate","masochist","master-bate","masterb8","masterbat*","masterbat3","mo-fo","mof0","mofo","mothafuck","mothafucka","mothafuckas","mothafuckaz","mothafucked","mothafucker","mothafuckers","mothafuckin","mothafucking","mothafuckings","mothafucks","motherfucker","motherfuck","motherfucked","motherfucker","motherfuckers","motherfuckin","motherfucking","motherfuckings","motherfuckka","motherfucks","muff","mutha","muthafecker","muthafuckker","muther","mutherfucker","n1gga","n1gger","nazi","nigg3r","nigg4h","nigga","niggah","niggas","niggaz","nigger","niggers","nob","nob jokey","nobhead","nobjocky","nobjokey","numbnuts","nutsack","p0rn","pawn","pecker","penisfucker","phonesex","phuck","phuk","phuked","phuking",phukked","phukking","phuks","phuq","pigfucker","pimpis","prick","pricks","pron","pube","pusse","pussi","pussies","pussy","pussys","retard","rimjaw","rimming","s hit","s.o.b.","sadist","schlong","scroat","scrote","sh!+","sh!t","sh1t","shag","shagger","shaggin","shagging","shemale","shi+","shit","shitdick","shite","shited","shitey","shitfuck","shitfull","shithead","shiting","shitings","shits","shitted","shitter","shitters","shitting","shittings","shitty","skank","slut","sluts","smegma","smut","snatch","son-of-a-bitch","spac","spunk","s_h_i_t","t1tt1e5","t1tties","teets","teez","testical","tit","titfuck","tits","titt","tittie5","tittiefucker","titties","tittyfuck","tittywank","titwank","tosser","turd","tw4t","twat","twathead","twatty","twunt","twunter","v14gra","v1gra","vagina","viagra","vulva","w00se","wang","wank","wanker","wanky","whoar","whore","willies","willy","xrated","xxx"]
+    action: filter
+    action_reason: contains inappropriate language
+    message: |
+        Hello u/{{author}},
+
+        ####I regret to inform you that the algorithms in this subreddit have determined that your {{kind}} violates one or more of our subreddit rule(s).
+
+        Matched keyword:
+        > {{match}}
+
+        ######This friendly takedown should be taken with gratitude because your account is yet to be shadowbanned
+
+        I encourage you to read up our rules so you are cognizant of how things work in this subreddit.
+
+        Have a nice day!
+
+        _If you strongly oppose this takedown and believe the moderators are likely to approve this {{kind}}, please [send us a Modmail](https://reddit.com/message/compose?to=/r/HomeworkHelp) for further clarifications. If this is a post, make a non-top level comment `**Mod:** I appeal`_ to the post in the mean time.
+
+        **Readers:** Do not use this command without reading [User Moderation](https://www.reddit.com/r/HomeworkHelp/wiki/user_moderation). Ignorance or incorrect interpretation of our rules will not excuse you from being dealt harshly for wrongful removals.
+---
+    title+body (includes-word, regex): ["surveymonkey", "nsf[wl]", "not safe for (work|life)", "I will pay", "willing to pay", "venmo","paypal", "affordable prices","Luke", "Kylo", "Snoke", "professional essay writer", "quality homework help", "best paper writers", "by a professional writer", "affordable price", "academic writing assistance", "experienced tutor", "essay writing service", "We do your homework", "essay writing services", "writing coach", "plagiarism free", "hire me", "highly qualified writers", "upvote","up vote", "forms.gle", "survey"]
+    type: submission
+    action: filter
+    action_reason: Potential Rule 8/9 Violation
+    comment: |
+        Hello u/{{author}},
+
+        ####I regret to inform you that our algorithms in this subreddit have determined that your post violates our subreddit rule(s):
+        > > - _**Rule 8: No advertisements of any form.**_
+        > >
+        > > This includes asking for "likes," page views, or similar things.
+        >
+        > > - _**Rule 9: No surveys. Take them to /r/samplesize.**_
+
+        Matched keyword:
+        > {{match}}
+
+        ######This friendly takedown should be taken with gratitude because your account is yet to be shadowbanned
+
+        I encourage you to read up our rules so you are cognizant of how things work in this subreddit.
+
+        Have a nice day!
+
+        _If you strongly oppose this takedown and believe the moderators are likely to approve this post, please reply `Mod: I appeal` and elaborate in the next sentence.
+
+        **Readers:** Do not use this command without reading [User Moderation](https://www.reddit.com/r/HomeworkHelp/wiki/user_moderation). Ignorance or incorrect interpretation of our rules will not excuse you from being dealt harshly for wrongful removals
+---
+    domain+body+title: [myessayhub.net, Edusson, chriswriter4, sedofreelancer, essayservice, gonerdify, mypenservices9, high-quality academic papers, ukwritershub, researchpapers247, studypool, writepaperforme, proessays, canadaessays, EssayPro, edenpapers, smwas86@gmail.com, relaxessay, twinprofs, ownessays, trusted_essays, paypal, venmo, homeworkminutes.com, Snappypapers, phwriters, essaytom, vortexessay, speedypaper, customwriting4you.com, papercoach, grand-essays.com, papersmaster.com, academiaresearchservices, solutoninn.com, myassignmenthelp.co.uk, chrome782, Studyansh, solutoninn.com, supertechwriting, writepaperfor.me, theeducationalists.com, onlineassignment.co.in, schoolsolver.com, nativecustomwriters.com, writershubplus.com, helpjelp.com, mentyor.com, essaycorp.com, submityourassignments.org, cognitioexperts, submityourassignments.com, peachyessay, youressaygirl.com, superbpaper, studydaddy, penmypaper, KwikNotes, msahomeworkhelp.com, calltutors, summoremath.com, 7dollaressay, WeBestassignmentexperts.com, Alainchippy@gmail.com, morainechiri@gmail.com, topGradsForHire@gmail.com, myessayhub]
+    action: filter
+    action_reason: Spam
+---
+    # XP: Minimum Text Needed
+    type: text submission
+    body_shorter_than: 200
+    comment: |
+        *Hey Readers!*
+
+        This post looks incredibly short! ^(body: <200char) If this post violates our subreddit [rules](https://www.reddit.com/r/HomeworkHelp/about/rules), please **report** it and feel free to [manually trigger a takedown](https://www.reddit.com/r/HomeworkHelp/wiki/user_moderation).
+
+        > ####Key Takeaways:
+        >
+        >
+        >
+        > * Post title must be structured to classify the question properly
+        > * Post must contain **instructor prompt** or or a **failed attempt of the question**
+        >   * *by stating the syllabus requirements or presenting incorrect working/thought process towards the question*
+
+        **You may use me as a comment thread for this post.** Making irrelevant top-level comments could interfere with systematic flairing by falsely flagging an unanswered question as ***Pending OP Reply***, depriving OP of help in timely fashion. Join our chatrooms instead! ^(For PC users: see bottom of sidebar on Reddit redesign. For Reddit App users: see **Rooms**)
+
+        How was your experience in this subreddit? Let us know how can we do better by taking part in our survey [here](https://fdier.co/0acnXZ).
+
+        ######Pro-tips:
+
+        ^(1. Upvote questions that you recognise but you cannot do. Only downvote questions that do not abide by our rules or was asked in bad faith, NOT because the question is easy.)
+
+        ^(2. Comments containing case-insensitive `**Answer:**` or `**Hence**` will automatically re-flair post to **✔ Answered**; non-top level comments containing case-insensitive `**Therefore**` or `**Thus**` will automatically re-flair to ***—Pending OP Reply***)
+
+        ^(3. OPs can lock their thread by commenting `/lock`)
+
+        ^(4. If there is a rule violation, inform the OP and **report** the offending content. Posts will be automatically removed once it reaches a certain threshold of reports or it will be removed earlier if there is sufficient reports for manual takedown trigger. [Learn more](https://www.reddit.com/r/HomeworkHelp/comments/br7vi9/new_updates_image_posts_enabled_vote_to_delete/))
+---
+    # XP: Minimum Post Requirement - square/curly/round brackets
+    type: submission
+    ~title (includes, regex): ['((\[|\{)|^\().*(\]|}|\))']
+    action: remove
+    action_reason: no square brackets at prefix
+    comment: |
+        ### Hello **{{author}}**,
+
+        Welcome to r/HomeworkHelp! It seems like you have not attempted to structure your post title to classify your question's level and discipline/topic enclosed with **square brackets** as a title prefix.
+
+        **e.g.** **[AS Level Physics: Light]** {{title}}
+
+        ###Positive Examples
+
+        |Examples|**square brackets** is being used at prefix (must) + topic (optional) + clear question|
+        |:-|:-|
+        |includes syllabus|\**[GCE 'O' Level Calculus: Differentiation\]** How to differentiate e?|
+        ||**\[AP English: Essay Writing\]** Should all adverts be factual?|
+        |includes grade|**\[Grade 8 Algebra: Complete the square\]** How to factorise ax^(2)\+bx+c?|
+        ||**\[University Chemistry: Titration\]** What is my qs?|
+
+        ###Bad Examples
+
+        |Examples|*It still works, but strongly discouraged*|
+        |:-|:-|
+        |Grade/level is not specific enough|**\[High School Math\]** What is my qs?|
+        |What is your question?|\[Grade 8 Algebra\] **Helpppp!**|
+        |Do not attempt to circumvent square brackets requirement. Classify your question with square brackets|**\[Q\]** What is my question?|
+
+        **There is no fixed list of standardised grades, disciplines or topics.** As long as you have tried your best to structure your post title to keep things organised in the following format: ***[<Level/Syllabus>: <Discipline>and/or<Topic>] Question?***, you are safe!
+
+        Please delete this post and I am excited to receive your question again with everything well formulated and in compliance with our subreddit rules, Reddit rules and its T&C.
+
+        **Pro-tip:** _Attempt to edit this post to extract the description so you do not have to re-write everything all over again._
+
+        Do read up our subreddit [rules](https://www.reddit.com/r/HomeworkHelp/about/rules) so you are cognizant of how things work here!
+
+        Thank you for your understanding!
+---
+    # XP: Approve u/HomeworkHelpBot
+    type: comment
+    author: HomeworkHelpBot
+    parent_submission:
+        body_longer_than: 199
+    action: approve
+---
+    # XP: Welcome comment
+#    type: submission
+#    body_longer_than: 200
+#    title (regex): \[.*\]
+#    comment: |
+#        *Hey Readers!*
+#
+#        If this post violates our subreddit [rules](https://www.reddit.com/r/HomeworkHelp/about/rules), please **report** it and feel free to [manually trigger a takedown](https://www.reddit.com/r/HomeworkHelp/wiki/user_moderation).
+#
+#        > ####Key Takeaways:
+        >
+        > * Post title must be structured to classify the question properly
+        > * Post must contain **instructor prompt** or or a **failed attempt of the question**
+        >   * *by stating the syllabus requirements or presenting incorrect working/thought process towards the question*
+#
+#        **You may use me as a comment thread for this post.** Making irrelevant top-level comments could interfere with systematic flairing by falsely flagging an unanswered question as ***Pending OP Reply***, depriving OP of help in timely fashion. Join our chatrooms instead! ^(For PC users: see bottom of sidebar on Reddit redesign. For Reddit App users: see **Rooms**)
+#
+#        ######Pro-tips:
+#
+#        ^(1. Upvote questions that you recognise but you cannot do. Only downvote questions that do not abide by our rules or was asked in bad faith, NOT because the question is easy.)
+#
+#        ^(2. Comments containing case-insensitive `**Answer:**` or `**Hence**` will automatically re-flair post to **✔ Answered**)
+#
+#        ^(3. OPs can lock their thread by commenting `/lock`
+#
+#        ^(4. If there is a rule violation, inform the OP and **report** the offending content. Posts will be automatically removed once it reaches a certain threshold of reports or it will be removed earlier if there is sufficient reports for manual takedown trigger. [Learn more](https://www.reddit.com/r/HomeworkHelp/comments/br7vi9/new_updates_image_posts_enabled_vote_to_delete/))
+---
+    # XP: Remember to Mark as "Answered"
+    type: submission
+    title (regex): \[.*\]
+    author:
+        ~flair_template_id: ["f52eff54-4c4b-11e9-b5ae-0e3820aba534",
+        "9810ca02-d52e-11e9-943e-0edaf10a785a",
+        "4741b0c2-d52f-11e9-a245-0ecc928c0770",
+        "da2f6b80-4c4b-11e9-8275-0eba9e62db4e",
+        "8dc4b2a4-ce29-11e9-9236-0e0acfc54a5a",
+        "e6a42c86-d52e-11e9-99f2-0ea4ea416f14",
+        "dff4491e-4c4b-11e9-945b-0e44d0af0afc",
+        "e614b96e-4c4b-11e9-8b14-0e3d58cc5582",
+        "33288604-4c4c-11e9-98b6-0e11653f4fc4",
+        "3a61705c-4c4c-11e9-8f3d-0e3820aba534",
+        "45b9b19e-4c4c-11e9-a32c-0e990aa34f58",
+        "bc06d182-5f3a-11e9-aa3b-0ed0c6ac5038",
+        "4bacad04-4c4c-11e9-83cd-0ebbc1e4ca72",
+        "553dad32-4c4c-11e9-a3d5-0e8099e3fcb2",
+        "183f084a-a26e-11e9-ae18-0e4dd3622c68"]
+        #account_age: < 30 days
+    message_subject: Remember to re-flair your post as "✔ Answered!"
+    message: |
+        Hi **u/{{author}}**!
+
+        **Congratulations! Your question is successfully submitted to r/HomeworkHelp!** Typically, you will receive an answer within 24 hours unless it is not a very popular field. Once your question is deemed answered, please remember to re-flair this post as `✔ Answered` to save our volunteers' time from reading through an already helped question.
+
+        **Pro-tips:**
+
+        1. **Google** the topic and try to learn it before posting your homework question.
+
+        2. **Flair** your question appropriately so that users equipped with the right expertise can better help you. That is the sole purpose of flair—for you to receive help quicker from users who can do your level of question. Otherwise, all questions are all jumbled together so a supposedly qualified student wouldn't have helped you and would've given up searching; there is very little educators here because educators instinctively don't come here.
+
+        3. Even if this is a **non-text** submission, you still have to include all details in one way or another. **e.g.** as *comments*.
+
+        **Warning:** This whole subreddit is free-for-all. No offers and solicitations of payment should exist here. All answers by default are to be 100% quality and original. If you receive any PMs for solicitation of payment like tutoring, please ignore and discard it (and block the sender). This text is written in response to users' feedback that they are targeted for PM spam after they have posted here. PMs is out of our jurisdiction, unfortunately.
+
+        All the best!
+
+        _To stop receiving this PM notification, select an r/HomeworkHelp [user flair](https://www.reddithelp.com/en/categories/using-reddit/your-reddit-account/how-do-i-get-flair-textimage-next-my-username) for your profile._
+---
+    # XP: OP locks thread
+    type: comment
+    body: "/lock"
+    author:
+        is_submitter: true
+    parent_submission:
+        set_locked: true
+    comment: Done! This thread is now locked. :)
+---
+    # XP: Auto flair Chemistry
+    type: submission
+    priority: 1
+    title+body (includes): Chemistry
+    ~flair_text (regex): '.+'
+    set_flair:
+        text: ":snoo_thoughtful: Chemistry"
+        template_id: 155b6232-4c4b-11e9-af50-0ef8a8c5ca08
+    message: |
+        Howdy u/{{author}}!
+
+        I've automatically flaired this post to ***Chemistry*** based on the keyword "{{match}}".
+
+        Cheers!
+---
+    # XP: Auto flair Physics
+    type: submission
+    priority: 1
+    title+body (includes): Physics
+    ~flair_text (regex): '.+'
+    set_flair:
+        text: ":table_flip: Physics"
+        template_id: 2331aef2-4c4b-11e9-b4e8-0e104c17b0ea
+    message: |
+        Howdy u/{{author}}!
+
+        I've automatically flaired this post to ***Chemistry*** based on the keyword "{{match}}".
+
+        Cheers!
+---
+    # XP: Auto flair E-Math
+    type: submission
+    priority: 1
+    title+body (includes, regex): ['E(-?|lementary ?)Math(ematics)?']
+    ~flair_text (regex): '.+'
+    set_flair:
+        text: ":snoo_tongue: Elementary Mathematics"
+        template_id: f44d9bdc-4c4a-11e9-b011-0e5a55295ed2
+    message: |
+        Howdy u/{{author}}!
+
+        I've automatically flaired this post to ***Elementary Mathematics*** based on the keyword "{{match}}".
+
+        Cheers!
+---
+    # XP: Auto flair A-Math
+    type: submission
+    priority: 1
+    title+body (includes, regex): ['A(-?|lementary ?)Math(ematics)?']
+    ~flair_text (regex): '.+'
+    set_flair:
+        text: ":snoo_biblethump: Additional Mathematics"
+        template_id: fd985452-4c4a-11e9-bddd-0efaabcb6dd6
+    message: |
+        Howdy u/{{author}}!
+
+        I've automatically flaired this post to ***Additional Mathematics*** based on the keyword "{{match}}".
+
+        Cheers!
+---
+    # XP: No flair
+    type: submission
+    priority: -1
+    ~flair_text (regex): '.+'
+    message: |
+        Hello {{author}},
+
+        **It seems like this post is not flaired.** Please be informed that although *flairing* was written under ***pro-tip*** I sent you in PM, it is a convention in r/HomeworkHelp for all posts to be well-organised and we (readers) will purposefully boycott poorly/recklessly submitted posts even though this is a non-binding guideline.
+
+        **PS:** Switch to [Reddit Redesign](https://www.reddit.com/r/redesign/comments/8ke2l3/how_do_i_get_redesigned/)! This subreddit is not optimised for old Reddit. :(
+
+        Thanks!
+
+        _This is a harmless notice. No action has taken or will be considered against posts that are not flaired._
+---
+    # XP: Auto user flair: too short comment
+    type: comment
+    body (regex): ['.*']
+    body_shorter_than: 67
+    is_top_level: true
+    author:
+        ~flair_template_id: ["f52eff54-4c4b-11e9-b5ae-0e3820aba534",
+        "9810ca02-d52e-11e9-943e-0edaf10a785a",
+        "4741b0c2-d52f-11e9-a245-0ecc928c0770",
+        "da2f6b80-4c4b-11e9-8275-0eba9e62db4e",
+        "8dc4b2a4-ce29-11e9-9236-0e0acfc54a5a",
+        "e6a42c86-d52e-11e9-99f2-0ea4ea416f14",
+        "dff4491e-4c4b-11e9-945b-0e44d0af0afc",
+        "e614b96e-4c4b-11e9-8b14-0e3d58cc5582",
+        "33288604-4c4c-11e9-98b6-0e11653f4fc4",
+        "3a61705c-4c4c-11e9-8f3d-0e3820aba534",
+        "45b9b19e-4c4c-11e9-a32c-0e990aa34f58",
+        "bc06d182-5f3a-11e9-aa3b-0ed0c6ac5038",
+        "4bacad04-4c4c-11e9-83cd-0ebbc1e4ca72",
+        "553dad32-4c4c-11e9-a3d5-0e8099e3fcb2",
+        "183f084a-a26e-11e9-ae18-0e4dd3622c68",
+        "fd2680c8-02c2-11ea-af3f-0e55f7a67683"]
+        set_flair:
+                template_id: fd2680c8-02c2-11ea-af3f-0e55f7a67683
+        overwrite_flair: false
+        ~name: HomeworkHelpBot
+    message_subject: Welcome to r/{{subreddit}}
+    message: |
+        ####Dear u/{{author}},
+
+        **This is a one-time message from r/{{subreddit}}. You do not have to take any actions.**
+
+        It seems that you are new to our subreddit. This subreddit is quite new too, we was just an abandoned barren subreddit until the end of 2018. We have propped up this subreddit to make it beautiful and functional with systematic flairing.
+
+        **All posts (questions) flaired to its subject are considered unanswered** until someone makes a top-level comment (answer), AutoModerator (me) will then automatically re-flairs the post with a suffix ***—Pending OP Reply***. When an OP makes a comment on his/her own post, the post will then restores its original flair automatically to be part of the queue again.
+
+        Sounds cool? ***But……!*** We need your co-operation to make sure this system functions the way it is expected to be.
+
+        1. **Please only make a top-level comment if you are answering the question.** Otherwise, make a reply to [HomeworkHelpBot's collapsed comment](https://preview.redd.it/5jawivvd0lx31.gif?format=mp4&s=89d3b206960be59d33071599b16410b75b27ab95) (and tag the OP) if you want to make a comment about the question.
+        2. **Only answer the question if you are going to give your best effort to it.** Your recent comment was noted to be less than 67 characters (for perspective: length of non-GSM SMS). I cannot interpret the context of your comment, but please assume all posts on this subreddit are sincere and formal.
+        3. **Do not mention about PM or moving the discussion to another platform.** We are protecting the OPs from scam or dangers.
+        4. Please help to **report** content that violates r/{{subreddit}} [rules](https://www.reddit.com/r/HomeworkHelp/about/rules), Reddit rules and/or its T&C.
+
+        ###What have we told the OP?
+
+        **Please assume that the OPs have already made their best effort of attempting the question and sincerely help them** as we have already conveyed all OPs the following points:
+
+        > 1. Google their question before posting
+        > 2. Classify the question in post title
+        > 3. Flair their question
+        > 4. Even if it is a **non-text** submission, they'd to include all details of the question one way or another
+        > 5. The requisite details: instructor prompt or workings of the failed attempt to the question.
+        > 6. Avoid all PMs soliciting of payment. They are bad peeps. Good strangers provide free and quality answer to the post.
+
+        ---
+
+        Keep all exchanges friendly and cordial, don't be grandiose.
+
+        ^(**Lastly, if by any chance you love this subreddit,** do check out more about us by reading our [changelog](https://www.reddit.com/r/HomeworkHelp/comments/dtcw1x/we_have_transformed_this_subreddit_for_the_better/) or feel free to take a [survey](https://fdier.co/0acnXZ).)
+
+        ####You're welcomed to join us on Reddit Chat!
+
+        Channel | Link
+        :--|--:
+        General | [Join](https://s.reddit.com/channel/23950613_161a15494275fb82336634a870002775ce68fbf3)
+        Primary School Students (Grade 1-6) | [Join](https://s.reddit.com/channel/23950613_7a51955aa23eab9bda0d8763df129d58e9fb0e9d)
+        Secondary School Students (Grade 7-11) | [Join](https://s.reddit.com/channel/23950613_fc0bffc3fbbc09ebc5e45418acf1ec6e1fd0a5bf)
+        Pre-University Students (Grade 11-12) | [Join](https://s.reddit.com/channel/23950613_17233e92791c43ee47c3d87015cc369b1eb31db9)
+        University/College | [Join](https://s.reddit.com/channel/23950613_459f5b59899c60aab27ffaddc85fbdea2653db88)
+        Postgraduates | [Join](https://s.reddit.com/channel/23950613_c0179931449eeac3ca8a6490a29e9a45167cf0a7)
+        'O' Level | [Join](https://s.reddit.com/channel/23950613_9de7946b1284461b449644bcd63af0d6557a8d94)
+        'A' Level | [Join](https://s.reddit.com/channel/23950613_83651288a3b755cec9eff1fe2f964670d8c7ca05)
+
+        *Have a pleasant day ahead!*
+---
+    # XP: Auto user flair: Primary School
+    type: submission
+    title (includes, regex): ['(?:Grade ?|Gr ?)(1|2|3|4|5|6)\b','(?:Year ?|Y|Yr ?)(2|3|4|5|6|7)\b','Pri(?:mary)? ?(1|2|3|4|5|6)\b']
+    author:
+        ~flair_template_id: ["f52eff54-4c4b-11e9-b5ae-0e3820aba534",
+        "9810ca02-d52e-11e9-943e-0edaf10a785a",
+        "4741b0c2-d52f-11e9-a245-0ecc928c0770",
+        "da2f6b80-4c4b-11e9-8275-0eba9e62db4e",
+        "8dc4b2a4-ce29-11e9-9236-0e0acfc54a5a",
+        "e6a42c86-d52e-11e9-99f2-0ea4ea416f14",
+        "dff4491e-4c4b-11e9-945b-0e44d0af0afc",
+        "e614b96e-4c4b-11e9-8b14-0e3d58cc5582",
+        "33288604-4c4c-11e9-98b6-0e11653f4fc4",
+        "3a61705c-4c4c-11e9-8f3d-0e3820aba534",
+        "45b9b19e-4c4c-11e9-a32c-0e990aa34f58",
+        "bc06d182-5f3a-11e9-aa3b-0ed0c6ac5038",
+        "4bacad04-4c4c-11e9-83cd-0ebbc1e4ca72",
+        "553dad32-4c4c-11e9-a3d5-0e8099e3fcb2",
+        "183f084a-a26e-11e9-ae18-0e4dd3622c68"]
+        set_flair:
+                text: ":snoo_joy: Primary School Student (Grade 1-6)"
+                template_id: 33288604-4c4c-11e9-98b6-0e11653f4fc4
+        overwrite_flair: true
+        ~name: HomeworkHelpBot
+---
+    # XP: Auto user flair: Secondary School
+    type: submission
+    title (includes, regex): ['(?:Grade ?|Gr ?)(7|8|9|10)\b','(?:Year ?|Y|Yr ?)(8|9|10|11)\b','Sec(?:ondary)? ?(1|2|3|4|5)\b']
+    author:
+        ~flair_template_id: ["f52eff54-4c4b-11e9-b5ae-0e3820aba534",
+        "9810ca02-d52e-11e9-943e-0edaf10a785a",
+        "4741b0c2-d52f-11e9-a245-0ecc928c0770",
+        "da2f6b80-4c4b-11e9-8275-0eba9e62db4e",
+        "8dc4b2a4-ce29-11e9-9236-0e0acfc54a5a",
+        "e6a42c86-d52e-11e9-99f2-0ea4ea416f14",
+        "dff4491e-4c4b-11e9-945b-0e44d0af0afc",
+        "e614b96e-4c4b-11e9-8b14-0e3d58cc5582",
+        "33288604-4c4c-11e9-98b6-0e11653f4fc4",
+        "3a61705c-4c4c-11e9-8f3d-0e3820aba534",
+        "45b9b19e-4c4c-11e9-a32c-0e990aa34f58",
+        "bc06d182-5f3a-11e9-aa3b-0ed0c6ac5038",
+        "4bacad04-4c4c-11e9-83cd-0ebbc1e4ca72",
+        "553dad32-4c4c-11e9-a3d5-0e8099e3fcb2",
+        "183f084a-a26e-11e9-ae18-0e4dd3622c68"]
+        set_flair:
+                text: ":snoo_smile: Secondary School Student (Grade 7-11)"
+                template_id: 3a61705c-4c4c-11e9-8f3d-0e3820aba534
+        overwrite_flair: true
+        ~name: HomeworkHelpBot
+---
+    # XP: Auto user flair: Pre-university
+    type: submission
+    title (includes, regex): ['(?:Grade ?|Gr ?)(11|12)\b','(?:Year ?|Y|Yr ?)(12|13)\b','(?:JC|Junior College) ?(1|2)\b','Poly(?:technic)? (?:Y|y)(?:(?:R|r)|ear)? ?(1|2|3)\b','(Vocational|Trade) School']
+    author:
+        ~flair_template_id: ["f52eff54-4c4b-11e9-b5ae-0e3820aba534",
+        "9810ca02-d52e-11e9-943e-0edaf10a785a",
+        "4741b0c2-d52f-11e9-a245-0ecc928c0770",
+        "da2f6b80-4c4b-11e9-8275-0eba9e62db4e",
+        "8dc4b2a4-ce29-11e9-9236-0e0acfc54a5a",
+        "e6a42c86-d52e-11e9-99f2-0ea4ea416f14",
+        "dff4491e-4c4b-11e9-945b-0e44d0af0afc",
+        "e614b96e-4c4b-11e9-8b14-0e3d58cc5582",
+        "33288604-4c4c-11e9-98b6-0e11653f4fc4",
+        "3a61705c-4c4c-11e9-8f3d-0e3820aba534",
+        "45b9b19e-4c4c-11e9-a32c-0e990aa34f58",
+        "bc06d182-5f3a-11e9-aa3b-0ed0c6ac5038",
+        "4bacad04-4c4c-11e9-83cd-0ebbc1e4ca72",
+        "553dad32-4c4c-11e9-a3d5-0e8099e3fcb2",
+        "183f084a-a26e-11e9-ae18-0e4dd3622c68"]
+        set_flair:
+                text: ":snoo_shrug: Pre-University (Grade 10-12/Further Education)"
+                template_id: 45b9b19e-4c4c-11e9-a32c-0e990aa34f58
+        overwrite_flair: true
+        ~name: HomeworkHelpBot
+---
+    # XP: Auto user flair: University/College
+    type: submission
+    title (includes): ['University','College','Uni']
+    author:
+        ~flair_template_id: ["f52eff54-4c4b-11e9-b5ae-0e3820aba534",
+        "9810ca02-d52e-11e9-943e-0edaf10a785a",
+        "4741b0c2-d52f-11e9-a245-0ecc928c0770",
+        "da2f6b80-4c4b-11e9-8275-0eba9e62db4e",
+        "8dc4b2a4-ce29-11e9-9236-0e0acfc54a5a",
+        "e6a42c86-d52e-11e9-99f2-0ea4ea416f14",
+        "dff4491e-4c4b-11e9-945b-0e44d0af0afc",
+        "e614b96e-4c4b-11e9-8b14-0e3d58cc5582",
+        "33288604-4c4c-11e9-98b6-0e11653f4fc4",
+        "3a61705c-4c4c-11e9-8f3d-0e3820aba534",
+        "45b9b19e-4c4c-11e9-a32c-0e990aa34f58",
+        "bc06d182-5f3a-11e9-aa3b-0ed0c6ac5038",
+        "4bacad04-4c4c-11e9-83cd-0ebbc1e4ca72",
+        "553dad32-4c4c-11e9-a3d5-0e8099e3fcb2",
+        "183f084a-a26e-11e9-ae18-0e4dd3622c68"]
+        set_flair:
+                text: ":snoo_simple_smile:University/College Student (Higher Education)"
+                template_id: bc06d182-5f3a-11e9-aa3b-0ed0c6ac5038
+        overwrite_flair: true
+        ~name: HomeworkHelpBot
+---
+    # XP: Auto user flair: PSLE Candidate
+    type: submission
+    title (includes, regex): ['PSLE\b']
+    author:
+        ~flair_template_id: ["f52eff54-4c4b-11e9-b5ae-0e3820aba534",
+        "9810ca02-d52e-11e9-943e-0edaf10a785a",
+        "4741b0c2-d52f-11e9-a245-0ecc928c0770",
+        "da2f6b80-4c4b-11e9-8275-0eba9e62db4e",
+        "8dc4b2a4-ce29-11e9-9236-0e0acfc54a5a",
+        "e6a42c86-d52e-11e9-99f2-0ea4ea416f14",
+        "dff4491e-4c4b-11e9-945b-0e44d0af0afc",
+        "e614b96e-4c4b-11e9-8b14-0e3d58cc5582",
+        "33288604-4c4c-11e9-98b6-0e11653f4fc4",
+        "3a61705c-4c4c-11e9-8f3d-0e3820aba534",
+        "45b9b19e-4c4c-11e9-a32c-0e990aa34f58",
+        "bc06d182-5f3a-11e9-aa3b-0ed0c6ac5038",
+        "4bacad04-4c4c-11e9-83cd-0ebbc1e4ca72",
+        "553dad32-4c4c-11e9-a3d5-0e8099e3fcb2",
+        "183f084a-a26e-11e9-ae18-0e4dd3622c68"]
+        set_flair:
+                text: ":hamster: PSLE Candidate"
+                template_id: f52eff54-4c4b-11e9-b5ae-0e3820aba534
+        overwrite_flair: true
+        ~name: HomeworkHelpBot
+---
+    # XP: Auto user flair: CBSE Candidate
+    type: submission
+    title (includes, regex): ['CBSE\b']
+    author:
+        ~flair_template_id: ["f52eff54-4c4b-11e9-b5ae-0e3820aba534",
+        "9810ca02-d52e-11e9-943e-0edaf10a785a",
+        "4741b0c2-d52f-11e9-a245-0ecc928c0770",
+        "da2f6b80-4c4b-11e9-8275-0eba9e62db4e",
+        "8dc4b2a4-ce29-11e9-9236-0e0acfc54a5a",
+        "e6a42c86-d52e-11e9-99f2-0ea4ea416f14",
+        "dff4491e-4c4b-11e9-945b-0e44d0af0afc",
+        "e614b96e-4c4b-11e9-8b14-0e3d58cc5582",
+        "33288604-4c4c-11e9-98b6-0e11653f4fc4",
+        "3a61705c-4c4c-11e9-8f3d-0e3820aba534",
+        "45b9b19e-4c4c-11e9-a32c-0e990aa34f58",
+        "bc06d182-5f3a-11e9-aa3b-0ed0c6ac5038",
+        "4bacad04-4c4c-11e9-83cd-0ebbc1e4ca72",
+        "553dad32-4c4c-11e9-a3d5-0e8099e3fcb2",
+        "183f084a-a26e-11e9-ae18-0e4dd3622c68"]
+        set_flair:
+                text: ":kappa: CBSE Candidate"
+                template_id: 9810ca02-d52e-11e9-943e-0edaf10a785a
+        overwrite_flair: true
+        ~name: HomeworkHelpBot
+---
+    # XP: Auto user flair: GCSE Candidate
+    type: submission
+    title (includes, regex): ['GCSE\b']
+    author:
+        ~flair_template_id: ["f52eff54-4c4b-11e9-b5ae-0e3820aba534",
+        "9810ca02-d52e-11e9-943e-0edaf10a785a",
+        "4741b0c2-d52f-11e9-a245-0ecc928c0770",
+        "da2f6b80-4c4b-11e9-8275-0eba9e62db4e",
+        "8dc4b2a4-ce29-11e9-9236-0e0acfc54a5a",
+        "e6a42c86-d52e-11e9-99f2-0ea4ea416f14",
+        "dff4491e-4c4b-11e9-945b-0e44d0af0afc",
+        "e614b96e-4c4b-11e9-8b14-0e3d58cc5582",
+        "33288604-4c4c-11e9-98b6-0e11653f4fc4",
+        "3a61705c-4c4c-11e9-8f3d-0e3820aba534",
+        "45b9b19e-4c4c-11e9-a32c-0e990aa34f58",
+        "bc06d182-5f3a-11e9-aa3b-0ed0c6ac5038",
+        "4bacad04-4c4c-11e9-83cd-0ebbc1e4ca72",
+        "553dad32-4c4c-11e9-a3d5-0e8099e3fcb2",
+        "183f084a-a26e-11e9-ae18-0e4dd3622c68"]
+        set_flair:
+                text: ":cat_blep: GCSE Candidate"
+                template_id: 4741b0c2-d52f-11e9-a245-0ecc928c0770
+        overwrite_flair: true
+        ~name: HomeworkHelpBot
+---
+    # XP: Auto user flair: 'O' Level Candidate
+    type: submission
+    title (includes, regex): ['(?:GCE ?|)''?O(?:-|'' | ?)(?:L|l)(?:e|E)(?:v|V)(?:e|E)(?:l|L)']
+    author:
+        ~flair_template_id: ["f52eff54-4c4b-11e9-b5ae-0e3820aba534",
+        "9810ca02-d52e-11e9-943e-0edaf10a785a",
+        "4741b0c2-d52f-11e9-a245-0ecc928c0770",
+        "da2f6b80-4c4b-11e9-8275-0eba9e62db4e",
+        "8dc4b2a4-ce29-11e9-9236-0e0acfc54a5a",
+        "e6a42c86-d52e-11e9-99f2-0ea4ea416f14",
+        "dff4491e-4c4b-11e9-945b-0e44d0af0afc",
+        "e614b96e-4c4b-11e9-8b14-0e3d58cc5582",
+        "33288604-4c4c-11e9-98b6-0e11653f4fc4",
+        "3a61705c-4c4c-11e9-8f3d-0e3820aba534",
+        "45b9b19e-4c4c-11e9-a32c-0e990aa34f58",
+        "bc06d182-5f3a-11e9-aa3b-0ed0c6ac5038",
+        "4bacad04-4c4c-11e9-83cd-0ebbc1e4ca72",
+        "553dad32-4c4c-11e9-a3d5-0e8099e3fcb2",
+        "183f084a-a26e-11e9-ae18-0e4dd3622c68"]
+        set_flair:
+                text: ":doge: 'O' Level Candidate"
+                template_id: da2f6b80-4c4b-11e9-8275-0eba9e62db4e
+        overwrite_flair: true
+        ~name: HomeworkHelpBot
+---
+    # XP: Auto user flair: AP Student
+    type: submission
+    title (includes, regex): ['AP\b']
+    author:
+        ~flair_template_id: ["f52eff54-4c4b-11e9-b5ae-0e3820aba534",
+        "9810ca02-d52e-11e9-943e-0edaf10a785a",
+        "4741b0c2-d52f-11e9-a245-0ecc928c0770",
+        "da2f6b80-4c4b-11e9-8275-0eba9e62db4e",
+        "8dc4b2a4-ce29-11e9-9236-0e0acfc54a5a",
+        "e6a42c86-d52e-11e9-99f2-0ea4ea416f14",
+        "dff4491e-4c4b-11e9-945b-0e44d0af0afc",
+        "e614b96e-4c4b-11e9-8b14-0e3d58cc5582",
+        "33288604-4c4c-11e9-98b6-0e11653f4fc4",
+        "3a61705c-4c4c-11e9-8f3d-0e3820aba534",
+        "45b9b19e-4c4c-11e9-a32c-0e990aa34f58",
+        "bc06d182-5f3a-11e9-aa3b-0ed0c6ac5038",
+        "4bacad04-4c4c-11e9-83cd-0ebbc1e4ca72",
+        "553dad32-4c4c-11e9-a3d5-0e8099e3fcb2",
+        "183f084a-a26e-11e9-ae18-0e4dd3622c68"]
+        set_flair:
+                text: ":pupper: AP Student"
+                template_id: 8dc4b2a4-ce29-11e9-9236-0e0acfc54a5a
+        overwrite_flair: true
+        ~name: HomeworkHelpBot
+---
+    # XP: Auto user flair: AS Level Candidate
+    type: submission
+    title (includes, regex): ['AS(?:-| ?)(?:L|l)(?:e|E)(?:v|V)(?:e|E)(?:l|L)']
+    author:
+        ~flair_template_id: ["f52eff54-4c4b-11e9-b5ae-0e3820aba534",
+        "9810ca02-d52e-11e9-943e-0edaf10a785a",
+        "4741b0c2-d52f-11e9-a245-0ecc928c0770",
+        "da2f6b80-4c4b-11e9-8275-0eba9e62db4e",
+        "8dc4b2a4-ce29-11e9-9236-0e0acfc54a5a",
+        "e6a42c86-d52e-11e9-99f2-0ea4ea416f14",
+        "dff4491e-4c4b-11e9-945b-0e44d0af0afc",
+        "e614b96e-4c4b-11e9-8b14-0e3d58cc5582",
+        "33288604-4c4c-11e9-98b6-0e11653f4fc4",
+        "3a61705c-4c4c-11e9-8f3d-0e3820aba534",
+        "45b9b19e-4c4c-11e9-a32c-0e990aa34f58",
+        "bc06d182-5f3a-11e9-aa3b-0ed0c6ac5038",
+        "4bacad04-4c4c-11e9-83cd-0ebbc1e4ca72",
+        "553dad32-4c4c-11e9-a3d5-0e8099e3fcb2",
+        "183f084a-a26e-11e9-ae18-0e4dd3622c68"]
+        set_flair:
+                text: ":partyparrot: AS Level Candidate"
+                template_id: e6a42c86-d52e-11e9-99f2-0ea4ea416f14
+        overwrite_flair: true
+        ~name: HomeworkHelpBot
+---
+    # XP: Auto user flair: 'A' Level Candidate
+    type: submission
+    title (includes, regex): ['(?:GCE ?|)''?A(?:-|'' | ?)(?:L|l)(?:e|E)(?:v|V)(?:e|E)(?:l|L)']
+    author:
+        ~flair_template_id: ["f52eff54-4c4b-11e9-b5ae-0e3820aba534",
+        "9810ca02-d52e-11e9-943e-0edaf10a785a",
+        "4741b0c2-d52f-11e9-a245-0ecc928c0770",
+        "da2f6b80-4c4b-11e9-8275-0eba9e62db4e",
+        "8dc4b2a4-ce29-11e9-9236-0e0acfc54a5a",
+        "e6a42c86-d52e-11e9-99f2-0ea4ea416f14",
+        "dff4491e-4c4b-11e9-945b-0e44d0af0afc",
+        "e614b96e-4c4b-11e9-8b14-0e3d58cc5582",
+        "33288604-4c4c-11e9-98b6-0e11653f4fc4",
+        "3a61705c-4c4c-11e9-8f3d-0e3820aba534",
+        "45b9b19e-4c4c-11e9-a32c-0e990aa34f58",
+        "bc06d182-5f3a-11e9-aa3b-0ed0c6ac5038",
+        "4bacad04-4c4c-11e9-83cd-0ebbc1e4ca72",
+        "553dad32-4c4c-11e9-a3d5-0e8099e3fcb2",
+        "183f084a-a26e-11e9-ae18-0e4dd3622c68"]
+        set_flair:
+                text: ":orly: 'A' Level Candidate"
+                template_id: dff4491e-4c4b-11e9-945b-0e44d0af0afc
+        overwrite_flair: true
+        ~name: HomeworkHelpBot
+---
+    # XP: Auto user flair: IB Candidate
+    type: submission
+    title (includes, regex): ['IB\b']
+    author:
+        ~flair_template_id: ["f52eff54-4c4b-11e9-b5ae-0e3820aba534",
+        "9810ca02-d52e-11e9-943e-0edaf10a785a",
+        "4741b0c2-d52f-11e9-a245-0ecc928c0770",
+        "da2f6b80-4c4b-11e9-8275-0eba9e62db4e",
+        "8dc4b2a4-ce29-11e9-9236-0e0acfc54a5a",
+        "e6a42c86-d52e-11e9-99f2-0ea4ea416f14",
+        "dff4491e-4c4b-11e9-945b-0e44d0af0afc",
+        "e614b96e-4c4b-11e9-8b14-0e3d58cc5582",
+        "33288604-4c4c-11e9-98b6-0e11653f4fc4",
+        "3a61705c-4c4c-11e9-8f3d-0e3820aba534",
+        "45b9b19e-4c4c-11e9-a32c-0e990aa34f58",
+        "bc06d182-5f3a-11e9-aa3b-0ed0c6ac5038",
+        "4bacad04-4c4c-11e9-83cd-0ebbc1e4ca72",
+        "553dad32-4c4c-11e9-a3d5-0e8099e3fcb2",
+        "183f084a-a26e-11e9-ae18-0e4dd3622c68"]
+        set_flair:
+                text: ":redditgold: IB Candidate"
+                template_id: e614b96e-4c4b-11e9-8b14-0e3d58cc5582
+        overwrite_flair: true
+        ~name: HomeworkHelpBot
+---
+    # XP: Customise your flair: Primary School Student
+    type: comment
+    body (regex): .*
+    author:
+        flair_text: ":snoo_joy: Primary School Student (Grade 1-6)"
+        flair_template_id: 33288604-4c4c-11e9-98b6-0e11653f4fc4
+        set_flair:
+                text: ":snoo_joy: Primary School Student"
+                template_id: 33288604-4c4c-11e9-98b6-0e11653f4fc4
+        overwrite_flair: true
+    message_subject: Customise your user flair!
+    message: |
+        Customise your user flair!
+
+        ####Howdy u/{{author}}!
+
+        **Did you know?** You can briefly introduce yourself to everyone who are helping you by adding some details about you into your user flair.
+
+        **Here are some suggestions:**
+
+        - your country?
+        - your grade?
+        - your national examination/board?
+
+        **e.g.** US Elementary School Student (Grade 5)
+
+        ####Let's be part of this community and join us on Reddit Chat!
+
+        Channel | Link
+        :--|--:
+        **General** | [Join](https://s.reddit.com/channel/23950613_161a15494275fb82336634a870002775ce68fbf3)
+        **Primary School Students (Grade 1-6)** | [Join](https://s.reddit.com/channel/23950613_7a51955aa23eab9bda0d8763df129d58e9fb0e9d)
+        Secondary School Students (Grade 7-11) | [Join](https://s.reddit.com/channel/23950613_fc0bffc3fbbc09ebc5e45418acf1ec6e1fd0a5bf)
+        Pre-University Students (Grade 11-12) | [Join](https://s.reddit.com/channel/23950613_17233e92791c43ee47c3d87015cc369b1eb31db9)
+        University/College | [Join](https://s.reddit.com/channel/23950613_459f5b59899c60aab27ffaddc85fbdea2653db88)
+        Postgraduates | [Join](https://s.reddit.com/channel/23950613_c0179931449eeac3ca8a6490a29e9a45167cf0a7)
+        'O' Level | [Join](https://s.reddit.com/channel/23950613_9de7946b1284461b449644bcd63af0d6557a8d94)
+        'A' Level | [Join](https://s.reddit.com/channel/23950613_83651288a3b755cec9eff1fe2f964670d8c7ca05)
+
+        How was your experience in this subreddit? Let us know how can we do better by taking part in our survey [here](https://fdier.co/0acnXZ).
+---
+    # XP: Customise your flair: Secondary School Student
+    type: comment
+    body (regex): .*
+    author:
+        flair_text: ":snoo_smile: Secondary School Student (Grade 7-11)"
+        flair_template_id: 3a61705c-4c4c-11e9-8f3d-0e3820aba534
+        set_flair:
+                text: ":snoo_smile: Secondary School Student"
+                template_id: 3a61705c-4c4c-11e9-8f3d-0e3820aba534
+        overwrite_flair: true
+    message_subject: Customise your user flair!
+    message: |
+        Customise your user flair!
+
+        ####Howdy u/{{author}}!
+
+        **Did you know?** You can briefly introduce yourself to everyone who are helping you by adding some details about you into your user flair.
+
+        **Here are some suggestions:**
+
+        - your country?
+        - your grade?
+        - your national examination/board?
+
+        **e.g.** Singapore Secondary School Student (Sec 4)
+
+        ####Let's be part of this community and join us on Reddit Chat!
+
+        Channel | Link
+        :--|--:
+        **General** | [Join](https://s.reddit.com/channel/23950613_161a15494275fb82336634a870002775ce68fbf3)
+        Primary School Students (Grade 1-6) | [Join](https://s.reddit.com/channel/23950613_7a51955aa23eab9bda0d8763df129d58e9fb0e9d)
+        **Secondary School Students (Grade 7-11)** | [Join](https://s.reddit.com/channel/23950613_fc0bffc3fbbc09ebc5e45418acf1ec6e1fd0a5bf)
+        Pre-University Students (Grade 11-12) | [Join](https://s.reddit.com/channel/23950613_17233e92791c43ee47c3d87015cc369b1eb31db9)
+        University/College | [Join](https://s.reddit.com/channel/23950613_459f5b59899c60aab27ffaddc85fbdea2653db88)
+        Postgraduates | [Join](https://s.reddit.com/channel/23950613_c0179931449eeac3ca8a6490a29e9a45167cf0a7)
+        'O' Level | [Join](https://s.reddit.com/channel/23950613_9de7946b1284461b449644bcd63af0d6557a8d94)
+        'A' Level | [Join](https://s.reddit.com/channel/23950613_83651288a3b755cec9eff1fe2f964670d8c7ca05)
+
+        How was your experience in this subreddit? Let us know how can we do better by taking part in our survey [here](https://fdier.co/0acnXZ).
+---
+    # XP: Customise your flair: Pre-University Student
+    type: comment
+    body (regex): .*
+    author:
+        flair_text: ":snoo_shrug: Pre-University (Grade 10-12/Further Education)"
+        flair_template_id: 45b9b19e-4c4c-11e9-a32c-0e990aa34f58
+        set_flair:
+                text: ":snoo_shrug: Pre-University Student"
+                template_id: 45b9b19e-4c4c-11e9-a32c-0e990aa34f58
+        overwrite_flair: true
+    message_subject: Customise your user flair!
+    message: |
+        Customise your user flair!
+
+        ####Howdy u/{{author}}!
+
+        **Did you know?** You can briefly introduce yourself to everyone who are helping you by adding some details about you into your user flair.
+
+        **Here are some suggestions:**
+
+        - your country?
+        - your grade?
+        - your national examination/board?
+
+        **e.g.** UK A-Level School Student (6th Form)
+
+        ####Let's be part of this community and join us on Reddit Chat!
+
+        Channel | Link
+        :--|--:
+        **General** | [Join](https://s.reddit.com/channel/23950613_161a15494275fb82336634a870002775ce68fbf3)
+        Primary School Students (Grade 1-6) | [Join](https://s.reddit.com/channel/23950613_7a51955aa23eab9bda0d8763df129d58e9fb0e9d)
+        Secondary School Students (Grade 7-11) | [Join](https://s.reddit.com/channel/23950613_fc0bffc3fbbc09ebc5e45418acf1ec6e1fd0a5bf)
+        **Pre-University Students (Grade 11-12)** | [Join](https://s.reddit.com/channel/23950613_17233e92791c43ee47c3d87015cc369b1eb31db9)
+        University/College | [Join](https://s.reddit.com/channel/23950613_459f5b59899c60aab27ffaddc85fbdea2653db88)
+        Postgraduates | [Join](https://s.reddit.com/channel/23950613_c0179931449eeac3ca8a6490a29e9a45167cf0a7)
+        'O' Level | [Join](https://s.reddit.com/channel/23950613_9de7946b1284461b449644bcd63af0d6557a8d94)
+        'A' Level | [Join](https://s.reddit.com/channel/23950613_83651288a3b755cec9eff1fe2f964670d8c7ca05)
+
+        How was your experience in this subreddit? Let us know how can we do better by taking part in our survey [here](https://fdier.co/0acnXZ).
+---
+    # XP: Customise your flair: University Student
+    type: comment
+    body (regex): .*
+    author:
+        flair_text: ":snoo_simple_smile:University/College Student (Higher Education)"
+        flair_template_id: bc06d182-5f3a-11e9-aa3b-0ed0c6ac5038
+        set_flair:
+                text: ":snoo_simple_smile:University/College Student"
+                template_id: bc06d182-5f3a-11e9-aa3b-0ed0c6ac5038
+        overwrite_flair: true
+    message_subject: Customise your user flair!
+    message: |
+        Customise your user flair!
+
+        ####Howdy u/{{author}}!
+
+        **Did you know?** You can briefly introduce yourself to everyone who are helping you by adding some details about you into your user flair.
+
+        **Here are some suggestions:**
+
+        - your country?
+        - your grade?
+        - your national examination/board?
+
+        **e.g.** Canadian University Student (Comp Sci)
+
+        ####Let's be part of this community and join us on Reddit Chat!
+
+        Channel | Link
+        :--|--:
+        **General** | [Join](https://s.reddit.com/channel/23950613_161a15494275fb82336634a870002775ce68fbf3)
+        Primary School Students (Grade 1-6) | [Join](https://s.reddit.com/channel/23950613_7a51955aa23eab9bda0d8763df129d58e9fb0e9d)
+        Secondary School Students (Grade 7-11) | [Join](https://s.reddit.com/channel/23950613_fc0bffc3fbbc09ebc5e45418acf1ec6e1fd0a5bf)
+        Pre-University Students (Grade 11-12) | [Join](https://s.reddit.com/channel/23950613_17233e92791c43ee47c3d87015cc369b1eb31db9)
+        **University/College** | [Join](https://s.reddit.com/channel/23950613_459f5b59899c60aab27ffaddc85fbdea2653db88)
+        Postgraduates | [Join](https://s.reddit.com/channel/23950613_c0179931449eeac3ca8a6490a29e9a45167cf0a7)
+        'O' Level | [Join](https://s.reddit.com/channel/23950613_9de7946b1284461b449644bcd63af0d6557a8d94)
+        'A' Level | [Join](https://s.reddit.com/channel/23950613_83651288a3b755cec9eff1fe2f964670d8c7ca05)
+
+        How was your experience in this subreddit? Let us know how can we do better by taking part in our survey [here](https://fdier.co/0acnXZ).
+---
+    # XP: Customise your flair: Educator
+    type: comment
+    body (regex): .*
+    author:
+        flair_text: ":upvote: Educator"
+        flair_template_id: b6daa6d4-046c-11ea-8335-0e08de5aab91
+        set_flair:
+                text: ":upvote: Educator"
+                template_id: 553dad32-4c4c-11e9-a3d5-0e8099e3fcb2
+        overwrite_flair: true
+    message_subject: Attention Required!
+    message: |
+        ####Dear u/{{author}},
+
+        **This is a one-time message from r/{{subreddit}}. You do not have to take any actions.**
+
+
+        Thank you for participating in r/{{subreddit}}. We appreciate your presence here and we hope you enjoy browsing this subreddit.
+
+        We are are that you have selected the ***Educator*** flair and we would like to convey you the following message:
+
+        > You must be a registered/official teacher in a school/institution. As a teacher, you must be aware of the weight of every word you say. When offering help to students, please be mindful of the syllabus requirements. All communications have to be done here in this platform, and in a cordial manner. Do not mix your personal opinions/beliefs with the objectives.
+
+        To customise your flair, **create a new post to r/{{subreddit}}** with the following title: `Flair: Educator`, and the body (capped at 55 charac) as the input of your flair.
+
+        **e.g.**
+
+        > **Title:** Flair: Educator
+        >
+        > **Body:** US Professor
+
+        yields an Educator-coloured flair with the text "US Professor"
+
+        **If you are just a tutor, please do not use this flair. There is a designated flair for tutors.**
+
+        ####Let's be part of this community and join us on Reddit Chat!
+
+        Channel | Link
+        :--|--:
+        **General** | [Join](https://s.reddit.com/channel/23950613_161a15494275fb82336634a870002775ce68fbf3)
+        Primary School Students (Grade 1-6) | [Join](https://s.reddit.com/channel/23950613_7a51955aa23eab9bda0d8763df129d58e9fb0e9d)
+        Secondary School Students (Grade 7-11) | [Join](https://s.reddit.com/channel/23950613_fc0bffc3fbbc09ebc5e45418acf1ec6e1fd0a5bf)
+        Pre-University Students (Grade 11-12) | [Join](https://s.reddit.com/channel/23950613_17233e92791c43ee47c3d87015cc369b1eb31db9)
+        University/College | [Join](https://s.reddit.com/channel/23950613_459f5b59899c60aab27ffaddc85fbdea2653db88)
+        **Postgraduates** | [Join](https://s.reddit.com/channel/23950613_c0179931449eeac3ca8a6490a29e9a45167cf0a7)
+        'O' Level | [Join](https://s.reddit.com/channel/23950613_9de7946b1284461b449644bcd63af0d6557a8d94)
+        'A' Level | [Join](https://s.reddit.com/channel/23950613_83651288a3b755cec9eff1fe2f964670d8c7ca05)
+
+        How was your experience in this subreddit? Let us know how can we do better by taking part in our survey [here](https://fdier.co/0acnXZ).
+---
+    # XP: Educator: Customise flair
+    priority: 1
+    type: submission
+    action: remove
+    title: 'Flair: Educator'
+    body (regex): '(.*)'
+    author:
+        flair_text: ":upvote: Educator"
+        flair_template_id: 553dad32-4c4c-11e9-a3d5-0e8099e3fcb2
+        set_flair:
+                text: ":upvote: {{match}}"
+                template_id: 553dad32-4c4c-11e9-a3d5-0e8099e3fcb2
+        overwrite_flair: true
+    comment: 'Done! I have added "{{match}}" to your user flair.'
+--------------------------------------------------------------------
+        #Systematic Flairing START
+--------------------------------------------------------------------
+---
+    # XP: English Manual Pending Reply
+    type: comment
+    is_top_level: false
+    body (regex): ['\*{2}[Tt]herefore.?\*{2}','\*{2}[Tt]hus.?\*{2}']
+    author:
+        is_submitter: false
+        account_age: '> 60 days'
+        post_karma: '> 10'
+        satisfy_any_threshold: true
+        ~name: HomeworkHelpBot
+    parent_submission:
+        flair_template_id: d41dda5c-4c4a-11e9-bbdc-0ed17289e8dc
+        set_flair:
+                text: ":snoo: English Language—Pending OP Reply"
+        overwrite_flair: true
+---
+    # XP: English Pending Reply
+    type: comment
+    is_top_level: true
+    body (regex): ".*"
+    author:
+        is_submitter: false
+        account_age: '> 60 days'
+        post_karma: '> 10'
+        satisfy_any_threshold: true
+        ~name: HomeworkHelpBot
+    parent_submission:
+        flair_template_id: d41dda5c-4c4a-11e9-bbdc-0ed17289e8dc
+        set_flair:
+                text: ":snoo: English Language—Pending OP Reply"
+        overwrite_flair: true
+---
+    # XP: English Remove Pending Reply
+    type: comment
+    body (regex): ".*"
+    author:
+        is_submitter: true
+    parent_submission:
+        flair_text: [":snoo: English Language—Pending OP Reply",":snoo: English Language —:Warning:"]
+        set_flair:
+                text: ":snoo: English Language"
+                template_id: d41dda5c-4c4a-11e9-bbdc-0ed17289e8dc
+        overwrite_flair: true
+---
+    # XP: English (flagged)
+    type: submission
+    reports: 1
+    flair_text: [":snoo: English Language"]
+    set_flair:
+        text: ":snoo: English Language —:Warning:"
+        template_id: d41dda5c-4c4a-11e9-bbdc-0ed17289e8dc
+    overwrite_flair: true
+---
+    # XP: Literature Manual Pending Reply
+    type: comment
+    is_top_level: false
+    body (regex): ['\*{2}[Tt]herefore.?\*{2}','\*{2}[Tt]hus.?\*{2}']
+    author:
+        account_age: '> 60 days'
+        post_karma: '> 10'
+        satisfy_any_threshold: true
+        ~name: HomeworkHelpBot
+    parent_submission:
+        flair_template_id: 8db1615a-4c4b-11e9-91cb-0e9b0bf93c46
+        set_flair:
+                text: ":snoo_simple_smile: Literature—Pending OP Reply"
+        overwrite_flair: true
+---
+    # XP: Literature Pending Reply
+    type: comment
+    is_top_level: true
+    body (regex): ".*"
+    author:
+        account_age: '> 60 days'
+        post_karma: '> 10'
+        satisfy_any_threshold: true
+        ~name: HomeworkHelpBot
+    parent_submission:
+        flair_template_id: 8db1615a-4c4b-11e9-91cb-0e9b0bf93c46
+        set_flair:
+                text: ":snoo_simple_smile: Literature—Pending OP Reply"
+        overwrite_flair: true
+---
+    # XP: Literature Remove Pending Reply
+    type: comment
+    body (regex): ".*"
+    author:
+        is_submitter: true
+    parent_submission:
+        flair_text: [":snoo_simple_smile: Literature—Pending OP Reply",":snoo_simple_smile: Literature —:Warning:"]
+        set_flair:
+                text: ":snoo_simple_smile: Literature"
+                template_id: 8db1615a-4c4b-11e9-91cb-0e9b0bf93c46
+        overwrite_flair: true
+---
+    # XP: Literature (flagged)
+    type: submission
+    reports: 1
+    flair_text: [":snoo_simple_smile: Literature"]
+    set_flair:
+        text: ":snoo_simple_smile: Literature —:Warning:"
+        template_id: 8db1615a-4c4b-11e9-91cb-0e9b0bf93c46
+    overwrite_flair: true
+---
+    # XP: Primary School Manual Pending Reply
+    type: comment
+    is_top_level: false
+    body (regex): ['\*{2}[Tt]herefore.?\*{2}','\*{2}[Tt]hus.?\*{2}']
+    author:
+        is_submitter: false
+        account_age: '> 60 days'
+        post_karma: '> 10'
+        satisfy_any_threshold: true
+        ~name: HomeworkHelpBot
+    parent_submission:
+        flair_template_id: bdee835a-4d5b-11e9-9c6f-0e092e29b022
+        set_flair:
+                text: ":hamster: Primary School Math—Pending OP Reply"
+        overwrite_flair: true
+---
+    # XP: Primary School Pending Reply
+    type: comment
+    is_top_level: true
+    body (regex): ".*"
+    author:
+        is_submitter: false
+        account_age: '> 60 days'
+        post_karma: '> 10'
+        satisfy_any_threshold: true
+        ~name: HomeworkHelpBot
+    parent_submission:
+        flair_template_id: bdee835a-4d5b-11e9-9c6f-0e092e29b022
+        set_flair:
+                text: ":hamster: Primary School Math—Pending OP Reply"
+        overwrite_flair: true
+---
+    # XP: Primary School Remove Pending Reply
+    type: comment
+    body (regex): ".*"
+    author:
+        is_submitter: true
+    parent_submission:
+        flair_text: [":hamster: Primary School—Pending OP Reply",":hamster: Primary School —:Warning:"]
+        set_flair:
+                text: ":hamster: Primary School"
+                template_id: bdee835a-4d5b-11e9-9c6f-0e092e29b022
+        overwrite_flair: true
+---
+    # XP: Primary School (flagged)
+    type: submission
+    reports: 1
+    flair_text: [":hamster: Primary School"]
+    set_flair:
+        text: ":hamster: Primary School —:Warning:"
+        template_id: bdee835a-4d5b-11e9-9c6f-0e092e29b022
+    overwrite_flair: true
+---
+    # XP: Middle School Math Manual Pending Reply
+    type: comment
+    is_top_level: false
+    body (regex): ['\*{2}[Tt]herefore.?\*{2}','\*{2}[Tt]hus.?\*{2}']
+    author:
+        is_submitter: false
+        account_age: '> 60 days'
+        post_karma: '> 10'
+        satisfy_any_threshold: true
+        ~name: HomeworkHelpBot
+    parent_submission:
+        flair_template_id: d0967c56-4d5b-11e9-b9ef-0e98c5c24a0c
+        set_flair:
+                text: ":snoo_shrug: Middle School Math—Pending OP Reply"
+        overwrite_flair: true
+---
+    # XP: Middle School Math Pending Reply
+    type: comment
+    is_top_level: true
+    body (regex): ".*"
+    author:
+        is_submitter: false
+        account_age: '> 60 days'
+        post_karma: '> 10'
+        satisfy_any_threshold: true
+        ~name: HomeworkHelpBot
+    parent_submission:
+        flair_template_id: d0967c56-4d5b-11e9-b9ef-0e98c5c24a0c
+        set_flair:
+                text: ":snoo_shrug: Middle School Math—Pending OP Reply"
+        overwrite_flair: true
+---
+    # XP: Middle School Math Remove Pending Reply
+    type: comment
+    body (regex): ".*"
+    author:
+        is_submitter: true
+    parent_submission:
+        flair_text: [":snoo_shrug: Middle School Math—Pending OP Reply",":snoo_shrug: Middle School Math —:Warning:"]
+        set_flair:
+                text: ":snoo_shrug: Middle School Math"
+                template_id: d0967c56-4d5b-11e9-b9ef-0e98c5c24a0c
+        overwrite_flair: true
+---
+    # XP: Middle School (flagged)
+    type: submission
+    reports: 1
+    flair_text: [":snoo_shrug: Middle School Math"]
+    set_flair:
+        text: ":snoo_shrug: Middle School Math —:Warning:"
+        template_id: d0967c56-4d5b-11e9-b9ef-0e98c5c24a0c
+    overwrite_flair: true
+---
+    # XP: High School Math Manual Pending Reply
+    type: comment
+    is_top_level: false
+    body (regex): ['\*{2}[Tt]herefore.?\*{2}','\*{2}[Tt]hus.?\*{2}']
+    author:
+        is_submitter: false
+        account_age: '> 60 days'
+        post_karma: '> 10'
+        satisfy_any_threshold: true
+        ~name: HomeworkHelpBot
+    parent_submission:
+        flair_template_id: e9dbe69c-4d5b-11e9-909c-0e045f33938a
+        set_flair:
+                text: ":snoo_facepalm: High School Math—Pending OP Reply"
+        overwrite_flair: true
+---
+    # XP: High School Math Pending Reply
+    type: comment
+    is_top_level: true
+    body (regex): ".*"
+    author:
+        is_submitter: false
+        account_age: '> 60 days'
+        post_karma: '> 10'
+        satisfy_any_threshold: true
+        ~name: HomeworkHelpBot
+    parent_submission:
+        flair_template_id: e9dbe69c-4d5b-11e9-909c-0e045f33938a
+        set_flair:
+                text: ":snoo_facepalm: High School Math—Pending OP Reply"
+        overwrite_flair: true
+---
+    # XP: High School Math Remove Pending Reply
+    type: comment
+    body (regex): ".*"
+    author:
+        is_submitter: true
+    parent_submission:
+        flair_text: [":snoo_facepalm: High School Math—Pending OP Reply",":snoo_facepalm: High School Math —:Warning:"]
+        set_flair:
+                text: ":snoo_facepalm: High School Math"
+                template_id: e9dbe69c-4d5b-11e9-909c-0e045f33938a
+        overwrite_flair: true
+---
+    # XP: High School (flagged)
+    type: submission
+    reports: 1
+    flair_text: [":snoo_facepalm: High School Math"]
+    set_flair:
+        text: ":snoo_facepalm: High School Math —:Warning:"
+        template_id: e9dbe69c-4d5b-11e9-909c-0e045f33938a
+    overwrite_flair: true
+---
+    # XP: Elementary Mathematics Manual Pending Reply
+    type: comment
+    is_top_level: false
+    body (regex): ['\*{2}[Tt]herefore.?\*{2}','\*{2}[Tt]hus.?\*{2}']
+    author:
+        is_submitter: false
+        account_age: '> 60 days'
+        post_karma: '> 10'
+        satisfy_any_threshold: true
+        ~name: HomeworkHelpBot
+    parent_submission:
+        flair_template_id: f44d9bdc-4c4a-11e9-b011-0e5a55295ed2
+        set_flair:
+                text: ":snoo_tongue: Elementary Mathematics—Pending OP Reply"
+        overwrite_flair: true
+---
+    # XP: Elementary Mathematics Pending Reply
+    type: comment
+    is_top_level: true
+    body (regex): ".*"
+    author:
+        is_submitter: false
+        account_age: '> 60 days'
+        post_karma: '> 10'
+        satisfy_any_threshold: true
+        ~name: HomeworkHelpBot
+    parent_submission:
+        flair_template_id: f44d9bdc-4c4a-11e9-b011-0e5a55295ed2
+        set_flair:
+                text: ":snoo_tongue: Elementary Mathematics—Pending OP Reply"
+        overwrite_flair: true
+---
+    # XP: Elementary Mathematics Remove Pending Reply
+    type: comment
+    body (regex): ".*"
+    author:
+        is_submitter: true
+    parent_submission:
+        flair_text: [":snoo_tongue: Elementary Mathematics—Pending OP Reply",":snoo_tongue: Elementary Mathematics —:Warning:"]
+        set_flair:
+                text: ":snoo_tongue: Elementary Mathematics"
+                template_id: f44d9bdc-4c4a-11e9-b011-0e5a55295ed2
+        overwrite_flair: true
+---
+    # XP: Elementary Mathematics (flagged)
+    type: submission
+    reports: 1
+    flair_text: [":snoo_tongue: Elementary Mathematics"]
+    set_flair:
+        text: ":snoo_tongue: Elementary Mathematics —:Warning:"
+        template_id: f44d9bdc-4c4a-11e9-b011-0e5a55295ed2
+    overwrite_flair: true
+---
+    # XP: Additional Mathematics Manual Pending Reply
+    type: comment
+    is_top_level: false
+    body (regex): ['\*{2}[Tt]herefore.?\*{2}','\*{2}[Tt]hus.?\*{2}']
+    author:
+        is_submitter: false
+        account_age: '> 60 days'
+        post_karma: '> 10'
+        satisfy_any_threshold: true
+        ~name: HomeworkHelpBot
+    parent_submission:
+        flair_template_id: fd985452-4c4a-11e9-bddd-0efaabcb6dd6
+        set_flair:
+                text: ":snoo_biblethump: Additional Mathematics—Pending OP Reply"
+        overwrite_flair: true
+---
+    # XP: Additional Mathematics Pending Reply
+    type: comment
+    is_top_level: true
+    body (regex): ".*"
+    author:
+        is_submitter: false
+        account_age: '> 60 days'
+        post_karma: '> 10'
+        satisfy_any_threshold: true
+        ~name: HomeworkHelpBot
+    parent_submission:
+        flair_template_id: fd985452-4c4a-11e9-bddd-0efaabcb6dd6
+        set_flair:
+                text: ":snoo_biblethump: Additional Mathematics—Pending OP Reply"
+        overwrite_flair: true
+---
+    # XP: Additional Mathematics Remove Pending Reply
+    type: comment
+    body (regex): ".*"
+    author:
+        is_submitter: true
+    parent_submission:
+        flair_text: [":snoo_biblethump: Additional Mathematics—Pending OP Reply",":snoo_biblethump: Additional Mathematics —:Warning:"]
+        set_flair:
+                text: ":snoo_biblethump: Additional Mathematics"
+                template_id: fd985452-4c4a-11e9-bddd-0efaabcb6dd6
+        overwrite_flair: true
+---
+    # XP: Additional Mathematics (flagged)
+    type: submission
+    reports: 1
+    flair_text: [":snoo_biblethump: Additional Mathematics"]
+    set_flair:
+        text: ":snoo_biblethump: Additional Mathematics —:Warning:"
+        template_id: fd985452-4c4a-11e9-bddd-0efaabcb6dd6
+    overwrite_flair: true
+---
+    # XP: Mathematics (A-Levels/Tertiary/Grade 11-12) Manual Pending Reply
+    type: comment
+    is_top_level: false
+    body (regex): ['\*{2}[Tt]herefore.?\*{2}','\*{2}[Tt]hus.?\*{2}']
+    author:
+        is_submitter: false
+        account_age: '> 60 days'
+        post_karma: '> 10'
+        satisfy_any_threshold: true
+        ~name: HomeworkHelpBot
+    parent_submission:
+        flair_template_id: f37fecac-4c4d-11e9-9027-0e2cd7ef4bba
+        set_flair:
+                text: ":snoo_feelsbadman: Mathematics (Tertiary/Grade 11-12)—Pending OP"
+        overwrite_flair: true
+---
+    # XP: Mathematics (A-Levels/Tertiary/Grade 11-12) Pending Reply
+    type: comment
+    is_top_level: true
+    body (regex): ".*"
+    author:
+        is_submitter: false
+        account_age: '> 60 days'
+        post_karma: '> 10'
+        satisfy_any_threshold: true
+        ~name: HomeworkHelpBot
+    parent_submission:
+        flair_template_id: f37fecac-4c4d-11e9-9027-0e2cd7ef4bba
+        set_flair:
+                text: ":snoo_feelsbadman: Mathematics (Tertiary/Grade 11-12)—Pending OP"
+        overwrite_flair: true
+---
+    # XP: Mathematics (A-Levels/Tertiary/Grade 11-12) Remove Pending Reply
+    type: comment
+    body (regex): ".*"
+    author:
+        is_submitter: true
+    parent_submission:
+        flair_text (includes): [":snoo_feelsbadman: Mathematics (Tertiary/Grade 11-12)—Pending OP",":snoo_feelsbadman: Mathematics (A-Levels/Tertiary/Grade 11-12)—P",":snoo_feelsbadman: Mathematics (Tertiary/Grade 11-12) —:Warning:"]
+        set_flair:
+                text: ":snoo_feelsbadman: Mathematics (A-Levels/Tertiary/Grade 11-12)"
+                template_id: f37fecac-4c4d-11e9-9027-0e2cd7ef4bba
+        overwrite_flair: true
+---
+    # XP: Mathematics (A-Levels/Tertiary/Grade 11-12) (flagged)
+    type: submission
+    reports: 1
+    flair_text: [":snoo_feelsbadman: Mathematics (A-Levels/Tertiary/Grade 11-12)"]
+    set_flair:
+        text: ":snoo_feelsbadman: Mathematics (Tertiary/Grade 11-12) —:Warning:"
+        template_id: f37fecac-4c4d-11e9-9027-0e2cd7ef4bba
+    overwrite_flair: true
+---
+    # XP: Further Mathematics Manual Pending Reply
+    type: comment
+    is_top_level: false
+    body (regex): ['\*{2}[Tt]herefore.?\*{2}','\*{2}[Tt]hus.?\*{2}']
+    author:
+        is_submitter: false
+        account_age: '> 60 days'
+        post_karma: '> 10'
+        satisfy_any_threshold: true
+        ~name: HomeworkHelpBot
+    parent_submission:
+        flair_template_id: 8de0aaa8-4c4d-11e9-9c5a-0e255cafe3f8
+        set_flair:
+                text: ":snoo_scream: Further Mathematics—Pending OP Reply"
+        overwrite_flair: true
+---
+    # XP: Further Mathematics Pending Reply
+    type: comment
+    is_top_level: true
+    body (regex): ".*"
+    author:
+        is_submitter: false
+        account_age: '> 60 days'
+        post_karma: '> 10'
+        satisfy_any_threshold: true
+        ~name: HomeworkHelpBot
+    parent_submission:
+        flair_template_id: 8de0aaa8-4c4d-11e9-9c5a-0e255cafe3f8
+        set_flair:
+                text: ":snoo_scream: Further Mathematics—Pending OP Reply"
+        overwrite_flair: true
+---
+    # XP: Further Mathematics Remove Pending Reply
+    type: comment
+    body (regex): ".*"
+    author:
+        is_submitter: true
+    parent_submission:
+        flair_text: [":snoo_scream: Further Mathematics—Pending OP Reply",":snoo_scream: Further Mathematics —:Warning:"]
+        set_flair:
+                text: ":snoo_scream: Further Mathematics"
+                template_id: 8de0aaa8-4c4d-11e9-9c5a-0e255cafe3f8
+        overwrite_flair: true
+---
+    # XP: Further Mathematics (flagged)
+    type: submission
+    reports: 1
+    flair_text: [":snoo_scream: Further Mathematics"]
+    set_flair:
+        text: ":snoo_scream: Further Mathematics —:Warning:"
+        template_id: 8de0aaa8-4c4d-11e9-9c5a-0e255cafe3f8
+    overwrite_flair: true
+---
+    # XP: Pure Mathematics Manual Pending Reply
+    type: comment
+    is_top_level: false
+    body (regex): ['\*{2}[Tt]herefore.?\*{2}','\*{2}[Tt]hus.?\*{2}']
+    author:
+        is_submitter: false
+        account_age: '> 60 days'
+        post_karma: '> 10'
+        satisfy_any_threshold: true
+        ~name: HomeworkHelpBot
+    parent_submission:
+        flair_template_id: d5fb59b4-4c4d-11e9-9674-0eea7e58f486
+        set_flair:
+                text: ":snoo_biblethump: Pure Mathematics—Pending OP Reply"
+        overwrite_flair: true
+---
+    # XP: Pure Mathematics Pending Reply
+    type: comment
+    is_top_level: true
+    body (regex): ".*"
+    author:
+        is_submitter: false
+        account_age: '> 60 days'
+        post_karma: '> 10'
+        satisfy_any_threshold: true
+        ~name: HomeworkHelpBot
+    parent_submission:
+        flair_template_id: d5fb59b4-4c4d-11e9-9674-0eea7e58f486
+        set_flair:
+                text: ":snoo_biblethump: Pure Mathematics—Pending OP Reply"
+        overwrite_flair: true
+---
+    # XP: Pure Mathematics Remove Pending Reply
+    type: comment
+    body (regex): ".*"
+    author:
+        is_submitter: true
+    parent_submission:
+        flair_text: [":snoo_biblethump: Pure Mathematics—Pending OP Reply",":snoo_biblethump: Pure Mathematics —:Warning:"]
+        set_flair:
+                text: ":snoo_biblethump: Pure Mathematics"
+                template_id: d5fb59b4-4c4d-11e9-9674-0eea7e58f486
+        overwrite_flair: true
+---
+    # XP: Pure  Mathematics (flagged)
+    type: submission
+    reports: 1
+    flair_text: [":snoo_biblethump: Pure Mathematics"]
+    set_flair:
+        text: ":snoo_biblethump: Pure Mathematics —:Warning:"
+        template_id: d5fb59b4-4c4d-11e9-9674-0eea7e58f486
+    overwrite_flair: true
+---
+    # XP: Chemistry Manual Pending Reply
+    type: comment
+    is_top_level: false
+    body (regex): ['\*{2}[Tt]herefore.?\*{2}','\*{2}[Tt]hus.?\*{2}']
+    author:
+        is_submitter: false
+        account_age: '> 60 days'
+        post_karma: '> 10'
+        satisfy_any_threshold: true
+        ~name: HomeworkHelpBot
+    parent_submission:
+        flair_template_id: 155b6232-4c4b-11e9-af50-0ef8a8c5ca08
+        set_flair:
+                text: ":snoo_thoughtful: Chemistry—Pending OP Reply"
+        overwrite_flair: true
+---
+    # XP: Chemistry Pending Reply
+    type: comment
+    is_top_level: true
+    body (regex): ".*"
+    author:
+        is_submitter: false
+        account_age: '> 60 days'
+        post_karma: '> 10'
+        satisfy_any_threshold: true
+        ~name: HomeworkHelpBot
+    parent_submission:
+        flair_template_id: 155b6232-4c4b-11e9-af50-0ef8a8c5ca08
+        set_flair:
+                text: ":snoo_thoughtful: Chemistry—Pending OP Reply"
+        overwrite_flair: true
+---
+    # XP: Chemistry Remove Pending Reply
+    type: comment
+    body (regex): ".*"
+    author:
+        is_submitter: true
+    parent_submission:
+        flair_text: [":snoo_thoughtful: Chemistry—Pending OP Reply",":snoo_thoughtful: Chemistry —:Warning:"]
+        set_flair:
+                text: ":snoo_thoughtful: Chemistry"
+                template_id: 155b6232-4c4b-11e9-af50-0ef8a8c5ca08
+        overwrite_flair: true
+---
+    # XP: Chemistry  (flagged)
+    type: submission
+    reports: 1
+    flair_text: [":snoo_thoughtful: Chemistry"]
+    set_flair:
+        text: ":snoo_thoughtful: Chemistry —:Warning:"
+        template_id: 155b6232-4c4b-11e9-af50-0ef8a8c5ca08
+    overwrite_flair: true
+---
+    # XP: Physics Manual Pending Reply
+    type: comment
+    is_top_level: false
+    body (regex): ['\*{2}[Tt]herefore.?\*{2}','\*{2}[Tt]hus.?\*{2}']
+    author:
+        is_submitter: false
+        account_age: '> 60 days'
+        post_karma: '> 10'
+        satisfy_any_threshold: true
+        ~name: HomeworkHelpBot
+    parent_submission:
+        flair_template_id: 2331aef2-4c4b-11e9-b4e8-0e104c17b0ea
+        set_flair:
+                text: ":table_flip: Physics—Pending OP Reply"
+        overwrite_flair: true
+---
+    # XP: Physics Pending Reply
+    type: comment
+    is_top_level: true
+    body (regex): ".*"
+    author:
+        is_submitter: false
+        account_age: '> 60 days'
+        post_karma: '> 10'
+        satisfy_any_threshold: true
+        ~name: HomeworkHelpBot
+    parent_submission:
+        flair_template_id: 2331aef2-4c4b-11e9-b4e8-0e104c17b0ea
+        set_flair:
+                text: ":table_flip: Physics—Pending OP Reply"
+        overwrite_flair: true
+---
+    # XP: Physics Remove Pending Reply
+    type: comment
+    body (regex): ".*"
+    author:
+        is_submitter: true
+    parent_submission:
+        flair_text: [":table_flip: Physics—Pending OP Reply",":table_flip: Physics —:Warning:"]
+        set_flair:
+                text: ":table_flip: Physics"
+                template_id: 2331aef2-4c4b-11e9-b4e8-0e104c17b0ea
+        overwrite_flair: true
+---
+    # XP: Physics (flagged)
+    type: submission
+    reports: 1
+    flair_text: [":table_flip: Physics"]
+    set_flair:
+        text: ":table_flip: Physics —:Warning:"
+        template_id: 2331aef2-4c4b-11e9-b4e8-0e104c17b0ea
+    overwrite_flair: true
+---
+    # XP: Biology Manual Pending Reply
+    type: comment
+    is_top_level: false
+    body (regex): ['\*{2}[Tt]herefore.?\*{2}','\*{2}[Tt]hus.?\*{2}']
+    author:
+        is_submitter: false
+        account_age: '> 60 days'
+        post_karma: '> 10'
+        satisfy_any_threshold: true
+        ~name: HomeworkHelpBot
+    parent_submission:
+        flair_template_id: 37568ac4-4c4b-11e9-988e-0e2b3e13b2ee
+        set_flair:
+                text: ":snoo_tableflip: Biology—Pending OP Reply"
+        overwrite_flair: true
+---
+    # XP: Biology Pending Reply
+    type: comment
+    is_top_level: true
+    body (regex): ".*"
+    author:
+        is_submitter: false
+        account_age: '> 60 days'
+        post_karma: '> 10'
+        satisfy_any_threshold: true
+        ~name: HomeworkHelpBot
+    parent_submission:
+        flair_template_id: 37568ac4-4c4b-11e9-988e-0e2b3e13b2ee
+        set_flair:
+                text: ":snoo_tableflip: Biology—Pending OP Reply"
+        overwrite_flair: true
+---
+    # XP: Biology Remove Pending Reply
+    type: comment
+    body (regex): ".*"
+    author:
+        is_submitter: true
+    parent_submission:
+        flair_text: [":snoo_tableflip: Biology—Pending OP Reply",":snoo_tableflip: Biology —:Warning:"]
+        set_flair:
+                text: ":snoo_tableflip: Biology"
+                template_id: 37568ac4-4c4b-11e9-988e-0e2b3e13b2ee
+        overwrite_flair: true
+---
+    # XP: Biology (flagged)
+    type: submission
+    reports: 1
+    flair_text: [":snoo_tableflip: Biology"]
+    set_flair:
+        text: ":snoo_tableflip: Biology —:Warning:"
+        template_id: 37568ac4-4c4b-11e9-988e-0e2b3e13b2ee
+    overwrite_flair: true
+---
+    # XP: History Manual Pending Reply
+    type: comment
+    is_top_level: false
+    body (regex): ['\*{2}[Tt]herefore.?\*{2}','\*{2}[Tt]hus.?\*{2}']
+    author:
+        is_submitter: false
+        account_age: '> 60 days'
+        post_karma: '> 10'
+        satisfy_any_threshold: true
+        ~name: HomeworkHelpBot
+    parent_submission:
+        flair_template_id: 51a3a9de-4c4b-11e9-ba54-0ed17c973608
+        set_flair:
+                text: ":snoo_dealwithit: History—Pending OP Reply"
+        overwrite_flair: true
+---
+    # XP: History Pending Reply
+    type: comment
+    is_top_level: true
+    body (regex): ".*"
+    author:
+        is_submitter: false
+        account_age: '> 60 days'
+        post_karma: '> 10'
+        satisfy_any_threshold: true
+        ~name: HomeworkHelpBot
+    parent_submission:
+        flair_template_id: 51a3a9de-4c4b-11e9-ba54-0ed17c973608
+        set_flair:
+                text: ":snoo_dealwithit: History—Pending OP Reply"
+        overwrite_flair: true
+---
+    # XP: History Remove Pending Reply
+    type: comment
+    body (regex): ".*"
+    author:
+        is_submitter: true
+    parent_submission:
+        flair_text: [":snoo_dealwithit: History—Pending OP Reply",":snoo_dealwithit: History —:Warning:"]
+        set_flair:
+                text: ":snoo_dealwithit: History"
+                template_id: 51a3a9de-4c4b-11e9-ba54-0ed17c973608
+        overwrite_flair: true
+---
+    # XP: History (flagged)
+    type: submission
+    reports: 1
+    flair_text: [":snoo_dealwithit: History"]
+    set_flair:
+        text: ":snoo_dealwithit: History —:Warning:"
+        template_id: 51a3a9de-4c4b-11e9-ba54-0ed17c973608
+    overwrite_flair: true
+---
+    # XP: Geography Manual Pending Reply
+    type: comment
+    is_top_level: false
+    body (regex): ['\*{2}[Tt]herefore.?\*{2}','\*{2}[Tt]hus.?\*{2}']
+    author:
+        is_submitter: false
+        account_age: '> 60 days'
+        post_karma: '> 10'
+        satisfy_any_threshold: true
+        ~name: HomeworkHelpBot
+    parent_submission:
+        flair_template_id: 5db21b8e-4c4b-11e9-99d8-0e4e53a8c476
+        set_flair:
+                text: ":snoo_joy: Geography—Pending OP Reply"
+        overwrite_flair: true
+---
+    # XP: Geography Pending Reply
+    type: comment
+    is_top_level: true
+    body (regex): ".*"
+    author:
+        is_submitter: false
+        account_age: '> 60 days'
+        post_karma: '> 10'
+        satisfy_any_threshold: true
+        ~name: HomeworkHelpBot
+    parent_submission:
+        flair_template_id: 5db21b8e-4c4b-11e9-99d8-0e4e53a8c476
+        set_flair:
+                text: ":snoo_joy: Geography—Pending OP Reply"
+        overwrite_flair: true
+---
+    # XP: Geography Remove Pending Reply
+    type: comment
+    body (regex): ".*"
+    author:
+        is_submitter: true
+    parent_submission:
+        flair_text: [":snoo_joy: Geography—Pending OP Reply",":snoo_joy: Geography —:Warning:"]
+        set_flair:
+                text: ":snoo_joy: Geography"
+                template_id: 5db21b8e-4c4b-11e9-99d8-0e4e53a8c476
+        overwrite_flair: true
+---
+    # XP: Geography (flagged)
+    type: submission
+    reports: 1
+    flair_text: [":snoo_joy: Geography"]
+    set_flair:
+        text: ":snoo_joy: Geography —:Warning:"
+        template_id: 5db21b8e-4c4b-11e9-99d8-0e4e53a8c476
+    overwrite_flair: true
+---
+    # XP: Social Studies Manual Pending Reply
+    type: comment
+    is_top_level: false
+    body (regex): ['\*{2}[Tt]herefore.?\*{2}','\*{2}[Tt]hus.?\*{2}']
+    author:
+        is_submitter: false
+        account_age: '> 60 days'
+        post_karma: '> 10'
+        satisfy_any_threshold: true
+        ~name: HomeworkHelpBot
+    parent_submission:
+        flair_template_id: 183e679a-4c4d-11e9-9528-0e7cf6650498
+        set_flair:
+                text: ":snoo_trollface: Social Studies—Pending OP Reply"
+        overwrite_flair: true
+---
+    # XP: Social Studies Pending Reply
+    type: comment
+    is_top_level: true
+    body (regex): ".*"
+    author:
+        is_submitter: false
+        account_age: '> 60 days'
+        post_karma: '> 10'
+        satisfy_any_threshold: true
+        ~name: HomeworkHelpBot
+    parent_submission:
+        flair_template_id: 183e679a-4c4d-11e9-9528-0e7cf6650498
+        set_flair:
+                text: ":snoo_trollface: Social Studies—Pending OP Reply"
+        overwrite_flair: true
+---
+    # XP: Social Studies Remove Pending Reply
+    type: comment
+    body (regex): ".*"
+    author:
+        is_submitter: true
+    parent_submission:
+        flair_text: [":snoo_trollface: Social Studies—Pending OP Reply",":snoo_trollface: Social Studies —:Warning:"]
+        set_flair:
+                text: ":snoo_trollface: Social Studies"
+                template_id: 183e679a-4c4d-11e9-9528-0e7cf6650498
+        overwrite_flair: true
+
+---
+    # XP: Social Studies (flagged)
+    type: submission
+    reports: 1
+    flair_text: ":snoo_trollface: Social Studies"
+    set_flair:
+        text: ":snoo_trollface: Social Studies —:Warning:"
+        template_id: 183e679a-4c4d-11e9-9528-0e7cf6650498
+    overwrite_flair: true
+---
+    # XP: Economics Manual Pending Reply
+    type: comment
+    is_top_level: false
+    body (regex): ['\*{2}[Tt]herefore.?\*{2}','\*{2}[Tt]hus.?\*{2}']
+    author:
+        is_submitter: false
+        account_age: '> 60 days'
+        post_karma: '> 10'
+        satisfy_any_threshold: true
+        ~name: HomeworkHelpBot
+    parent_submission:
+        flair_template_id: e9b5cec8-4d63-11e9-93f1-0e3e9f9ef214
+        set_flair:
+                text: ":snoo_hearteyes: Economics—Pending OP Reply"
+        overwrite_flair: true
+---
+    # XP: Economics Pending Reply
+    type: comment
+    is_top_level: true
+    body (regex): ".*"
+    author:
+        is_submitter: false
+        account_age: '> 60 days'
+        post_karma: '> 10'
+        satisfy_any_threshold: true
+        ~name: HomeworkHelpBot
+    parent_submission:
+        flair_template_id: e9b5cec8-4d63-11e9-93f1-0e3e9f9ef214
+        set_flair:
+                text: ":snoo_hearteyes: Economics—Pending OP Reply"
+        overwrite_flair: true
+---
+    # XP: Economics Remove Pending Reply
+    type: comment
+    body (regex): ".*"
+    author:
+        is_submitter: true
+    parent_submission:
+        flair_text: [":snoo_hearteyes: Economics—Pending OP Reply",":snoo_hearteyes: Economics —:Warning:"]
+        set_flair:
+                text: ":snoo_hearteyes: Economics"
+                template_id: e9b5cec8-4d63-11e9-93f1-0e3e9f9ef214
+        overwrite_flair: true
+---
+    # XP: Economics (flagged)
+    type: submission
+    reports: 1
+    flair_text: ":snoo_hearteyes: Economics"
+    set_flair:
+        text: ":snoo_hearteyes: Economics —:Warning:"
+        template_id: e9b5cec8-4d63-11e9-93f1-0e3e9f9ef214
+    overwrite_flair: true
+---
+    # XP: Computing Manual Pending Reply
+    type: comment
+    is_top_level: false
+    body (regex): ['\*{2}[Tt]herefore.?\*{2}','\*{2}[Tt]hus.?\*{2}']
+    author:
+        is_submitter: false
+        account_age: '> 60 days'
+        post_karma: '> 10'
+        satisfy_any_threshold: true
+        ~name: HomeworkHelpBot
+    parent_submission:
+        flair_template_id: 133f7620-5f3b-11e9-9db4-0e90a029d678
+        set_flair:
+                text: ":snoo_surprised: Computing—Pending OP Reply"
+        overwrite_flair: true
+---
+    # XP: Computing Pending Reply
+    type: comment
+    is_top_level: true
+    body (regex): ".*"
+    author:
+        is_submitter: false
+        account_age: '> 60 days'
+        post_karma: '> 10'
+        satisfy_any_threshold: true
+        ~name: HomeworkHelpBot
+    parent_submission:
+        flair_template_id: 133f7620-5f3b-11e9-9db4-0e90a029d678
+        set_flair:
+                text: ":snoo_surprised: Computing—Pending OP Reply"
+        overwrite_flair: true
+---
+    # XP: Computing Remove Pending Reply
+    type: comment
+    body (regex): ".*"
+    author:
+        is_submitter: true
+    parent_submission:
+        flair_text: [":snoo_surprised: Computing—Pending OP Reply",":snoo_surprised: Computing —:Warning:"]
+        set_flair:
+                text: ":snoo_surprised: Computing"
+                template_id: 133f7620-5f3b-11e9-9db4-0e90a029d678
+        overwrite_flair: true
+---
+    # XP: Computing (flagged)
+    type: submission
+    reports: 1
+    flair_text: ":snoo_surprised: Computing"
+    set_flair:
+        text: ":snoo_surprised: Computing —:Warning:"
+        template_id: 133f7620-5f3b-11e9-9db4-0e90a029d678
+    overwrite_flair: true
+---
+    # XP: Others Manual Pending Reply
+    type: comment
+    is_top_level: false
+    body (regex): ['\*{2}[Tt]herefore.?\*{2}','\*{2}[Tt]hus.?\*{2}']
+    author:
+        is_submitter: false
+        account_age: '> 60 days'
+        post_karma: '> 10'
+        satisfy_any_threshold: true
+        ~name: HomeworkHelpBot
+    parent_submission:
+        flair_template_id: 3739af1a-4c4d-11e9-8e03-0e7cf6650498
+        set_flair:
+                text: ":snoo_putback: Others—Pending OP Reply"
+        overwrite_flair: true
+---
+    # XP: Others Pending Reply
+    type: comment
+    is_top_level: true
+    body (regex): ".*"
+    author:
+        is_submitter: false
+        account_age: '> 60 days'
+        post_karma: '> 10'
+        satisfy_any_threshold: true
+        ~name: HomeworkHelpBot
+    parent_submission:
+        flair_template_id: 3739af1a-4c4d-11e9-8e03-0e7cf6650498
+        set_flair:
+                text: ":snoo_putback: Others—Pending OP Reply"
+        overwrite_flair: true
+---
+    # XP: Others Remove Pending Reply
+    type: comment
+    body (regex): ".*"
+    author:
+        is_submitter: true
+    parent_submission:
+        flair_text: [":snoo_putback: Others—Pending OP Reply",":snoo_putback: Others —:Warning:"]
+        set_flair:
+                text: ":snoo_putback: Others"
+                template_id: 3739af1a-4c4d-11e9-8e03-0e7cf6650498
+        overwrite_flair: true
+---
+    # XP: Others (flagged)
+    type: submission
+    reports: 1
+    flair_text: ":snoo_putback: Others"
+    set_flair:
+        text: ":snoo_putback: Others —:Warning:"
+        template_id: 3739af1a-4c4d-11e9-8e03-0e7cf6650498
+    overwrite_flair: true
+---
+--------------------------------------------------------------------
+        #Systematic Flairing END
+--------------------------------------------------------------------
+---
+    # XP: Manually Mark as "Answered"
+    type: comment
+    is_top_level: true
+    body (regex): ['\*{2}[Aa]nswer:?\*{2}','\*{2}[Hh]ence;?,?\*{2}']
+    author:
+        is_submitter: false
+        account_age: '> 60 days'
+        post_karma: '> 10'
+        satisfy_any_threshold: true
+        ~name: HomeworkHelpBot
+    parent_submission:
+        set_flair:
+                text: ":Accept-icon: Answered"
+        overwrite_flair: true
+---
+--------------------------------------------------------------------
+        #Democratic Moderation START
+--------------------------------------------------------------------
+---
+    # XP: Automated Final Warning for Posts
+    type: submission
+    reports: 2
+    title (regex): ((\[|\{)|^\().*(\]|}|\))
+    comment: |
+        Attention *Readers!*
+
+        ####**Multiple users in this subreddit have flagged this post as a potential violation of r/HomeworkHelp [rules](https://www.reddit.com/r/HomeworkHelp/about/rules), Reddit rules and/or its T&C.**
+
+        Please help us to verify and affirm it by continuing to **report** this post and also expressively inform u/{{author}} of his/her violation(s). You may also consider to [manually trigger a takedown](https://www.reddit.com/r/HomeworkHelp/wiki/user_moderation).
+
+        ^(These are the general characteristics you should look out for:)
+
+        ^(***1. OP demonstrates zero effort to attempt to structure the title to classify the question properly***)
+
+        ^(All posts have to be flaired and written as clearly as possible unless it is impeded by language barrier.)
+
+        ^(***2. OP omits instructor prompts/does not demonstrate real attempt to do the homework***)
+
+        ^(We only help OPs who have tried their best but still couldn't solve/complete the question. OP has to demonstrate that he/she has already attempted the question by presenting his/her incorrect working or thought process towards the question. You are encouraged to clarify with OP for instructor prompt to not waste your effort since different syllabus has different requirements/viewpoints.)
+
+        ^(***3. OP is feeling very entitled***)
+
+        ^(Don't worry, we aren't their slaves. If OP has the attitude *"Urgent!!!"*, *"Important!!!!"* or *"HELP ASAP"*, just skip this question.)
+
+        ^(For rule violations, please help us to report it so we can expeditiously take it down. (Along with commenting here to deter others from helping a question that is going to be removed anyway.))
+
+        ######**IF YOU ARE AN OP, PLEASE IGNORE THE ABOVE TEXT.**
+---
+    # XP: Automated Final Warning for Comments
+    type: comment
+    body (regex): '.*'
+    reports: 2
+    comment: |
+        Attention *Readers!*
+
+        ####**Multiple users in this subreddit have flagged this comment as a potential violation of r/HomeworkHelp [rules](https://www.reddit.com/r/HomeworkHelp/about/rules), Reddit rules and/or its T&C.**
+
+        Please help us to verify and affirm it by continuing to **report** this post and also expressively inform u/{{author}} of his/her violation(s). You may also consider to [manually trigger a takedown](https://www.reddit.com/r/HomeworkHelp/wiki/user_moderation).
+
+        ^(These are the general characteristics you should look out for:)
+
+        ^(***1. The comment is not serious.***)
+
+        ^(We expect all exchanges on this subreddit to be done in a cordial and formal manner. There are many alternative subreddits for jokes such as r/teenagers, r/GCSE, r/SAT, etc.)
+
+        ^(***2. OP is being mean.***)
+
+        ^(We do not tolerate any form of bullies or harassments here. Cyberbullying or online harassments is illegal in some jurisdictions. Please be mindful of your actions.)
+
+        ^(***3. OP is being irrelevant.***)
+
+        ^(All comments here have to be relevant pertaining topic. Calling for PM is not allowed—it is annoying. Just post the reply here. Alternatively, if they want to start a new discussion, urge them to head over to one of our Reddit Chat channels.)
+
+        ^(For rule violations, please help us to report it so we can expeditiously take it down. (Refrain from commenting here since it is going to be removed anyway.))
+
+        ######**IF YOU ARE AN OP, PLEASE IGNORE THE ABOVE TEXT.**
+---
+
+    #XP: Auto remove top level comment
+    type: comment
+    is_top_level: true
+    action: remove
+    action_reason: Using user mod command in top level comment
+    body (regex): ['\*{0,2}Mod:\*{0,2}.+']
+    comment: |
+        u/{{author}}, you are NOT supposed to use [User Moderation](https://www.reddit.com/r/HomeworkHelp/wiki/user_moderation) command as a top-level comment. You will face a consequence for repeated infringement of User Moderation clauses. **You are forewarned.**
+---
+    #XP: Report Abuse
+    type: comment
+    body (regex): ['\*{0,2}Mod:\*{0,2}.+[rR]eport [aA]buse(\n*.*)']
+    action: report
+    action_reason: Report Abuse by {{author}
+    Modmail_subject: Report Abuse
+    Modmail: |
+        Hey Moderators!
+
+        We have received a tip-off that someone is abusing [User Moderation](https://www.reddit.com/r/HomeworkHelp/wiki/user_moderation) functionality. Please investigate and review the impact have caused. A permanent ban is justifiable for intentional abuse that has caused ruckus.
+
+        u/{{author}}'s tip-off: {{match}}
+
+        **Note:** In order for someone to use [User Moderation](https://www.reddit.com/r/HomeworkHelp/wiki/user_moderation) command, there is minimum criteria required to fulfil. It is unfeasible for bad actors to repeatedly abuse our functionality after the ban is handed out.
+---
+    #XP: Reader undo user removal
+    type: comment
+    body (regex): ['\*{0,2}Mod:\*{0,2}.?[Uu]ndo']
+    author:
+        combined_karma: 800
+        account_age: 2 year
+        is_submitter: true
+    comment: |
+        Hello {{author}},
+
+        Thank you for your insight. **I have undone the removal and this post is now live again.**
+
+        _If you believe in no way this post should have ever been deleted and a repercussion is needed, please reply `Mod: report abuse` and this will be alerted to all moderators as very high priority._
+
+        Thanks!
+    parent_submission:
+        action: approve
+---
+    #XP: User Appeal
+    type: comment
+    body (regex): ['\*{0,2}Mod:\*{0,2}.?I appeal']
+    action: report
+    Modmail: Hi there! {{author}} appeals against user-voted removal of his/her post. Please check for false positive.
+    parent_submission:
+        action: approve
+        action_reason: OP appeals
+---
+    #XP: Failed use of command
+    type: comment
+    is_top_level: false
+    body (regex): ['\*{0,2}Mod:\*{0,2}']
+    author:
+        is_submitter: false
+    comment: |
+        Hello {{author}},
+
+        Just a courtesy notice, I have received your command. If you do not receive a follow-up comment, that either mean you are ineligible to use this functionality as specified in [User Moderation] or there is not enough reports on this post for it to be taken down. It is a technical limitation for me to give you a more accurate failure message.
+        _**DO NOT DELETE YOUR COMMENT, IT HAS TO REMAIN FOR USERS TO DOWNVOTE YOU IF YOU MADE A BAD JUDGEMENT. DELETING YOUR COMMENT IS TANTAMOUNT TO ABUSE.**_
+
+        **Important:** If you are ineligible to use this functionality as specified in [User Moderation] and you are attempting to transgress it any way, you could face a consequence for repeated infringement, including being shadowbanned across this subreddit. You are forewarned.
+
+        [User Moderation](https://www.reddit.com/r/HomeworkHelp/wiki/user_moderation)
+---
+    #XP: Ineligible to use command
+    type: comment
+    is_top_level: false
+    body (regex): ['\*{0,2}Mod:\*{0,2}']
+    author:
+        combined_karma: < 800
+        account_age: < 2 year
+    action: remove
+    action_reason: ineligible to use User Moderator command
+
+    Comment: Sorry, u/{{author}}. I have deleted your command because you are ineligible to use it. Repeated infringement of [User Moderation](https://www.reddit.com/r/HomeworkHelp/wiki/user_moderation) could result in automated shadowban.
+---
+    #XP: Auto delete post for rule violation
+    type: submission
+    reports: 3
+    action: filter
+    comment: |
+        Hello u/{{author}},
+
+        ####I regret to inform you that the users in this subreddit have voted and determined that your post violates one or more of our subreddit rule(s).
+
+
+
+        ######This friendly takedown should be taken with gratitude because it has helped prevent a moderator from seeing this and taking action against you for rule violation
+
+        I encourage you to read up our rules so you are cognizant of how things work in this subreddit.
+
+        Have a nice day!
+
+        _If you strongly oppose this takedown and believe the moderators are likely to approve this post, please reply `Mod: I appeal` and elaborate in the next sentence. Otherwise, please [send us a Modmail](https://reddit.com/message/compose?to=/r/HomeworkHelp) for further clarifications._
+
+        **Readers:** Do not use this command without reading [User Moderation](https://www.reddit.com/r/HomeworkHelp/wiki/user_moderation). Ignorance or incorrect interpretation of our rules will not excuse you from being dealt harshly for wrongful removals.
+---
+    #XP: Auto delete comment for rule violation
+    type: comment
+    body (regex): ".*"
+    reports: 3
+    action: filter
+    comment: |
+        Hello u/{{author}},
+
+        ####I regret to inform you that the users in this subreddit have voted and determined that your comment violates one or more of our subreddit rule(s).
+
+
+
+        ######This friendly takedown should be taken with gratitude because it has helped prevent a moderator from seeing this and taking action against you for rule violation
+
+        I encourage you to read up our rules so you are cognizant of how things work in this subreddit.
+
+        Have a nice day!
+
+        _If you strongly oppose this takedown and believe the moderators are likely to approve this comment, please [send us a Modmail](https://reddit.com/message/compose?to=/r/HomeworkHelp) for further clarifications._
+
+        **Readers:** Do not use this command without reading [User Moderation](https://www.reddit.com/r/HomeworkHelp/wiki/user_moderation). Ignorance or incorrect interpretation of our rules will not excuse you from being dealt harshly for wrongful removals.
+---
+    #XP: Vote for rule #1 violation
+    type: comment
+    is_top_level: false
+    body (regex): ['\*{0,2}Mod:\*{0,2} u\/(\S+).+violates? rule (#?1|one)\n+\*{0,2}(R|r)eason:\*{0,2}(.+)']
+    comment: |
+        Hello u/{{match-body-2}},
+
+        ####I regret to inform you that the users in this subreddit have voted and determined that your post violates our subreddit rule:
+        > _**Rule 1: Include instructor prompts**_
+        >
+        > What does your instructor want you to accomplish?
+        >
+        > Tell us what is holding you up. Where are you in the process? Explain your thoughts about the problem and the steps you've taken so far. Provide those who help with as much information as possible. Demonstrate that you have already put in some thought and effort into solving the problem.
+
+        u/{{author}}'s comments:
+        > {{match-body-5}}
+
+        ######This friendly takedown should be taken with gratitude because it has helped prevent a moderator from seeing this and taking action against you for rule violation
+
+        I encourage you to read up our rules so you are cognizant of how things work in this subreddit.
+
+        Have a nice day!
+
+        _If you strongly oppose this takedown and believe the moderators are likely to approve this post, please reply `Mod: I appeal` and elaborate in the next sentence. Otherwise, please reach out to u/{{author}} for further clarifications._
+
+        **Readers:** Do not use this command without reading [User Moderation](https://www.reddit.com/r/HomeworkHelp/wiki/user_moderation). Ignorance or incorrect interpretation of our rules will not excuse you from being dealt harshly for wrongful removals.
+    comment_stickied: true
+    parent_submission:
+        reports: 3
+        action: filter
+---
+    #XP: Vote for rule #2 violation
+    type: comment
+    is_top_level: false
+    body (regex): ['\*{0,2}Mod:\*{0,2} u\/(\S+).+violates? rule (#?2|two)\n+\*{0,2}(R|r)eason:\*{0,2}(.+)']
+    comment: |
+        Hello u/{{match-body-2}},
+
+        ####I regret to inform you that users in this subreddit have voted and determined that you seem to have no intention to properly structuring your post title/flairing your post to classify your question accordingly.
+
+        **This is a violation of _Rule 2: Classify the question by structuring the post title with enclosed square brackets as prefix_**
+
+        > Your post title should contain the following as its prefix: [<Level/Syllabus><Discipline>and/or<Topic>] Question?
+
+        The purpose of this rule is to keep this subreddit as organised and as readable as possible for users to help the OP (you). If you cannot do this as a favour for receiving homework help from us, maybe you should look help elsewhere.
+
+        u/{{author}}'s comments:
+        > {{match-body-5}}
+
+        ######This friendly takedown should be taken with gratitude because it has helped prevent a moderator from seeing this and taking action against you for rule violation
+
+        I encourage you to read up our rules so you are cognizant of how things work in this subreddit.
+
+        Have a nice day!
+
+        _If you strongly oppose this takedown and believe the moderators are likely to approve this post, please reply `Mod: I appeal` and elaborate in the next sentence. Otherwise, please reach out to u/{{author}} for further clarifications._
+
+        **Readers:** Do not use this command without reading [User Moderation](https://www.reddit.com/r/HomeworkHelp/wiki/user_moderation). Ignorance or incorrect interpretation of our rules will not excuse you from being dealt harshly for wrongful removals.
+    comment_stickied: true
+    parent_submission:
+        reports: 2
+        action: filter
+---
+    #XP: Vote for rule #3 violation
+    type: comment
+    is_top_level: false
+    body (regex): ['\*{0,2}Mod:\*{0,2} u\/(\S+).+violates? rule (#?3|three)\n+\*{0,2}(R|r)eason:\*{0,2}(.+)']
+    comment: |
+        Hello u/{{match-body-2}},
+
+        ####We are sorry but the purpose of this subreddit is to **help you to learn/study,** not doing your last-minute homework. You did not read our rules.
+
+        The users in this subreddit have voted and determined that your post violates our subreddit rule:
+
+        > _**Rule 3: No "do this for me" posts.**_
+        >
+        > This includes quizzes or lists of questions without any context or explanation. Show your work.
+
+        You may like to explore r/cheatatmathhomework instead ;)
+
+        To prevent your post from being removed from r/HomeworkHelp in the future, please include your incorrect working or thought process towards the question. ;)
+
+        u/{{author}}'s comments:
+        > {{match-body-5}}
+
+        ######This friendly takedown should be taken with gratitude because it has helped prevent a moderator from seeing this and taking action against you for rule violation
+
+        I encourage you to read up our rules so you are cognizant of how things work in this subreddit.
+
+        Have a nice day!
+
+        _If you strongly oppose this takedown and believe the moderators are likely to approve this post, please reply `Mod: I appeal` and elaborate in the next sentence. Otherwise, please reach out to u/{{author}} for further clarifications._
+
+        **Readers:** Do not use this command without reading [User Moderation](https://www.reddit.com/r/HomeworkHelp/wiki/user_moderation). Ignorance or incorrect interpretation of our rules will not excuse you from being dealt harshly for wrongful removals.
+    comment_stickied: true
+    parent_submission:
+        reports: 4
+        action: filter
+---
+    #XP: Vote for rule #4 violation
+    type: comment
+    is_top_level: false
+    body (regex): ['\*{0,2}Mod:\*{0,2} u\/(\S+).+violates? rule (#?4|four)\n+\*{0,2}(R|r)eason:\*{0,2}(.+)']
+    comment: |
+        Hello u/{{match-body-2}},
+
+        ####I regret to inform you that the users in this subreddit have voted and determined that your post violates our subreddit rule:
+
+        > Rule 4: No urgent or last-minute posts.
+        >
+        > No posts tagged "urgent," "ASAP," "important," "due in an hour," etc.
+
+        u/{{author}}'s comments:
+        > {{match-body-5}}
+
+        ######This friendly takedown should be taken with gratitude because it has helped prevent a moderator from seeing this and taking action against you for rule violation
+
+        I encourage you to read up our rules so you are cognizant of how things work in this subreddit.
+
+        Have a nice day!
+
+        _If you strongly oppose this takedown and believe the moderators are likely to approve this post, please reply `Mod: I appeal` and elaborate in the next sentence. Otherwise, please reach out to u/{{author}} for further clarifications._
+
+        **Readers:** Do not use this command without reading [User Moderation](https://www.reddit.com/r/HomeworkHelp/wiki/user_moderation). Ignorance or incorrect interpretation of our rules will not excuse you from being dealt harshly for wrongful removals.
+    comment_stickied: true
+    parent_submission:
+        reports: 3
+        action: filter
+---
+    #XP: Vote for rule #5 violation
+    type: comment
+    is_top_level: false
+    body (regex): ['\*{0,2}Mod:\*{0,2} u\/(\S+).+violates? rule (#?5|five)\n+\*{0,2}(R|r)eason:\*{0,2}(.+)']
+    comment: |
+        Hello u/{{match-body-2}},
+
+        ####I regret to inform you that the users in this subreddit have voted and determined that your post violates our subreddit rule:
+        > _**Rule 5: No cheating.**_
+        >
+        > No requests for help with cheating, plagiarism, or other violations of academic integrity; violations of copyright or terms of use; or other illegal and unethical activities.
+
+        u/{{author}}'s comments:
+        > {{match-body-5}}
+
+        ######This friendly takedown should be taken with gratitude because it has helped prevent a moderator from seeing this and taking action against you for rule violation
+
+        I encourage you to read up our rules so you are cognizant of how things work in this subreddit.
+
+        Have a nice day!
+
+        _If you strongly oppose this takedown and believe the moderators are likely to approve this post, please reply `Mod: I appeal` and elaborate in the next sentence. Otherwise, please reach out to u/{{author}} for further clarifications._
+
+        **Readers:** Do not use this command without reading [User Moderation](https://www.reddit.com/r/HomeworkHelp/wiki/user_moderation). Ignorance or incorrect interpretation of our rules will not excuse you from being dealt harshly for wrongful removals
+    comment_stickied: true
+    parent_submission:
+        reports: 2
+        action: filter
+---
+    #XP: Vote for rule #6 violation
+    type: comment
+    is_top_level: false
+    body (regex): ['\*{0,2}Mod:\*{0,2} u\/(\S+).+violates? rule (#?6|six)\n+\*{0,2}(R|r)eason:\*{0,2}(.+)']
+    comment: |
+        Hello u/{{match-body-2}},
+
+        ####I regret to inform you that the users in this subreddit have voted and determined that your post violates our subreddit rule:
+        > _**Rule 6: Don't be a jerk.**_
+        >
+        > Don't be a jerk. Jerks get banned.
+
+        u/{{author}}'s comments:
+        > {{match-body-5}}
+
+        ######This friendly takedown should be taken with gratitude because it has helped prevent a moderator from seeing this and taking action against you for rule violation
+
+        I encourage you to read up our rules so you are cognizant of how things work in this subreddit.
+
+        Have a nice day!
+
+        _If you strongly oppose this takedown and believe the moderators are likely to approve this post, please reply `Mod: I appeal` and elaborate in the next sentence. Otherwise, please reach out to u/{{author}} for further clarifications._
+
+        **Readers:** Do not use this command without reading [User Moderation](https://www.reddit.com/r/HomeworkHelp/wiki/user_moderation). Ignorance or incorrect interpretation of our rules will not excuse you from being dealt harshly for wrongful removals
+    comment_stickied: true
+    parent_submission:
+        reports: 4
+        action: filter
+---
+    #XP: Vote for rule #7 violation
+    type: comment
+    is_top_level: false
+    body (regex): ['\*{0,2}Mod:\*{0,2} u\/(\S+).+violates? rule (#?1|one)\n+\*{0,2}(R|r)eason:\*{0,2}(.+)']
+    comment: |
+        Hello u/{{match-body-2}},
+
+        ####I regret to inform you that the users in this subreddit have voted and determined that your post violates our subreddit rule:
+        > _**Rule 7: No offers or solicitations of payment.**_
+
+        u/{{author}}'s comments:
+        > {{match-body-5}}
+
+        ######This friendly takedown should be taken with gratitude because it has helped prevent a moderator from seeing this and taking action against you for rule violation
+
+        I encourage you to read up our rules so you are cognizant of how things work in this subreddit.
+
+        Have a nice day!
+
+        _If you strongly oppose this takedown and believe the moderators are likely to approve this post, please reply `Mod: I appeal` and elaborate in the next sentence. Otherwise, please reach out to u/{{author}} for further clarifications._
+
+        **Readers:** Do not use this command without reading [User Moderation](https://www.reddit.com/r/HomeworkHelp/wiki/user_moderation). Ignorance or incorrect interpretation of our rules will not excuse you from being dealt harshly for wrongful removals
+    comment_stickied: true
+    parent_submission:
+        reports: 2
+        action: filter
+---
+    #XP: Vote for rule #8 and #9 violation
+    type: comment
+    is_top_level: false
+    body (regex): ['\*{0,2}Mod:\*{0,2} u\/(\S+).+violates? rule (#?8|#?9|eight|nine)\n+\*{0,2}(R|r)eason:\*{0,2}(.+)']
+    comment: |
+        Hello u/{{match-body-2}},
+
+        ####I regret to inform you that the users in this subreddit have voted and determined that your post violates our subreddit rule:
+        > > - _**Rule 8: No advertisements of any form.**_
+        > >
+        > > This includes asking for "likes," page views, or similar things.
+        >
+        > > - _**Rule 9: No surveys. Take them to /r/samplesize.**_
+
+        u/{{author}}'s comments:
+        > {{match-body-5}}
+
+        ######This friendly takedown should be taken with gratitude because it has helped prevent a moderator from seeing this and taking action against you for rule violation
+
+        I encourage you to read up our rules so you are cognizant of how things work in this subreddit.
+
+        Have a nice day!
+
+        _If you strongly oppose this takedown and believe the moderators are likely to approve this post, please reply `Mod: I appeal` and elaborate in the next sentence. Otherwise, please reach out to u/{{author}} for further clarifications._
+
+        **Readers:** Do not use this command without reading [User Moderation](https://www.reddit.com/r/HomeworkHelp/wiki/user_moderation). Ignorance or incorrect interpretation of our rules will not excuse you from being dealt harshly for wrongful removals
+    comment_stickied: true
+    parent_submission:
+        reports: 1
+        action: filter
+--------------------------------------------------------------------
+        #Democratic Moderation END
+--------------------------------------------------------------------
