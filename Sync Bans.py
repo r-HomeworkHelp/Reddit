@@ -38,6 +38,8 @@ class Bot:
         if len(mod_relationship) != 1:
             print(f"No ban permissions for /r/{subreddit.display_name}, bans will NOT be synced here")
             return False
+        if subreddit.display_name == "u_" + USERNAME:
+            return False
         mod_permissions = mod_relationship[0].mod_permissions
         if "all" in mod_permissions or "access" in mod_permissions:
             print(f"Have ban permissions for /r/{subreddit.display_name}, bans will be synced here")
@@ -69,28 +71,29 @@ class Bot:
                     raise e
 
     def review_ban_lists(self):
+        # This is not optimal as it will try to reban all 
+        # potentially previously banned user on every startup
         for subreddit in self.moderated:
-            for action in subreddit.mod.log(action="banuser"):
-                banned_user = action.target_author
-                if banned_user in self.banned_users:
+            for ban in subreddit.banned():             
+                if ban in self.banned_users:
                     continue
-                if banned_user.lower() in map(str.lower, IGNORED_USERNAMES):
+                if ban.name.lower() in map(str.lower, IGNORED_USERNAMES):
                     continue
-                if GLOBAL_BAN_TAG in action.description:
-                    print(f"Found ban of /u/{banned_user} in {subreddit.display_name} by {action._mod}, banning in other subs")
-                    self.banned_users.add(banned_user)
+                if GLOBAL_BAN_TAG in ban.note:
+                    print(f"Found ban of /u/{ban.name} in {subreddit.display_name}, banning in other subs")
+                    self.banned_users.add(ban)
                     for sub_to_ban_in in self.moderated:
                         try:
-                            sub_to_ban_in.banned.add(banned_user, ban_reason=action.description, ban_message=BAN_USER_MESSAGE)
+                            sub_to_ban_in.banned.add(ban.name, ban_reason=ban.note, ban_message=BAN_USER_MESSAGE)
                             print(f"Now banned in {sub_to_ban_in.display_name}")
                         except APIException as e:
                             if e.error_type == "CANT_RESTRICT_MODERATOR":
-                                print(f"Tried to ban {banned_user} but they moderate the subreddit {sub_to_ban_in.display_name}")
+                                print(f"Tried to ban {ban.name} but they moderate the subreddit {sub_to_ban_in.display_name}")
                             else:
-                                print(f"Error while banning /u/{banned_user} in {sub_to_ban_in.display_name}")
+                                print(f"Error while banning /u/{ban.name} in {sub_to_ban_in.display_name}")
                                 print(e)
                         except Exception as e:
-                            print(f"Error while banning /u/{banned_user} in {sub_to_ban_in.display_name}")
+                            print(f"Error while banning /u/{ban.name} in {sub_to_ban_in.display_name}")
                             print(e)
 
     def run(self):
