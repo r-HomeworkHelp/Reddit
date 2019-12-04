@@ -70,18 +70,37 @@ class Bot:
                 if e.error_type != "NO_INVITE_FOUND":
                     raise e
 
+    def read_bans(self):
+        try:
+            f = open("ban_list.csv", "r")
+            content = f.readlines()
+            for line in content:
+                ban = [x.strip() for x in line.split(",")]
+                self.banned_users.add((ban[0], ban[1]))
+        except:
+            print("No ban list found. Creating the file.")
+            f = open("ban_list.csv", "w+")
+        finally:
+            f.close()
+            print("Following bans are registered:")
+            print(self.banned_users)
+
     def review_ban_lists(self):
         # This is not optimal as it will try to reban all 
         # potentially previously banned user on every startup
         for subreddit in self.moderated:
-            for ban in subreddit.banned():             
-                if ban in self.banned_users:
+            for ban in subreddit.banned():
+                banAndSub = (ban.name, subreddit.display_name)          
+                if banAndSub in self.banned_users:
                     continue
                 if ban.name.lower() in map(str.lower, IGNORED_USERNAMES):
                     continue
                 if GLOBAL_BAN_TAG in ban.note:
                     print(f"Found ban of /u/{ban.name} in {subreddit.display_name}, banning in other subs")
-                    self.banned_users.add(ban)
+                    self.banned_users.add(banAndSub)
+                    f = open("ban_list.csv", "a")
+                    f.write(banAndSub[0] + ", " + banAndSub[1] + "\n")
+                    f.close()
                     for sub_to_ban_in in self.moderated:
                         try:
                             sub_to_ban_in.banned.add(ban.name, ban_reason=ban.note, ban_message=BAN_USER_MESSAGE)
@@ -98,6 +117,7 @@ class Bot:
 
     def run(self):
         self.check_for_mod_invites()
+        self.read_bans()
         self.review_ban_lists()
 
 
