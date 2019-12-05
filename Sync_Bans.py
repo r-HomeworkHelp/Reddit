@@ -48,28 +48,6 @@ class Bot:
             print(f"No ban permissions for /r/{subreddit.display_name}, bans will NOT be synced here")
             return False
 
-    def check_for_mod_invites(self):
-        for message in self.r.inbox.unread(limit=None):
-            message.mark_read()
-
-            # filter out everything but PMs
-            if not isinstance(message, Message):
-                continue
-
-            # filter out messages not associated with a subreddit
-            if message.subreddit is None:
-                continue
-
-            try:
-                message.subreddit.mod.accept_invite()
-                print(f"Accepted invite to /r/{message.subreddit.display_name}")
-                if self.has_ban_permissions(message.subreddit):
-                    self.moderated.add(message.subreddit)
-            except APIException as e:
-                # Ignore NO_INVITE_FOUND errors, as it just means we got a normal modmail that we'll ignore
-                if e.error_type != "NO_INVITE_FOUND":
-                    raise e
-
     def read_bans(self):
         try:
             f = open("ban_list.csv", "r")
@@ -101,6 +79,7 @@ class Bot:
                     f = open("ban_list.csv", "a")
                     f.write(banAndSub[0] + ", " + banAndSub[1] + "\n")
                     f.close()
+
                     for sub_to_ban_in in self.moderated:
                         try:
                             sub_to_ban_in.banned.add(ban.name, ban_reason=ban.note, ban_message=BAN_USER_MESSAGE)
@@ -115,8 +94,7 @@ class Bot:
                             print(f"Error while banning /u/{ban.name} in {sub_to_ban_in.display_name}")
                             print(e)
 
-    def run(self):
-        self.check_for_mod_invites()
+    def run(self):      
         self.read_bans()
         self.review_ban_lists()
 
