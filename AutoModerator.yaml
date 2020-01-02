@@ -171,7 +171,16 @@
         "bc06d182-5f3a-11e9-aa3b-0ed0c6ac5038",
         "4bacad04-4c4c-11e9-83cd-0ebbc1e4ca72",
         "553dad32-4c4c-11e9-a3d5-0e8099e3fcb2",
-        "183f084a-a26e-11e9-ae18-0e4dd3622c68"]
+        "183f084a-a26e-11e9-ae18-0e4dd3622c68",
+        "270dc11c-1515-11ea-869f-0e977a19a62f",
+        "0d43518a-1523-11ea-8418-0e727d6e2445",
+        "a19aebb8-1578-11ea-8418-0e727d6e2445"]
+        ~flair_css_class: ["valuedcontributor",
+        "notablecontributor",
+        "topcontributor"]
+        ~flair_css_class: ["valuedcontributor",
+        "notablecontributor",
+        "topcontributor"]
         #account_age: < 30 days
     message_subject: Remember to re-flair your post as "✔ Answered!"
     message: |
@@ -200,6 +209,9 @@
         is_submitter: true
     parent_submission:
         set_locked: true
+        set_flair:
+            template_id: 473569e6-ae79-11e1-bd30-12313b088941
+        overwrite_flair: true
     comment: Done! This thread is now locked. :)
 ---
     # XP: Auto flair Chemistry
@@ -298,7 +310,13 @@
         "4bacad04-4c4c-11e9-83cd-0ebbc1e4ca72",
         "553dad32-4c4c-11e9-a3d5-0e8099e3fcb2",
         "183f084a-a26e-11e9-ae18-0e4dd3622c68",
+        "270dc11c-1515-11ea-869f-0e977a19a62f",
+        "0d43518a-1523-11ea-8418-0e727d6e2445",
+        "a19aebb8-1578-11ea-8418-0e727d6e2445",
         "fd2680c8-02c2-11ea-af3f-0e55f7a67683"]
+        ~flair_css_class: ["valuedcontributor",
+        "notablecontributor",
+        "topcontributor"]
         set_flair:
                 template_id: fd2680c8-02c2-11ea-af3f-0e55f7a67683
         overwrite_flair: false
@@ -370,7 +388,13 @@
         "bc06d182-5f3a-11e9-aa3b-0ed0c6ac5038",
         "4bacad04-4c4c-11e9-83cd-0ebbc1e4ca72",
         "553dad32-4c4c-11e9-a3d5-0e8099e3fcb2",
-        "183f084a-a26e-11e9-ae18-0e4dd3622c68"]
+        "183f084a-a26e-11e9-ae18-0e4dd3622c68",
+        "270dc11c-1515-11ea-869f-0e977a19a62f",
+        "0d43518a-1523-11ea-8418-0e727d6e2445",
+        "a19aebb8-1578-11ea-8418-0e727d6e2445"]
+        ~flair_css_class: ["valuedcontributor",
+        "notablecontributor",
+        "topcontributor"]
         set_flair:
                 text: ":snoo_joy: Primary School Student (Grade 1-6)"
                 template_id: 33288604-4c4c-11e9-98b6-0e11653f4fc4
@@ -395,7 +419,13 @@
         "bc06d182-5f3a-11e9-aa3b-0ed0c6ac5038",
         "4bacad04-4c4c-11e9-83cd-0ebbc1e4ca72",
         "553dad32-4c4c-11e9-a3d5-0e8099e3fcb2",
-        "183f084a-a26e-11e9-ae18-0e4dd3622c68"]
+        "183f084a-a26e-11e9-ae18-0e4dd3622c68",
+        "270dc11c-1515-11ea-869f-0e977a19a62f",
+        "0d43518a-1523-11ea-8418-0e727d6e2445",
+        "a19aebb8-1578-11ea-8418-0e727d6e2445"]
+        ~flair_css_class: ["valuedcontributor",
+        "notablecontributor",
+        "topcontributor"]
         set_flair:
                 text: ":snoo_smile: Secondary School Student (Grade 7-11)"
                 template_id: 3a61705c-4c4c-11e9-8f3d-0e3820aba534
@@ -420,7 +450,13 @@
         "bc06d182-5f3a-11e9-aa3b-0ed0c6ac5038",
         "4bacad04-4c4c-11e9-83cd-0ebbc1e4ca72",
         "553dad32-4c4c-11e9-a3d5-0e8099e3fcb2",
-        "183f084a-a26e-11e9-ae18-0e4dd3622c68"]
+        "183f084a-a26e-11e9-ae18-0e4dd3622c68",
+        "270dc11c-1515-11ea-869f-0e977a19a62f",
+        "0d43518a-1523-11ea-8418-0e727d6e2445",
+        "a19aebb8-1578-11ea-8418-0e727d6e2445"]
+        ~flair_css_class: ["valuedcontributor",
+        "notablecontributor",
+        "topcontributor"]
         set_flair:
                 text: ":snoo_shrug: Pre-University (Grade 10-12/Further Education)"
                 template_id: 45b9b19e-4c4c-11e9-a32c-0e990aa34f58
@@ -445,7 +481,13 @@
         "bc06d182-5f3a-11e9-aa3b-0ed0c6ac5038",
         "4bacad04-4c4c-11e9-83cd-0ebbc1e4ca72",
         "553dad32-4c4c-11e9-a3d5-0e8099e3fcb2",
-        "183f084a-a26e-11e9-ae18-0e4dd3622c68"]
+        "183f084a-a26e-11e9-ae18-0e4dd3622c68",
+        "270dc11c-1515-11ea-869f-0e977a19a62f",
+        "0d43518a-1523-11ea-8418-0e727d6e2445",
+        "a19aebb8-1578-11ea-8418-0e727d6e2445"]
+        ~flair_css_class: ["valuedcontributor",
+        "notablecontributor",
+        "topcontributor"]
         set_flair:
                 text: ":snoo_simple_smile:University/College Student (Higher Education)"
                 template_id: bc06d182-5f3a-11e9-aa3b-0ed0c6ac5038
@@ -470,7 +512,13 @@
         "bc06d182-5f3a-11e9-aa3b-0ed0c6ac5038",
         "4bacad04-4c4c-11e9-83cd-0ebbc1e4ca72",
         "553dad32-4c4c-11e9-a3d5-0e8099e3fcb2",
-        "183f084a-a26e-11e9-ae18-0e4dd3622c68"]
+        "183f084a-a26e-11e9-ae18-0e4dd3622c68",
+        "270dc11c-1515-11ea-869f-0e977a19a62f",
+        "0d43518a-1523-11ea-8418-0e727d6e2445",
+        "a19aebb8-1578-11ea-8418-0e727d6e2445"]
+        ~flair_css_class: ["valuedcontributor",
+        "notablecontributor",
+        "topcontributor"]
         set_flair:
                 text: ":hamster: PSLE Candidate"
                 template_id: f52eff54-4c4b-11e9-b5ae-0e3820aba534
@@ -495,7 +543,13 @@
         "bc06d182-5f3a-11e9-aa3b-0ed0c6ac5038",
         "4bacad04-4c4c-11e9-83cd-0ebbc1e4ca72",
         "553dad32-4c4c-11e9-a3d5-0e8099e3fcb2",
-        "183f084a-a26e-11e9-ae18-0e4dd3622c68"]
+        "183f084a-a26e-11e9-ae18-0e4dd3622c68",
+        "270dc11c-1515-11ea-869f-0e977a19a62f",
+        "0d43518a-1523-11ea-8418-0e727d6e2445",
+        "a19aebb8-1578-11ea-8418-0e727d6e2445"]
+        ~flair_css_class: ["valuedcontributor",
+        "notablecontributor",
+        "topcontributor"]
         set_flair:
                 text: ":kappa: CBSE Candidate"
                 template_id: 9810ca02-d52e-11e9-943e-0edaf10a785a
@@ -520,7 +574,13 @@
         "bc06d182-5f3a-11e9-aa3b-0ed0c6ac5038",
         "4bacad04-4c4c-11e9-83cd-0ebbc1e4ca72",
         "553dad32-4c4c-11e9-a3d5-0e8099e3fcb2",
-        "183f084a-a26e-11e9-ae18-0e4dd3622c68"]
+        "183f084a-a26e-11e9-ae18-0e4dd3622c68",
+        "270dc11c-1515-11ea-869f-0e977a19a62f",
+        "0d43518a-1523-11ea-8418-0e727d6e2445",
+        "a19aebb8-1578-11ea-8418-0e727d6e2445"]
+        ~flair_css_class: ["valuedcontributor",
+        "notablecontributor",
+        "topcontributor"]
         set_flair:
                 text: ":cat_blep: GCSE Candidate"
                 template_id: 4741b0c2-d52f-11e9-a245-0ecc928c0770
@@ -545,7 +605,13 @@
         "bc06d182-5f3a-11e9-aa3b-0ed0c6ac5038",
         "4bacad04-4c4c-11e9-83cd-0ebbc1e4ca72",
         "553dad32-4c4c-11e9-a3d5-0e8099e3fcb2",
-        "183f084a-a26e-11e9-ae18-0e4dd3622c68"]
+        "183f084a-a26e-11e9-ae18-0e4dd3622c68",
+        "270dc11c-1515-11ea-869f-0e977a19a62f",
+        "0d43518a-1523-11ea-8418-0e727d6e2445",
+        "a19aebb8-1578-11ea-8418-0e727d6e2445"]
+        ~flair_css_class: ["valuedcontributor",
+        "notablecontributor",
+        "topcontributor"]
         set_flair:
                 text: ":doge: 'O' Level Candidate"
                 template_id: da2f6b80-4c4b-11e9-8275-0eba9e62db4e
@@ -570,7 +636,13 @@
         "bc06d182-5f3a-11e9-aa3b-0ed0c6ac5038",
         "4bacad04-4c4c-11e9-83cd-0ebbc1e4ca72",
         "553dad32-4c4c-11e9-a3d5-0e8099e3fcb2",
-        "183f084a-a26e-11e9-ae18-0e4dd3622c68"]
+        "183f084a-a26e-11e9-ae18-0e4dd3622c68",
+        "270dc11c-1515-11ea-869f-0e977a19a62f",
+        "0d43518a-1523-11ea-8418-0e727d6e2445",
+        "a19aebb8-1578-11ea-8418-0e727d6e2445"]
+        ~flair_css_class: ["valuedcontributor",
+        "notablecontributor",
+        "topcontributor"]
         set_flair:
                 text: ":pupper: AP Student"
                 template_id: 8dc4b2a4-ce29-11e9-9236-0e0acfc54a5a
@@ -595,7 +667,13 @@
         "bc06d182-5f3a-11e9-aa3b-0ed0c6ac5038",
         "4bacad04-4c4c-11e9-83cd-0ebbc1e4ca72",
         "553dad32-4c4c-11e9-a3d5-0e8099e3fcb2",
-        "183f084a-a26e-11e9-ae18-0e4dd3622c68"]
+        "183f084a-a26e-11e9-ae18-0e4dd3622c68",
+        "270dc11c-1515-11ea-869f-0e977a19a62f",
+        "0d43518a-1523-11ea-8418-0e727d6e2445",
+        "a19aebb8-1578-11ea-8418-0e727d6e2445"]
+        ~flair_css_class: ["valuedcontributor",
+        "notablecontributor",
+        "topcontributor"]
         set_flair:
                 text: ":partyparrot: AS Level Candidate"
                 template_id: e6a42c86-d52e-11e9-99f2-0ea4ea416f14
@@ -620,7 +698,13 @@
         "bc06d182-5f3a-11e9-aa3b-0ed0c6ac5038",
         "4bacad04-4c4c-11e9-83cd-0ebbc1e4ca72",
         "553dad32-4c4c-11e9-a3d5-0e8099e3fcb2",
-        "183f084a-a26e-11e9-ae18-0e4dd3622c68"]
+        "183f084a-a26e-11e9-ae18-0e4dd3622c68",
+        "270dc11c-1515-11ea-869f-0e977a19a62f",
+        "0d43518a-1523-11ea-8418-0e727d6e2445",
+        "a19aebb8-1578-11ea-8418-0e727d6e2445"]
+        ~flair_css_class: ["valuedcontributor",
+        "notablecontributor",
+        "topcontributor"]
         set_flair:
                 text: ":orly: 'A' Level Candidate"
                 template_id: dff4491e-4c4b-11e9-945b-0e44d0af0afc
@@ -645,7 +729,13 @@
         "bc06d182-5f3a-11e9-aa3b-0ed0c6ac5038",
         "4bacad04-4c4c-11e9-83cd-0ebbc1e4ca72",
         "553dad32-4c4c-11e9-a3d5-0e8099e3fcb2",
-        "183f084a-a26e-11e9-ae18-0e4dd3622c68"]
+        "183f084a-a26e-11e9-ae18-0e4dd3622c68",
+        "270dc11c-1515-11ea-869f-0e977a19a62f",
+        "0d43518a-1523-11ea-8418-0e727d6e2445",
+        "a19aebb8-1578-11ea-8418-0e727d6e2445"]
+        ~flair_css_class: ["valuedcontributor",
+        "notablecontributor",
+        "topcontributor"]
         set_flair:
                 text: ":redditgold: IB Candidate"
                 template_id: e614b96e-4c4b-11e9-8b14-0e3d58cc5582
@@ -880,6 +970,91 @@
                 template_id: 553dad32-4c4c-11e9-a3d5-0e8099e3fcb2
         overwrite_flair: true
     comment: 'Done! I have added "{{match}}" to your user flair.'
+---
+    # XP: First-time message to Valued Contributors
+    type: comment
+    body (regex): .*
+    author:
+        flair_css_class: "valuedcontributor"
+        ~flair_template_id: 270dc11c-1515-11ea-869f-0e977a19a62f
+        set_flair:
+                template_id: 270dc11c-1515-11ea-869f-0e977a19a62f
+        overwrite_flair: true
+    message_subject: Congratulations! You have been awarded the most prestigious user flair of this subreddit.
+    message: |
+        ###Dear u/{{name}},
+
+        On behalf of everyone at r/HomeworkHelp, we would like to commend you on your unrelenting dedication to providing high-quality academic assistance to all users in our community. You are a very positive influence to all Redditors for choosing to commit your time to help the struggling learners.
+
+        We hereby award you **Valued Contributor** user flair in recognition of your exceptional service of the highest order in any human endeavour.
+
+        In the near future, you will have exclusive privileges in this subreddit as a decorated subscriber.
+
+        We appreciate the effort you have put into your contributions in this subreddit. Please keep being amazing.
+
+        *Yours Sincerely,*
+
+        **r/HomeworkHelp Moderators Team**
+
+        **Disclaimer:** This is not a permanent flair. Your flair will be reviewed again in 30 days time and you must remain in the top 10 percentile to retain this status.
+
+        ^(**Don't like these flairs?** You can request an opt-out here: https://rhomeworkhelp.typeform.com/to/tUFJ0u)
+---
+    # XP: First-time message to Notable Contributors
+    type: comment
+    body (regex): .*
+    author:
+        flair_css_class: "notablecontributor"
+        ~flair_template_id: 0d43518a-1523-11ea-8418-0e727d6e2445
+        set_flair:
+                template_id: 0d43518a-1523-11ea-8418-0e727d6e2445
+        overwrite_flair: true
+    message_subject: Congratulations! You have been bestowed a prestigious user flair of r/HomeworkHelp
+    message: |
+        ###Greetings u/{{name}},
+
+        Your persistent dedication to volunteer your time for struggling learners has gotten our attention and thoroughly impressed us. Your work has a profound impact to the community at large for generations to come.
+
+        We hereby bestow upon you **Notable Contributor** flair, one of our highest user flair, for distinguished service of a high order.
+
+        In the near future, you will have exclusive privileges in this subreddit as a decorated subscriber.
+
+        On behalf of all learners you have helped, we thank you for the incredible contributions you have made to this subreddit. Please keep doing the good work.
+
+        *Yours Sincerely,*
+
+        **r/HomeworkHelp Moderators Team**
+
+        **Disclaimer:** This is not a permanent flair. Your flair will be reviewed again in 30 days time and you must remain in the top 20 percentile to retain this status.
+
+        ^(**Don't like these flairs?** You can request an opt-out here: https://rhomeworkhelp.typeform.com/to/tUFJ0u)
+---
+    # XP: First-time message to Top Contributors
+    type: comment
+    body (regex): .*
+    author:
+        flair_css_class: "topcontributor"
+        ~flair_template_id: a19aebb8-1578-11ea-8418-0e727d6e2445
+        set_flair:
+                template_id: a19aebb8-1578-11ea-8418-0e727d6e2445
+        overwrite_flair: true
+    message_subject: Congratulations! You have been bestowed a prestigious user flair of r/HomeworkHelp
+    message: |
+        ###Howdy!
+
+        Thanks so much for actively helping out users on r/HomeworkHelp. Your contributions is invaluable and will inspire others to be like you one day.
+
+        We hereby grant you **Top Contributor** user flair for distinguished service.
+
+        We look forward to your continued participation in r/HomeworkHelp and ultimately we would love to present you with more prestigious user flairs.
+
+        *Yours faithfully,*
+
+        **r/HomeworkHelp Moderators Team**
+
+        **Disclaimer:** This is not a permanent flair. Your flair will be reviewed again in 30 days time and you must remain in the top 30 percentile to retain this status.
+
+        ^(**Don't like these flairs?** You can request an opt-out here:  https://rhomeworkhelp.typeform.com/to/tUFJ0u)
 --------------------------------------------------------------------
         #Systematic Flairing START
 --------------------------------------------------------------------
