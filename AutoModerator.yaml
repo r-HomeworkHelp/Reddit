@@ -2,6 +2,7 @@
     reports: 5
     modmail: The above {{kind}} by /u/{{author}} has received 5 reports. Please investigate.
 ---
+    priority: 1
     title+body (includes-word): ["ass fuck","ass hole","assshole","black cock","boong","cockfucker","cocksucker","coonnass","Fuck off","fuck you","fuckass","fuckhole","gook","homoerotic","hore","negro","nigger","orgasim","penisfucker","son of a bitch","4r5e","5h1t","5hit","a55","anal","anus","ar5e","arrse","arse","ass","ass-fucker","asses","assfucker","assfukka","asshole","assholes","asswhole","a_s_s","b!tch","b00bs","b17ch","b1tch","ballbag","ballsack","bastard","bi+ch","biatch","bitch","bitcher","bitchers","bitches","bitchin","bitching","blow job","blowjob","blowjobs","boiolas","bollock","bollok","boner","boob","boobs","booobs","boooobs","booooobs","booooooobs","buceta","bunny fucker","buttmuch","buttplug","c0ck","c0cksucker","carpet muncher","cawk","chink","cipa","cl1t","cock-sucker","cockface","cockhead","cockmunch","cockmuncher","cocksuck" ,"cocksucked","cocksucker","cocksucking","cocksucks" ,"cocksuka","cocksukka","cok","cokmuncher","coksucka","coon","cox","crap","cum","cummer","cumming","cums","cumshot","cunilingus","cunillingus","cunnilingus","cunt","cuntlick" ,"cuntlicker","cuntlicking","cunts","cyalis","cyberfuc","cyberfuck","cyberfucked","cyberfucker","cyberfuckers","cyberfucking","d1ck","dick","dickhead","dink","dinks","dirsa","dlck","dog-fucker","doggin","dogging","donkeyribber","doosh","duche","dyke","f u c k","f u c k e r","f4nny","fag","fagging","faggitt","faggot","faggs","fagot","fagots","fags","fanny","fannyflaps","fannyfucker","fanyy","fatass","fcuk","fcuker","fcuking","feck","fecker","felching","fellate","fellatio","fingerfuck","fingerfucked","fingerfucker","fingerfuckers","fingerfucking","fingerfucks","fistfuck","fistfucked","fistfucker","fistfuckers","fistfucking","fistfuckings","fistfucks","flange","fook","fooker","fuck","fucka","fucked","fucker","fuckers","fuckhead","fuckheads","fuckin","fucking","fuckings","fuckingshitmotherfucker","fuckme","fucks","fuckwhit","fuckwit","fudge packer","fudgepacker","fuk","fuker","fukker","fukkin","fuks","fukwhit","fukwit","fux","fux0r","f_u_c_k","gangbang","gangbanged","gangbangs","gaylord","gaysex","goatse","hardcoresex","heshe","hoar","hoare","hoer","hore","hotsex","jack-off","jackoff","jap","jerk-off","jism","jiz","jizm","jizz,kawk","knob","knobead","knobed","knobend","knobhead","knobjocky","knobjokey","kock","kondum","kondums","kum","kummer","kumming","kums","kunilingus","l3i+ch","l3itch","labia","lmfao","m0f0","m0fo","m45terbate","ma5terb8","ma5terbate","masochist","master-bate","masterb8","masterbat*","masterbat3","mo-fo","mof0","mofo","mothafuck","mothafucka","mothafuckas","mothafuckaz","mothafucked","mothafucker","mothafuckers","mothafuckin","mothafucking","mothafuckings","mothafucks","motherfucker","motherfuck","motherfucked","motherfucker","motherfuckers","motherfuckin","motherfucking","motherfuckings","motherfuckka","motherfucks","muff","mutha","muthafecker","muthafuckker","muther","mutherfucker","n1gga","n1gger","nazi","nigg3r","nigg4h","nigga","niggah","niggas","niggaz","nigger","niggers","nob","nob jokey","nobhead","nobjocky","nobjokey","numbnuts","nutsack","p0rn","pawn","pecker","penisfucker","phonesex","phuck","phuk","phuked","phuking",phukked","phukking","phuks","phuq","pigfucker","pimpis","prick","pricks","pron","pube","pusse","pussi","pussies","pussy","pussys","retard","rimjaw","rimming","s hit","s.o.b.","sadist","schlong","scroat","scrote","sh!+","sh!t","sh1t","shag","shagger","shaggin","shagging","shemale","shi+","shit","shitdick","shite","shited","shitey","shitfuck","shitfull","shithead","shiting","shitings","shits","shitted","shitter","shitters","shitting","shittings","shitty","skank","slut","sluts","smegma","smut","snatch","son-of-a-bitch","spac","spunk","s_h_i_t","t1tt1e5","t1tties","teets","teez","testical","tit","titfuck","tits","titt","tittie5","tittiefucker","titties","tittyfuck","tittywank","titwank","tosser","turd","tw4t","twat","twathead","twatty","twunt","twunter","v14gra","v1gra","vagina","viagra","vulva","w00se","wang","wank","wanker","wanky","whoar","whore","willies","willy","xrated","xxx"]
     action: report
     action_reason: this {{kind}} contains inappropriate language
@@ -20,6 +21,7 @@
         Have a nice day!
 ---
     title+body (includes-word, regex): ["surveymonkey", "nsf[wl]", "not safe for (work|life)", "I will pay", "willing to pay", "venmo","paypal", "affordable prices","Luke", "Kylo", "Snoke", "professional essay writer", "quality homework help", "best paper writers", "by a professional writer", "affordable price", "academic writing assistance", "experienced tutor", "essay writing service", "We do your homework", "essay writing services", "writing coach", "plagiarism free", "hire me", "highly qualified writers", "upvote","up vote", "forms.gle", "survey"]
+    priority: 2
     type: submission
     action: filter
     action_reason: Potential Rule 8/9 Violation
@@ -46,41 +48,31 @@
 
         **Readers:** Do not use this command without reading [User Moderation](https://www.reddit.com/r/HomeworkHelp/wiki/user_moderation). Ignorance or incorrect interpretation of our rules will not excuse you from being dealt harshly for wrongful removals
 ---
+    priority: 1
     domain+body+title: [myessayhub.net, Edusson, chriswriter4, sedofreelancer, essayservice, gonerdify, mypenservices9, high-quality academic papers, ukwritershub, researchpapers247, studypool, writepaperforme, proessays, canadaessays, EssayPro, edenpapers, smwas86@gmail.com, relaxessay, twinprofs, ownessays, trusted_essays, paypal, venmo, homeworkminutes.com, Snappypapers, phwriters, essaytom, vortexessay, speedypaper, customwriting4you.com, papercoach, grand-essays.com, papersmaster.com, academiaresearchservices, solutoninn.com, myassignmenthelp.co.uk, chrome782, Studyansh, solutoninn.com, supertechwriting, writepaperfor.me, theeducationalists.com, onlineassignment.co.in, schoolsolver.com, nativecustomwriters.com, writershubplus.com, helpjelp.com, mentyor.com, essaycorp.com, submityourassignments.org, cognitioexperts, submityourassignments.com, peachyessay, youressaygirl.com, superbpaper, studydaddy, penmypaper, KwikNotes, msahomeworkhelp.com, calltutors, summoremath.com, 7dollaressay, WeBestassignmentexperts.com, Alainchippy@gmail.com, morainechiri@gmail.com, topGradsForHire@gmail.com, myessayhub]
     action: filter
     action_reason: Spam
 ---
     # XP: Minimum Text Needed
+    priority: 3
     type: text submission
     body_shorter_than: 200
+    comment_stickied: true
     comment: |
-        *Hey Readers!*
+        ##Off-topic Comments Section
 
-        This post looks incredibly short! ^(body: <200char) If this post violates our subreddit [rules](https://www.reddit.com/r/HomeworkHelp/about/rules), please **report** it and feel free to [manually trigger a takedown](https://www.reddit.com/r/HomeworkHelp/wiki/user_moderation).
+        ---
 
-        > ####Key Takeaways:
-        >
-        >
-        >
-        > * Post title must be structured to classify the question properly
-        > * Post must contain **instructor prompt** or or a **failed attempt of the question**
-        >   * *by stating the syllabus requirements or presenting incorrect working/thought process towards the question*
+        All top-level comments have to be an answer or follow-up question to the post. All sidetracks should be directed to this comment thread as per Rule 9.
 
-        **You may use me as a comment thread for this post.** Making irrelevant top-level comments could interfere with systematic flairing by falsely flagging an unanswered question as ***Pending OP Reply***, depriving OP of help in timely fashion. Join our chatrooms instead! ^(For PC users: see bottom of sidebar on Reddit redesign. For Reddit App users: see **Rooms**)
+        _**PS:** u/{{author}}, your post is incredibly short! ^(body <200 char) You are strongly advised to furnish us with more details._
 
-        How was your experience in this subreddit? Let us know how can we do better by taking part in our survey [here](https://fdier.co/0acnXZ).
+        ---
 
-        ######Pro-tips:
-
-        ^(1. Upvote questions that you recognise but you cannot do. Only downvote questions that do not abide by our rules or was asked in bad faith, NOT because the question is easy.)
-
-        ^(2. Comments containing case-insensitive `**Answer:**` or `**Hence**` will automatically re-flair post to **✔ Answered**; non-top level comments containing case-insensitive `**Therefore**` or `**Thus**` will automatically re-flair to ***—Pending OP Reply***)
-
-        ^(3. OPs can lock their thread by commenting `/lock`)
-
-        ^(4. If there is a rule violation, inform the OP and **report** the offending content. Posts will be automatically removed once it reaches a certain threshold of reports or it will be removed earlier if there is sufficient reports for manual takedown trigger. [Learn more](https://www.reddit.com/r/HomeworkHelp/comments/br7vi9/new_updates_image_posts_enabled_vote_to_delete/))
----
+        ^(**OP** and **Valued Contributors** can close this post by using `/lock` command)
+        ---
     # XP: Minimum Post Requirement - square/curly/round brackets
+    priority: 3
     type: submission
     ~title (includes, regex): ['((\[|\{)|^\().*(\]|}|\))']
     action: remove
@@ -120,61 +112,53 @@
         Thank you for your understanding!
 ---
     # XP: Approve u/HomeworkHelpBot
+    priority: 5
     type: comment
     author: HomeworkHelpBot
     parent_submission:
         body_longer_than: 199
     action: approve
 ---
-    # XP: Welcome comment
-#    type: submission
-#    body_longer_than: 200
-#    title (regex): \[.*\]
-#    comment: |
-#        *Hey Readers!*
-#
-#        If this post violates our subreddit [rules](https://www.reddit.com/r/HomeworkHelp/about/rules), please **report** it and feel free to [manually trigger a takedown](https://www.reddit.com/r/HomeworkHelp/wiki/user_moderation).
-#
-#        > ####Key Takeaways:
-        >
-        > * Post title must be structured to classify the question properly
-        > * Post must contain **instructor prompt** or or a **failed attempt of the question**
-        >   * *by stating the syllabus requirements or presenting incorrect working/thought process towards the question*
-#
-#        **You may use me as a comment thread for this post.** Making irrelevant top-level comments could interfere with systematic flairing by falsely flagging an unanswered question as ***Pending OP Reply***, depriving OP of help in timely fashion. Join our chatrooms instead! ^(For PC users: see bottom of sidebar on Reddit redesign. For Reddit App users: see **Rooms**)
-#
-#        ######Pro-tips:
-#
-#        ^(1. Upvote questions that you recognise but you cannot do. Only downvote questions that do not abide by our rules or was asked in bad faith, NOT because the question is easy.)
-#
-#        ^(2. Comments containing case-insensitive `**Answer:**` or `**Hence**` will automatically re-flair post to **✔ Answered**)
-#
-#        ^(3. OPs can lock their thread by commenting `/lock`
-#
-#        ^(4. If there is a rule violation, inform the OP and **report** the offending content. Posts will be automatically removed once it reaches a certain threshold of reports or it will be removed earlier if there is sufficient reports for manual takedown trigger. [Learn more](https://www.reddit.com/r/HomeworkHelp/comments/br7vi9/new_updates_image_posts_enabled_vote_to_delete/))
+    # XP: Off-topic Comments Section
+    priority: 3
+    type: submission
+    body_longer_than: 200
+    title (regex): \[.*\]
+    comment_stickied: true
+    comment: |
+        ##Off-topic Comments Section
+
+        ---
+
+        All top-level comments have to be an answer or follow-up question to the post. All sidetracks should be directed to this comment thread as per Rule 9.
+
+        ---
+
+        ^(**OP** and **Valued Contributors** can close this post by using `/lock` command)
 ---
     # XP: Remember to Mark as "Answered"
+    priority: 3
     type: submission
     title (regex): \[.*\]
     author:
-        ~flair_template_id: ["f52eff54-4c4b-11e9-b5ae-0e3820aba534",
-        "9810ca02-d52e-11e9-943e-0edaf10a785a",
-        "4741b0c2-d52f-11e9-a245-0ecc928c0770",
-        "da2f6b80-4c4b-11e9-8275-0eba9e62db4e",
-        "8dc4b2a4-ce29-11e9-9236-0e0acfc54a5a",
-        "e6a42c86-d52e-11e9-99f2-0ea4ea416f14",
-        "dff4491e-4c4b-11e9-945b-0e44d0af0afc",
-        "e614b96e-4c4b-11e9-8b14-0e3d58cc5582",
-        "33288604-4c4c-11e9-98b6-0e11653f4fc4",
-        "3a61705c-4c4c-11e9-8f3d-0e3820aba534",
-        "45b9b19e-4c4c-11e9-a32c-0e990aa34f58",
-        "bc06d182-5f3a-11e9-aa3b-0ed0c6ac5038",
-        "4bacad04-4c4c-11e9-83cd-0ebbc1e4ca72",
-        "553dad32-4c4c-11e9-a3d5-0e8099e3fcb2",
-        "183f084a-a26e-11e9-ae18-0e4dd3622c68",
-        "270dc11c-1515-11ea-869f-0e977a19a62f",
-        "0d43518a-1523-11ea-8418-0e727d6e2445",
-        "a19aebb8-1578-11ea-8418-0e727d6e2445"]
+        ~flair_template_id: ["f52eff54-4c4b-11e9-b5ae-0e3820aba534", #PSLE Candidate
+        "9810ca02-d52e-11e9-943e-0edaf10a785a", #CBSE Candidate
+        "4741b0c2-d52f-11e9-a245-0ecc928c0770", #GCSE Candidate
+        "da2f6b80-4c4b-11e9-8275-0eba9e62db4e", #'O' Level Candidate
+        "8dc4b2a4-ce29-11e9-9236-0e0acfc54a5a", #AP Student
+        "e6a42c86-d52e-11e9-99f2-0ea4ea416f14", #AS Level Candidate
+        "dff4491e-4c4b-11e9-945b-0e44d0af0afc", #'A' Level Candidate
+        "e614b96e-4c4b-11e9-8b14-0e3d58cc5582", #IB Candidate
+        "33288604-4c4c-11e9-98b6-0e11653f4fc4", #Primary School Student (Grade 1-6)
+        "3a61705c-4c4c-11e9-8f3d-0e3820aba534", #Secondary School Student (Grade 7-11)
+        "45b9b19e-4c4c-11e9-a32c-0e990aa34f58", #Pre-University (Grade 10-12/Further Education)
+        "bc06d182-5f3a-11e9-aa3b-0ed0c6ac5038", #University/College Student (Higher Education)
+        "4bacad04-4c4c-11e9-83cd-0ebbc1e4ca72", #Postgraduate Student
+        "553dad32-4c4c-11e9-a3d5-0e8099e3fcb2", #Educator (Mod-only)
+        "183f084a-a26e-11e9-ae18-0e4dd3622c68", #Tutor
+        "270dc11c-1515-11ea-869f-0e977a19a62f", #Valued Contributor
+        "0d43518a-1523-11ea-8418-0e727d6e2445", #Notable Contributor
+        "a19aebb8-1578-11ea-8418-0e727d6e2445"] #Top Contributor
         ~flair_css_class: ["valuedcontributor",
         "notablecontributor",
         "topcontributor"]
@@ -203,6 +187,7 @@
         _To stop receiving this PM notification, select an r/HomeworkHelp [user flair](https://www.reddithelp.com/en/categories/using-reddit/your-reddit-account/how-do-i-get-flair-textimage-next-my-username) for your profile._
 ---
     # XP: OP locks thread
+    priority: 4
     type: comment
     body: "/lock"
     author:
@@ -214,9 +199,37 @@
         overwrite_flair: true
     comment: Done! This thread is now locked. :)
 ---
+    # XP: Valued Contributor/Notable Contributor locks thread
+    priority: 4
+    type: comment
+    body: "/lock"
+    author:
+        flair_template_id: ["270dc11c-1515-11ea-869f-0e977a19a62f", #Valued Contributor
+        "0d43518a-1523-11ea-8418-0e727d6e2445"] #Notable Contributor
+    parent_submission:
+        set_locked: true
+        set_flair:
+            template_id: 473569e6-ae79-11e1-bd30-12313b088941
+        overwrite_flair: true
+    comment: |
+        Done! You have successfully locked this thread.
+
+        ^(To unlock this thread, **report** u/{{author}}'s comment above.)
+---
+    # XP: Undo Valued Contributor's lock command
+    priority: 4
+    type: comment
+    body: "/lock"
+    author:
+        flair_template_id: 270dc11c-1515-11ea-869f-0e977a19a62f
+    parent_submission:
+        set_locked: false
+    reports: 1
+    comment: Someone has requested this thread to be unlocked. This post is now open for comments again.
+---
     # XP: Auto flair Chemistry
+    priority: 3
     type: submission
-    priority: 1
     title+body (includes): Chemistry
     ~flair_text (regex): '.+'
     set_flair:
@@ -230,8 +243,8 @@
         Cheers!
 ---
     # XP: Auto flair Physics
+    priority: 3
     type: submission
-    priority: 1
     title+body (includes): Physics
     ~flair_text (regex): '.+'
     set_flair:
@@ -245,8 +258,8 @@
         Cheers!
 ---
     # XP: Auto flair E-Math
+    priority: 3
     type: submission
-    priority: 1
     title+body (includes, regex): ['E(-?|lementary ?)Math(ematics)?']
     ~flair_text (regex): '.+'
     set_flair:
@@ -260,8 +273,8 @@
         Cheers!
 ---
     # XP: Auto flair A-Math
+    priority: 3
     type: submission
-    priority: 1
     title+body (includes, regex): ['A(-?|lementary ?)Math(ematics)?']
     ~flair_text (regex): '.+'
     set_flair:
@@ -275,8 +288,8 @@
         Cheers!
 ---
     # XP: No flair
+    priority: 4
     type: submission
-    priority: -1
     ~flair_text (regex): '.+'
     message: |
         Hello {{author}},
@@ -290,30 +303,31 @@
         _This is a harmless notice. No action has taken or will be considered against posts that are not flaired._
 ---
     # XP: Auto user flair: too short comment
+    priority: 4
     type: comment
     body (regex): ['.*']
     body_shorter_than: 67
     is_top_level: true
     author:
-        ~flair_template_id: ["f52eff54-4c4b-11e9-b5ae-0e3820aba534",
-        "9810ca02-d52e-11e9-943e-0edaf10a785a",
-        "4741b0c2-d52f-11e9-a245-0ecc928c0770",
-        "da2f6b80-4c4b-11e9-8275-0eba9e62db4e",
-        "8dc4b2a4-ce29-11e9-9236-0e0acfc54a5a",
-        "e6a42c86-d52e-11e9-99f2-0ea4ea416f14",
-        "dff4491e-4c4b-11e9-945b-0e44d0af0afc",
-        "e614b96e-4c4b-11e9-8b14-0e3d58cc5582",
-        "33288604-4c4c-11e9-98b6-0e11653f4fc4",
-        "3a61705c-4c4c-11e9-8f3d-0e3820aba534",
-        "45b9b19e-4c4c-11e9-a32c-0e990aa34f58",
-        "bc06d182-5f3a-11e9-aa3b-0ed0c6ac5038",
-        "4bacad04-4c4c-11e9-83cd-0ebbc1e4ca72",
-        "553dad32-4c4c-11e9-a3d5-0e8099e3fcb2",
-        "183f084a-a26e-11e9-ae18-0e4dd3622c68",
-        "270dc11c-1515-11ea-869f-0e977a19a62f",
-        "0d43518a-1523-11ea-8418-0e727d6e2445",
-        "a19aebb8-1578-11ea-8418-0e727d6e2445",
-        "fd2680c8-02c2-11ea-af3f-0e55f7a67683"]
+        ~flair_template_id: ["f52eff54-4c4b-11e9-b5ae-0e3820aba534", #PSLE Candidate
+        "9810ca02-d52e-11e9-943e-0edaf10a785a", #CBSE Candidate
+        "4741b0c2-d52f-11e9-a245-0ecc928c0770", #GCSE Candidate
+        "da2f6b80-4c4b-11e9-8275-0eba9e62db4e", #'O' Level Candidate
+        "8dc4b2a4-ce29-11e9-9236-0e0acfc54a5a", #AP Student
+        "e6a42c86-d52e-11e9-99f2-0ea4ea416f14", #AS Level Candidate
+        "dff4491e-4c4b-11e9-945b-0e44d0af0afc", #'A' Level Candidate
+        "e614b96e-4c4b-11e9-8b14-0e3d58cc5582", #IB Candidate
+        "33288604-4c4c-11e9-98b6-0e11653f4fc4", #Primary School Student (Grade 1-6)
+        "3a61705c-4c4c-11e9-8f3d-0e3820aba534", #Secondary School Student (Grade 7-11)
+        "45b9b19e-4c4c-11e9-a32c-0e990aa34f58", #Pre-University (Grade 10-12/Further Education)
+        "bc06d182-5f3a-11e9-aa3b-0ed0c6ac5038", #University/College Student (Higher Education)
+        "4bacad04-4c4c-11e9-83cd-0ebbc1e4ca72", #Postgraduate Student
+        "553dad32-4c4c-11e9-a3d5-0e8099e3fcb2", #Educator (Mod only)
+        "183f084a-a26e-11e9-ae18-0e4dd3622c68", #Tutor
+        "270dc11c-1515-11ea-869f-0e977a19a62f", #Valued Contributor
+        "0d43518a-1523-11ea-8418-0e727d6e2445", #Notable Contributor
+        "a19aebb8-1578-11ea-8418-0e727d6e2445", #Top Contributor
+        "fd2680c8-02c2-11ea-af3f-0e55f7a67683"] #a fellow Redditor
         ~flair_css_class: ["valuedcontributor",
         "notablecontributor",
         "topcontributor"]
@@ -371,26 +385,27 @@
         *Have a pleasant day ahead!*
 ---
     # XP: Auto user flair: Primary School
+    priority: 4
     type: submission
     title (includes, regex): ['(?:Grade ?|Gr ?)(1|2|3|4|5|6)\b','(?:Year ?|Y|Yr ?)(2|3|4|5|6|7)\b','Pri(?:mary)? ?(1|2|3|4|5|6)\b']
     author:
-        ~flair_template_id: ["f52eff54-4c4b-11e9-b5ae-0e3820aba534",
-        "9810ca02-d52e-11e9-943e-0edaf10a785a",
-        "4741b0c2-d52f-11e9-a245-0ecc928c0770",
-        "da2f6b80-4c4b-11e9-8275-0eba9e62db4e",
-        "8dc4b2a4-ce29-11e9-9236-0e0acfc54a5a",
-        "e6a42c86-d52e-11e9-99f2-0ea4ea416f14",
-        "dff4491e-4c4b-11e9-945b-0e44d0af0afc",
-        "e614b96e-4c4b-11e9-8b14-0e3d58cc5582",
-        "33288604-4c4c-11e9-98b6-0e11653f4fc4",
-        "3a61705c-4c4c-11e9-8f3d-0e3820aba534",
-        "45b9b19e-4c4c-11e9-a32c-0e990aa34f58",
-        "bc06d182-5f3a-11e9-aa3b-0ed0c6ac5038",
-        "4bacad04-4c4c-11e9-83cd-0ebbc1e4ca72",
-        "553dad32-4c4c-11e9-a3d5-0e8099e3fcb2",
-        "183f084a-a26e-11e9-ae18-0e4dd3622c68",
-        "270dc11c-1515-11ea-869f-0e977a19a62f",
-        "0d43518a-1523-11ea-8418-0e727d6e2445",
+        ~flair_template_id: ["f52eff54-4c4b-11e9-b5ae-0e3820aba534", #PSLE Candidate
+        "9810ca02-d52e-11e9-943e-0edaf10a785a", #CBSE Candidate
+        "4741b0c2-d52f-11e9-a245-0ecc928c0770", #GCSE Candidate
+        "da2f6b80-4c4b-11e9-8275-0eba9e62db4e", #'O' Level Candidate
+        "8dc4b2a4-ce29-11e9-9236-0e0acfc54a5a", #AP Student
+        "e6a42c86-d52e-11e9-99f2-0ea4ea416f14", #AS Level Candidate
+        "dff4491e-4c4b-11e9-945b-0e44d0af0afc", #'A' Level Candidate
+        "e614b96e-4c4b-11e9-8b14-0e3d58cc5582", #IB Candidate
+        "33288604-4c4c-11e9-98b6-0e11653f4fc4", #Primary School Student (Grade 1-6)
+        "3a61705c-4c4c-11e9-8f3d-0e3820aba534", #Secondary School Student (Grade 7-11)
+        "45b9b19e-4c4c-11e9-a32c-0e990aa34f58", #Pre-University (Grade 10-12/Further Education)
+        "bc06d182-5f3a-11e9-aa3b-0ed0c6ac5038", #University/College Student (Higher Education)
+        "4bacad04-4c4c-11e9-83cd-0ebbc1e4ca72", #Postgraduate Student
+        "553dad32-4c4c-11e9-a3d5-0e8099e3fcb2", #Educator (Mod-only)
+        "183f084a-a26e-11e9-ae18-0e4dd3622c68", #Tutor
+        "270dc11c-1515-11ea-869f-0e977a19a62f", #Valued Contributor
+        "0d43518a-1523-11ea-8418-0e727d6e2445", #Notable Contributor
         "a19aebb8-1578-11ea-8418-0e727d6e2445"]
         ~flair_css_class: ["valuedcontributor",
         "notablecontributor",
@@ -402,27 +417,28 @@
         ~name: HomeworkHelpBot
 ---
     # XP: Auto user flair: Secondary School
+    priority: 4
     type: submission
     title (includes, regex): ['(?:Grade ?|Gr ?)(7|8|9|10)\b','(?:Year ?|Y|Yr ?)(8|9|10|11)\b','Sec(?:ondary)? ?(1|2|3|4|5)\b']
     author:
-        ~flair_template_id: ["f52eff54-4c4b-11e9-b5ae-0e3820aba534",
-        "9810ca02-d52e-11e9-943e-0edaf10a785a",
-        "4741b0c2-d52f-11e9-a245-0ecc928c0770",
-        "da2f6b80-4c4b-11e9-8275-0eba9e62db4e",
-        "8dc4b2a4-ce29-11e9-9236-0e0acfc54a5a",
-        "e6a42c86-d52e-11e9-99f2-0ea4ea416f14",
-        "dff4491e-4c4b-11e9-945b-0e44d0af0afc",
-        "e614b96e-4c4b-11e9-8b14-0e3d58cc5582",
-        "33288604-4c4c-11e9-98b6-0e11653f4fc4",
-        "3a61705c-4c4c-11e9-8f3d-0e3820aba534",
-        "45b9b19e-4c4c-11e9-a32c-0e990aa34f58",
-        "bc06d182-5f3a-11e9-aa3b-0ed0c6ac5038",
-        "4bacad04-4c4c-11e9-83cd-0ebbc1e4ca72",
-        "553dad32-4c4c-11e9-a3d5-0e8099e3fcb2",
-        "183f084a-a26e-11e9-ae18-0e4dd3622c68",
-        "270dc11c-1515-11ea-869f-0e977a19a62f",
-        "0d43518a-1523-11ea-8418-0e727d6e2445",
-        "a19aebb8-1578-11ea-8418-0e727d6e2445"]
+        ~flair_template_id: ["f52eff54-4c4b-11e9-b5ae-0e3820aba534", #PSLE Candidate
+        "9810ca02-d52e-11e9-943e-0edaf10a785a", #CBSE Candidate
+        "4741b0c2-d52f-11e9-a245-0ecc928c0770", #GCSE Candidate
+        "da2f6b80-4c4b-11e9-8275-0eba9e62db4e", #'O' Level Candidate
+        "8dc4b2a4-ce29-11e9-9236-0e0acfc54a5a", #AP Student
+        "e6a42c86-d52e-11e9-99f2-0ea4ea416f14", #AS Level Candidate
+        "dff4491e-4c4b-11e9-945b-0e44d0af0afc", #'A' Level Candidate
+        "e614b96e-4c4b-11e9-8b14-0e3d58cc5582", #IB Candidate
+        "33288604-4c4c-11e9-98b6-0e11653f4fc4", #Primary School Student (Grade 1-6)
+        "3a61705c-4c4c-11e9-8f3d-0e3820aba534", #Secondary School Student (Grade 7-11)
+        "45b9b19e-4c4c-11e9-a32c-0e990aa34f58", #Pre-University (Grade 10-12/Further Education)
+        "bc06d182-5f3a-11e9-aa3b-0ed0c6ac5038", #University/College Student (Higher Education)
+        "4bacad04-4c4c-11e9-83cd-0ebbc1e4ca72", #Postgraduate Student
+        "553dad32-4c4c-11e9-a3d5-0e8099e3fcb2", #Educator (Mod-only)
+        "183f084a-a26e-11e9-ae18-0e4dd3622c68", #Tutor
+        "270dc11c-1515-11ea-869f-0e977a19a62f", #Valued Contributor
+        "0d43518a-1523-11ea-8418-0e727d6e2445", #Notable Contributor
+        "a19aebb8-1578-11ea-8418-0e727d6e2445"] #Top Contributor
         ~flair_css_class: ["valuedcontributor",
         "notablecontributor",
         "topcontributor"]
@@ -433,27 +449,28 @@
         ~name: HomeworkHelpBot
 ---
     # XP: Auto user flair: Pre-university
+    priority: 4
     type: submission
     title (includes, regex): ['(?:Grade ?|Gr ?)(11|12)\b','(?:Year ?|Y|Yr ?)(12|13)\b','(?:JC|Junior College) ?(1|2)\b','Poly(?:technic)? (?:Y|y)(?:(?:R|r)|ear)? ?(1|2|3)\b','(Vocational|Trade) School']
     author:
-        ~flair_template_id: ["f52eff54-4c4b-11e9-b5ae-0e3820aba534",
-        "9810ca02-d52e-11e9-943e-0edaf10a785a",
-        "4741b0c2-d52f-11e9-a245-0ecc928c0770",
-        "da2f6b80-4c4b-11e9-8275-0eba9e62db4e",
-        "8dc4b2a4-ce29-11e9-9236-0e0acfc54a5a",
-        "e6a42c86-d52e-11e9-99f2-0ea4ea416f14",
-        "dff4491e-4c4b-11e9-945b-0e44d0af0afc",
-        "e614b96e-4c4b-11e9-8b14-0e3d58cc5582",
-        "33288604-4c4c-11e9-98b6-0e11653f4fc4",
-        "3a61705c-4c4c-11e9-8f3d-0e3820aba534",
-        "45b9b19e-4c4c-11e9-a32c-0e990aa34f58",
-        "bc06d182-5f3a-11e9-aa3b-0ed0c6ac5038",
-        "4bacad04-4c4c-11e9-83cd-0ebbc1e4ca72",
-        "553dad32-4c4c-11e9-a3d5-0e8099e3fcb2",
-        "183f084a-a26e-11e9-ae18-0e4dd3622c68",
-        "270dc11c-1515-11ea-869f-0e977a19a62f",
-        "0d43518a-1523-11ea-8418-0e727d6e2445",
-        "a19aebb8-1578-11ea-8418-0e727d6e2445"]
+        ~flair_template_id: ["f52eff54-4c4b-11e9-b5ae-0e3820aba534", #PSLE Candidate
+        "9810ca02-d52e-11e9-943e-0edaf10a785a", #CBSE Candidate
+        "4741b0c2-d52f-11e9-a245-0ecc928c0770", #GCSE Candidate
+        "da2f6b80-4c4b-11e9-8275-0eba9e62db4e", #'O' Level Candidate
+        "8dc4b2a4-ce29-11e9-9236-0e0acfc54a5a", #AP Student
+        "e6a42c86-d52e-11e9-99f2-0ea4ea416f14", #AS Level Candidate
+        "dff4491e-4c4b-11e9-945b-0e44d0af0afc", #'A' Level Candidate
+        "e614b96e-4c4b-11e9-8b14-0e3d58cc5582", #IB Candidate
+        "33288604-4c4c-11e9-98b6-0e11653f4fc4", #Primary School Student (Grade 1-6)
+        "3a61705c-4c4c-11e9-8f3d-0e3820aba534", #Secondary School Student (Grade 7-11)
+        "45b9b19e-4c4c-11e9-a32c-0e990aa34f58", #Pre-University (Grade 10-12/Further Education)
+        "bc06d182-5f3a-11e9-aa3b-0ed0c6ac5038", #University/College Student (Higher Education)
+        "4bacad04-4c4c-11e9-83cd-0ebbc1e4ca72", #Postgraduate Student
+        "553dad32-4c4c-11e9-a3d5-0e8099e3fcb2", #Educator (Mod-only)
+        "183f084a-a26e-11e9-ae18-0e4dd3622c68", #Tutor
+        "270dc11c-1515-11ea-869f-0e977a19a62f", #Valued Contributor
+        "0d43518a-1523-11ea-8418-0e727d6e2445", #Notable Contributor
+        "a19aebb8-1578-11ea-8418-0e727d6e2445"] #Top Contributor
         ~flair_css_class: ["valuedcontributor",
         "notablecontributor",
         "topcontributor"]
@@ -464,27 +481,28 @@
         ~name: HomeworkHelpBot
 ---
     # XP: Auto user flair: University/College
+    priority: 4
     type: submission
     title (includes): ['University','College','Uni']
     author:
-        ~flair_template_id: ["f52eff54-4c4b-11e9-b5ae-0e3820aba534",
-        "9810ca02-d52e-11e9-943e-0edaf10a785a",
-        "4741b0c2-d52f-11e9-a245-0ecc928c0770",
-        "da2f6b80-4c4b-11e9-8275-0eba9e62db4e",
-        "8dc4b2a4-ce29-11e9-9236-0e0acfc54a5a",
-        "e6a42c86-d52e-11e9-99f2-0ea4ea416f14",
-        "dff4491e-4c4b-11e9-945b-0e44d0af0afc",
-        "e614b96e-4c4b-11e9-8b14-0e3d58cc5582",
-        "33288604-4c4c-11e9-98b6-0e11653f4fc4",
-        "3a61705c-4c4c-11e9-8f3d-0e3820aba534",
-        "45b9b19e-4c4c-11e9-a32c-0e990aa34f58",
-        "bc06d182-5f3a-11e9-aa3b-0ed0c6ac5038",
-        "4bacad04-4c4c-11e9-83cd-0ebbc1e4ca72",
-        "553dad32-4c4c-11e9-a3d5-0e8099e3fcb2",
-        "183f084a-a26e-11e9-ae18-0e4dd3622c68",
-        "270dc11c-1515-11ea-869f-0e977a19a62f",
-        "0d43518a-1523-11ea-8418-0e727d6e2445",
-        "a19aebb8-1578-11ea-8418-0e727d6e2445"]
+        ~flair_template_id: ["f52eff54-4c4b-11e9-b5ae-0e3820aba534", #PSLE Candidate
+        "9810ca02-d52e-11e9-943e-0edaf10a785a", #CBSE Candidate
+        "4741b0c2-d52f-11e9-a245-0ecc928c0770", #GCSE Candidate
+        "da2f6b80-4c4b-11e9-8275-0eba9e62db4e", #'O' Level Candidate
+        "8dc4b2a4-ce29-11e9-9236-0e0acfc54a5a", #AP Student
+        "e6a42c86-d52e-11e9-99f2-0ea4ea416f14", #AS Level Candidate
+        "dff4491e-4c4b-11e9-945b-0e44d0af0afc", #'A' Level Candidate
+        "e614b96e-4c4b-11e9-8b14-0e3d58cc5582", #IB Candidate
+        "33288604-4c4c-11e9-98b6-0e11653f4fc4", #Primary School Student (Grade 1-6)
+        "3a61705c-4c4c-11e9-8f3d-0e3820aba534", #Secondary School Student (Grade 7-11)
+        "45b9b19e-4c4c-11e9-a32c-0e990aa34f58", #Pre-University (Grade 10-12/Further Education)
+        "bc06d182-5f3a-11e9-aa3b-0ed0c6ac5038", #University/College Student (Higher Education)
+        "4bacad04-4c4c-11e9-83cd-0ebbc1e4ca72", #Postgraduate Student
+        "553dad32-4c4c-11e9-a3d5-0e8099e3fcb2", #Educator (Mod-only)
+        "183f084a-a26e-11e9-ae18-0e4dd3622c68", #Tutor
+        "270dc11c-1515-11ea-869f-0e977a19a62f", #Valued Contributor
+        "0d43518a-1523-11ea-8418-0e727d6e2445", #Notable Contributor
+        "a19aebb8-1578-11ea-8418-0e727d6e2445"] #Top Contributor
         ~flair_css_class: ["valuedcontributor",
         "notablecontributor",
         "topcontributor"]
@@ -495,27 +513,28 @@
         ~name: HomeworkHelpBot
 ---
     # XP: Auto user flair: PSLE Candidate
+    priority: 4
     type: submission
     title (includes, regex): ['PSLE\b']
     author:
-        ~flair_template_id: ["f52eff54-4c4b-11e9-b5ae-0e3820aba534",
-        "9810ca02-d52e-11e9-943e-0edaf10a785a",
-        "4741b0c2-d52f-11e9-a245-0ecc928c0770",
-        "da2f6b80-4c4b-11e9-8275-0eba9e62db4e",
-        "8dc4b2a4-ce29-11e9-9236-0e0acfc54a5a",
-        "e6a42c86-d52e-11e9-99f2-0ea4ea416f14",
-        "dff4491e-4c4b-11e9-945b-0e44d0af0afc",
-        "e614b96e-4c4b-11e9-8b14-0e3d58cc5582",
-        "33288604-4c4c-11e9-98b6-0e11653f4fc4",
-        "3a61705c-4c4c-11e9-8f3d-0e3820aba534",
-        "45b9b19e-4c4c-11e9-a32c-0e990aa34f58",
-        "bc06d182-5f3a-11e9-aa3b-0ed0c6ac5038",
-        "4bacad04-4c4c-11e9-83cd-0ebbc1e4ca72",
-        "553dad32-4c4c-11e9-a3d5-0e8099e3fcb2",
-        "183f084a-a26e-11e9-ae18-0e4dd3622c68",
-        "270dc11c-1515-11ea-869f-0e977a19a62f",
-        "0d43518a-1523-11ea-8418-0e727d6e2445",
-        "a19aebb8-1578-11ea-8418-0e727d6e2445"]
+        ~flair_template_id: ["f52eff54-4c4b-11e9-b5ae-0e3820aba534", #PSLE Candidate
+        "9810ca02-d52e-11e9-943e-0edaf10a785a", #CBSE Candidate
+        "4741b0c2-d52f-11e9-a245-0ecc928c0770", #GCSE Candidate
+        "da2f6b80-4c4b-11e9-8275-0eba9e62db4e", #'O' Level Candidate
+        "8dc4b2a4-ce29-11e9-9236-0e0acfc54a5a", #AP Student
+        "e6a42c86-d52e-11e9-99f2-0ea4ea416f14", #AS Level Candidate
+        "dff4491e-4c4b-11e9-945b-0e44d0af0afc", #'A' Level Candidate
+        "e614b96e-4c4b-11e9-8b14-0e3d58cc5582", #IB Candidate
+        "33288604-4c4c-11e9-98b6-0e11653f4fc4", #Primary School Student (Grade 1-6)
+        "3a61705c-4c4c-11e9-8f3d-0e3820aba534", #Secondary School Student (Grade 7-11)
+        "45b9b19e-4c4c-11e9-a32c-0e990aa34f58", #Pre-University (Grade 10-12/Further Education)
+        "bc06d182-5f3a-11e9-aa3b-0ed0c6ac5038", #University/College Student (Higher Education)
+        "4bacad04-4c4c-11e9-83cd-0ebbc1e4ca72", #Postgraduate Student
+        "553dad32-4c4c-11e9-a3d5-0e8099e3fcb2", #Educator (Mod-only)
+        "183f084a-a26e-11e9-ae18-0e4dd3622c68", #Tutor
+        "270dc11c-1515-11ea-869f-0e977a19a62f", #Valued Contributor
+        "0d43518a-1523-11ea-8418-0e727d6e2445", #Notable Contributor
+        "a19aebb8-1578-11ea-8418-0e727d6e2445"] #Top Contributor
         ~flair_css_class: ["valuedcontributor",
         "notablecontributor",
         "topcontributor"]
@@ -526,27 +545,28 @@
         ~name: HomeworkHelpBot
 ---
     # XP: Auto user flair: CBSE Candidate
+    priority: 4
     type: submission
     title (includes, regex): ['CBSE\b']
     author:
-        ~flair_template_id: ["f52eff54-4c4b-11e9-b5ae-0e3820aba534",
-        "9810ca02-d52e-11e9-943e-0edaf10a785a",
-        "4741b0c2-d52f-11e9-a245-0ecc928c0770",
-        "da2f6b80-4c4b-11e9-8275-0eba9e62db4e",
-        "8dc4b2a4-ce29-11e9-9236-0e0acfc54a5a",
-        "e6a42c86-d52e-11e9-99f2-0ea4ea416f14",
-        "dff4491e-4c4b-11e9-945b-0e44d0af0afc",
-        "e614b96e-4c4b-11e9-8b14-0e3d58cc5582",
-        "33288604-4c4c-11e9-98b6-0e11653f4fc4",
-        "3a61705c-4c4c-11e9-8f3d-0e3820aba534",
-        "45b9b19e-4c4c-11e9-a32c-0e990aa34f58",
-        "bc06d182-5f3a-11e9-aa3b-0ed0c6ac5038",
-        "4bacad04-4c4c-11e9-83cd-0ebbc1e4ca72",
-        "553dad32-4c4c-11e9-a3d5-0e8099e3fcb2",
-        "183f084a-a26e-11e9-ae18-0e4dd3622c68",
-        "270dc11c-1515-11ea-869f-0e977a19a62f",
-        "0d43518a-1523-11ea-8418-0e727d6e2445",
-        "a19aebb8-1578-11ea-8418-0e727d6e2445"]
+        ~flair_template_id: ["f52eff54-4c4b-11e9-b5ae-0e3820aba534", #PSLE Candidate
+        "9810ca02-d52e-11e9-943e-0edaf10a785a", #CBSE Candidate
+        "4741b0c2-d52f-11e9-a245-0ecc928c0770", #GCSE Candidate
+        "da2f6b80-4c4b-11e9-8275-0eba9e62db4e", #'O' Level Candidate
+        "8dc4b2a4-ce29-11e9-9236-0e0acfc54a5a", #AP Student
+        "e6a42c86-d52e-11e9-99f2-0ea4ea416f14", #AS Level Candidate
+        "dff4491e-4c4b-11e9-945b-0e44d0af0afc", #'A' Level Candidate
+        "e614b96e-4c4b-11e9-8b14-0e3d58cc5582", #IB Candidate
+        "33288604-4c4c-11e9-98b6-0e11653f4fc4", #Primary School Student (Grade 1-6)
+        "3a61705c-4c4c-11e9-8f3d-0e3820aba534", #Secondary School Student (Grade 7-11)
+        "45b9b19e-4c4c-11e9-a32c-0e990aa34f58", #Pre-University (Grade 10-12/Further Education)
+        "bc06d182-5f3a-11e9-aa3b-0ed0c6ac5038", #University/College Student (Higher Education)
+        "4bacad04-4c4c-11e9-83cd-0ebbc1e4ca72", #Postgraduate Student
+        "553dad32-4c4c-11e9-a3d5-0e8099e3fcb2", #Educator (Mod-only)
+        "183f084a-a26e-11e9-ae18-0e4dd3622c68", #Tutor
+        "270dc11c-1515-11ea-869f-0e977a19a62f", #Valued Contributor
+        "0d43518a-1523-11ea-8418-0e727d6e2445", #Notable Contributor
+        "a19aebb8-1578-11ea-8418-0e727d6e2445"] #Top Contributor
         ~flair_css_class: ["valuedcontributor",
         "notablecontributor",
         "topcontributor"]
@@ -557,27 +577,28 @@
         ~name: HomeworkHelpBot
 ---
     # XP: Auto user flair: GCSE Candidate
+    priority: 4
     type: submission
     title (includes, regex): ['GCSE\b']
     author:
-        ~flair_template_id: ["f52eff54-4c4b-11e9-b5ae-0e3820aba534",
-        "9810ca02-d52e-11e9-943e-0edaf10a785a",
-        "4741b0c2-d52f-11e9-a245-0ecc928c0770",
-        "da2f6b80-4c4b-11e9-8275-0eba9e62db4e",
-        "8dc4b2a4-ce29-11e9-9236-0e0acfc54a5a",
-        "e6a42c86-d52e-11e9-99f2-0ea4ea416f14",
-        "dff4491e-4c4b-11e9-945b-0e44d0af0afc",
-        "e614b96e-4c4b-11e9-8b14-0e3d58cc5582",
-        "33288604-4c4c-11e9-98b6-0e11653f4fc4",
-        "3a61705c-4c4c-11e9-8f3d-0e3820aba534",
-        "45b9b19e-4c4c-11e9-a32c-0e990aa34f58",
-        "bc06d182-5f3a-11e9-aa3b-0ed0c6ac5038",
-        "4bacad04-4c4c-11e9-83cd-0ebbc1e4ca72",
-        "553dad32-4c4c-11e9-a3d5-0e8099e3fcb2",
-        "183f084a-a26e-11e9-ae18-0e4dd3622c68",
-        "270dc11c-1515-11ea-869f-0e977a19a62f",
-        "0d43518a-1523-11ea-8418-0e727d6e2445",
-        "a19aebb8-1578-11ea-8418-0e727d6e2445"]
+        ~flair_template_id: ["f52eff54-4c4b-11e9-b5ae-0e3820aba534", #PSLE Candidate
+        "9810ca02-d52e-11e9-943e-0edaf10a785a", #CBSE Candidate
+        "4741b0c2-d52f-11e9-a245-0ecc928c0770", #GCSE Candidate
+        "da2f6b80-4c4b-11e9-8275-0eba9e62db4e", #'O' Level Candidate
+        "8dc4b2a4-ce29-11e9-9236-0e0acfc54a5a", #AP Student
+        "e6a42c86-d52e-11e9-99f2-0ea4ea416f14", #AS Level Candidate
+        "dff4491e-4c4b-11e9-945b-0e44d0af0afc", #'A' Level Candidate
+        "e614b96e-4c4b-11e9-8b14-0e3d58cc5582", #IB Candidate
+        "33288604-4c4c-11e9-98b6-0e11653f4fc4", #Primary School Student (Grade 1-6)
+        "3a61705c-4c4c-11e9-8f3d-0e3820aba534", #Secondary School Student (Grade 7-11)
+        "45b9b19e-4c4c-11e9-a32c-0e990aa34f58", #Pre-University (Grade 10-12/Further Education)
+        "bc06d182-5f3a-11e9-aa3b-0ed0c6ac5038", #University/College Student (Higher Education)
+        "4bacad04-4c4c-11e9-83cd-0ebbc1e4ca72", #Postgraduate Student
+        "553dad32-4c4c-11e9-a3d5-0e8099e3fcb2", #Educator (Mod-only)
+        "183f084a-a26e-11e9-ae18-0e4dd3622c68", #Tutor
+        "270dc11c-1515-11ea-869f-0e977a19a62f", #Valued Contributor
+        "0d43518a-1523-11ea-8418-0e727d6e2445", #Notable Contributor
+        "a19aebb8-1578-11ea-8418-0e727d6e2445"] #Top Contributor
         ~flair_css_class: ["valuedcontributor",
         "notablecontributor",
         "topcontributor"]
@@ -588,27 +609,28 @@
         ~name: HomeworkHelpBot
 ---
     # XP: Auto user flair: 'O' Level Candidate
+    priority: 4
     type: submission
     title (includes, regex): ['(?:GCE ?|)''?O(?:-|'' | ?)(?:L|l)(?:e|E)(?:v|V)(?:e|E)(?:l|L)']
     author:
-        ~flair_template_id: ["f52eff54-4c4b-11e9-b5ae-0e3820aba534",
-        "9810ca02-d52e-11e9-943e-0edaf10a785a",
-        "4741b0c2-d52f-11e9-a245-0ecc928c0770",
-        "da2f6b80-4c4b-11e9-8275-0eba9e62db4e",
-        "8dc4b2a4-ce29-11e9-9236-0e0acfc54a5a",
-        "e6a42c86-d52e-11e9-99f2-0ea4ea416f14",
-        "dff4491e-4c4b-11e9-945b-0e44d0af0afc",
-        "e614b96e-4c4b-11e9-8b14-0e3d58cc5582",
-        "33288604-4c4c-11e9-98b6-0e11653f4fc4",
-        "3a61705c-4c4c-11e9-8f3d-0e3820aba534",
-        "45b9b19e-4c4c-11e9-a32c-0e990aa34f58",
-        "bc06d182-5f3a-11e9-aa3b-0ed0c6ac5038",
-        "4bacad04-4c4c-11e9-83cd-0ebbc1e4ca72",
-        "553dad32-4c4c-11e9-a3d5-0e8099e3fcb2",
-        "183f084a-a26e-11e9-ae18-0e4dd3622c68",
-        "270dc11c-1515-11ea-869f-0e977a19a62f",
-        "0d43518a-1523-11ea-8418-0e727d6e2445",
-        "a19aebb8-1578-11ea-8418-0e727d6e2445"]
+        ~flair_template_id: ["f52eff54-4c4b-11e9-b5ae-0e3820aba534", #PSLE Candidate
+        "9810ca02-d52e-11e9-943e-0edaf10a785a", #CBSE Candidate
+        "4741b0c2-d52f-11e9-a245-0ecc928c0770", #GCSE Candidate
+        "da2f6b80-4c4b-11e9-8275-0eba9e62db4e", #'O' Level Candidate
+        "8dc4b2a4-ce29-11e9-9236-0e0acfc54a5a", #AP Student
+        "e6a42c86-d52e-11e9-99f2-0ea4ea416f14", #AS Level Candidate
+        "dff4491e-4c4b-11e9-945b-0e44d0af0afc", #'A' Level Candidate
+        "e614b96e-4c4b-11e9-8b14-0e3d58cc5582", #IB Candidate
+        "33288604-4c4c-11e9-98b6-0e11653f4fc4", #Primary School Student (Grade 1-6)
+        "3a61705c-4c4c-11e9-8f3d-0e3820aba534", #Secondary School Student (Grade 7-11)
+        "45b9b19e-4c4c-11e9-a32c-0e990aa34f58", #Pre-University (Grade 10-12/Further Education)
+        "bc06d182-5f3a-11e9-aa3b-0ed0c6ac5038", #University/College Student (Higher Education)
+        "4bacad04-4c4c-11e9-83cd-0ebbc1e4ca72", #Postgraduate Student
+        "553dad32-4c4c-11e9-a3d5-0e8099e3fcb2", #Educator (Mod-only)
+        "183f084a-a26e-11e9-ae18-0e4dd3622c68", #Tutor
+        "270dc11c-1515-11ea-869f-0e977a19a62f", #Valued Contributor
+        "0d43518a-1523-11ea-8418-0e727d6e2445", #Notable Contributor
+        "a19aebb8-1578-11ea-8418-0e727d6e2445"] #Top Contributor
         ~flair_css_class: ["valuedcontributor",
         "notablecontributor",
         "topcontributor"]
@@ -619,27 +641,28 @@
         ~name: HomeworkHelpBot
 ---
     # XP: Auto user flair: AP Student
+    priority: 4
     type: submission
     title (includes, regex): ['AP\b']
     author:
-        ~flair_template_id: ["f52eff54-4c4b-11e9-b5ae-0e3820aba534",
-        "9810ca02-d52e-11e9-943e-0edaf10a785a",
-        "4741b0c2-d52f-11e9-a245-0ecc928c0770",
-        "da2f6b80-4c4b-11e9-8275-0eba9e62db4e",
-        "8dc4b2a4-ce29-11e9-9236-0e0acfc54a5a",
-        "e6a42c86-d52e-11e9-99f2-0ea4ea416f14",
-        "dff4491e-4c4b-11e9-945b-0e44d0af0afc",
-        "e614b96e-4c4b-11e9-8b14-0e3d58cc5582",
-        "33288604-4c4c-11e9-98b6-0e11653f4fc4",
-        "3a61705c-4c4c-11e9-8f3d-0e3820aba534",
-        "45b9b19e-4c4c-11e9-a32c-0e990aa34f58",
-        "bc06d182-5f3a-11e9-aa3b-0ed0c6ac5038",
-        "4bacad04-4c4c-11e9-83cd-0ebbc1e4ca72",
-        "553dad32-4c4c-11e9-a3d5-0e8099e3fcb2",
-        "183f084a-a26e-11e9-ae18-0e4dd3622c68",
-        "270dc11c-1515-11ea-869f-0e977a19a62f",
-        "0d43518a-1523-11ea-8418-0e727d6e2445",
-        "a19aebb8-1578-11ea-8418-0e727d6e2445"]
+        ~flair_template_id: ["f52eff54-4c4b-11e9-b5ae-0e3820aba534", #PSLE Candidate
+        "9810ca02-d52e-11e9-943e-0edaf10a785a", #CBSE Candidate
+        "4741b0c2-d52f-11e9-a245-0ecc928c0770", #GCSE Candidate
+        "da2f6b80-4c4b-11e9-8275-0eba9e62db4e", #'O' Level Candidate
+        "8dc4b2a4-ce29-11e9-9236-0e0acfc54a5a", #AP Student
+        "e6a42c86-d52e-11e9-99f2-0ea4ea416f14", #AS Level Candidate
+        "dff4491e-4c4b-11e9-945b-0e44d0af0afc", #'A' Level Candidate
+        "e614b96e-4c4b-11e9-8b14-0e3d58cc5582", #IB Candidate
+        "33288604-4c4c-11e9-98b6-0e11653f4fc4", #Primary School Student (Grade 1-6)
+        "3a61705c-4c4c-11e9-8f3d-0e3820aba534", #Secondary School Student (Grade 7-11)
+        "45b9b19e-4c4c-11e9-a32c-0e990aa34f58", #Pre-University (Grade 10-12/Further Education)
+        "bc06d182-5f3a-11e9-aa3b-0ed0c6ac5038", #University/College Student (Higher Education)
+        "4bacad04-4c4c-11e9-83cd-0ebbc1e4ca72", #Postgraduate Student
+        "553dad32-4c4c-11e9-a3d5-0e8099e3fcb2", #Educator (Mod-only)
+        "183f084a-a26e-11e9-ae18-0e4dd3622c68", #Tutor
+        "270dc11c-1515-11ea-869f-0e977a19a62f", #Valued Contributor
+        "0d43518a-1523-11ea-8418-0e727d6e2445", #Notable Contributor
+        "a19aebb8-1578-11ea-8418-0e727d6e2445"] #Top Contributor
         ~flair_css_class: ["valuedcontributor",
         "notablecontributor",
         "topcontributor"]
@@ -650,27 +673,28 @@
         ~name: HomeworkHelpBot
 ---
     # XP: Auto user flair: AS Level Candidate
+    priority: 4
     type: submission
     title (includes, regex): ['AS(?:-| ?)(?:L|l)(?:e|E)(?:v|V)(?:e|E)(?:l|L)']
     author:
-        ~flair_template_id: ["f52eff54-4c4b-11e9-b5ae-0e3820aba534",
-        "9810ca02-d52e-11e9-943e-0edaf10a785a",
-        "4741b0c2-d52f-11e9-a245-0ecc928c0770",
-        "da2f6b80-4c4b-11e9-8275-0eba9e62db4e",
-        "8dc4b2a4-ce29-11e9-9236-0e0acfc54a5a",
-        "e6a42c86-d52e-11e9-99f2-0ea4ea416f14",
-        "dff4491e-4c4b-11e9-945b-0e44d0af0afc",
-        "e614b96e-4c4b-11e9-8b14-0e3d58cc5582",
-        "33288604-4c4c-11e9-98b6-0e11653f4fc4",
-        "3a61705c-4c4c-11e9-8f3d-0e3820aba534",
-        "45b9b19e-4c4c-11e9-a32c-0e990aa34f58",
-        "bc06d182-5f3a-11e9-aa3b-0ed0c6ac5038",
-        "4bacad04-4c4c-11e9-83cd-0ebbc1e4ca72",
-        "553dad32-4c4c-11e9-a3d5-0e8099e3fcb2",
-        "183f084a-a26e-11e9-ae18-0e4dd3622c68",
-        "270dc11c-1515-11ea-869f-0e977a19a62f",
-        "0d43518a-1523-11ea-8418-0e727d6e2445",
-        "a19aebb8-1578-11ea-8418-0e727d6e2445"]
+        ~flair_template_id: ["f52eff54-4c4b-11e9-b5ae-0e3820aba534", #PSLE Candidate
+        "9810ca02-d52e-11e9-943e-0edaf10a785a", #CBSE Candidate
+        "4741b0c2-d52f-11e9-a245-0ecc928c0770", #GCSE Candidate
+        "da2f6b80-4c4b-11e9-8275-0eba9e62db4e", #'O' Level Candidate
+        "8dc4b2a4-ce29-11e9-9236-0e0acfc54a5a", #AP Student
+        "e6a42c86-d52e-11e9-99f2-0ea4ea416f14", #AS Level Candidate
+        "dff4491e-4c4b-11e9-945b-0e44d0af0afc", #'A' Level Candidate
+        "e614b96e-4c4b-11e9-8b14-0e3d58cc5582", #IB Candidate
+        "33288604-4c4c-11e9-98b6-0e11653f4fc4", #Primary School Student (Grade 1-6)
+        "3a61705c-4c4c-11e9-8f3d-0e3820aba534", #Secondary School Student (Grade 7-11)
+        "45b9b19e-4c4c-11e9-a32c-0e990aa34f58", #Pre-University (Grade 10-12/Further Education)
+        "bc06d182-5f3a-11e9-aa3b-0ed0c6ac5038", #University/College Student (Higher Education)
+        "4bacad04-4c4c-11e9-83cd-0ebbc1e4ca72", #Postgraduate Student
+        "553dad32-4c4c-11e9-a3d5-0e8099e3fcb2", #Educator (Mod-only)
+        "183f084a-a26e-11e9-ae18-0e4dd3622c68", #Tutor
+        "270dc11c-1515-11ea-869f-0e977a19a62f", #Valued Contributor
+        "0d43518a-1523-11ea-8418-0e727d6e2445", #Notable Contributor
+        "a19aebb8-1578-11ea-8418-0e727d6e2445"] #Top Contributor
         ~flair_css_class: ["valuedcontributor",
         "notablecontributor",
         "topcontributor"]
@@ -681,27 +705,28 @@
         ~name: HomeworkHelpBot
 ---
     # XP: Auto user flair: 'A' Level Candidate
+    priority: 4
     type: submission
     title (includes, regex): ['(?:GCE ?|)''?A(?:-|'' | ?)(?:L|l)(?:e|E)(?:v|V)(?:e|E)(?:l|L)']
     author:
-        ~flair_template_id: ["f52eff54-4c4b-11e9-b5ae-0e3820aba534",
-        "9810ca02-d52e-11e9-943e-0edaf10a785a",
-        "4741b0c2-d52f-11e9-a245-0ecc928c0770",
-        "da2f6b80-4c4b-11e9-8275-0eba9e62db4e",
-        "8dc4b2a4-ce29-11e9-9236-0e0acfc54a5a",
-        "e6a42c86-d52e-11e9-99f2-0ea4ea416f14",
-        "dff4491e-4c4b-11e9-945b-0e44d0af0afc",
-        "e614b96e-4c4b-11e9-8b14-0e3d58cc5582",
-        "33288604-4c4c-11e9-98b6-0e11653f4fc4",
-        "3a61705c-4c4c-11e9-8f3d-0e3820aba534",
-        "45b9b19e-4c4c-11e9-a32c-0e990aa34f58",
-        "bc06d182-5f3a-11e9-aa3b-0ed0c6ac5038",
-        "4bacad04-4c4c-11e9-83cd-0ebbc1e4ca72",
-        "553dad32-4c4c-11e9-a3d5-0e8099e3fcb2",
-        "183f084a-a26e-11e9-ae18-0e4dd3622c68",
-        "270dc11c-1515-11ea-869f-0e977a19a62f",
-        "0d43518a-1523-11ea-8418-0e727d6e2445",
-        "a19aebb8-1578-11ea-8418-0e727d6e2445"]
+        ~flair_template_id: ["f52eff54-4c4b-11e9-b5ae-0e3820aba534", #PSLE Candidate
+        "9810ca02-d52e-11e9-943e-0edaf10a785a", #CBSE Candidate
+        "4741b0c2-d52f-11e9-a245-0ecc928c0770", #GCSE Candidate
+        "da2f6b80-4c4b-11e9-8275-0eba9e62db4e", #'O' Level Candidate
+        "8dc4b2a4-ce29-11e9-9236-0e0acfc54a5a", #AP Student
+        "e6a42c86-d52e-11e9-99f2-0ea4ea416f14", #AS Level Candidate
+        "dff4491e-4c4b-11e9-945b-0e44d0af0afc", #'A' Level Candidate
+        "e614b96e-4c4b-11e9-8b14-0e3d58cc5582", #IB Candidate
+        "33288604-4c4c-11e9-98b6-0e11653f4fc4", #Primary School Student (Grade 1-6)
+        "3a61705c-4c4c-11e9-8f3d-0e3820aba534", #Secondary School Student (Grade 7-11)
+        "45b9b19e-4c4c-11e9-a32c-0e990aa34f58", #Pre-University (Grade 10-12/Further Education)
+        "bc06d182-5f3a-11e9-aa3b-0ed0c6ac5038", #University/College Student (Higher Education)
+        "4bacad04-4c4c-11e9-83cd-0ebbc1e4ca72", #Postgraduate Student
+        "553dad32-4c4c-11e9-a3d5-0e8099e3fcb2", #Educator (Mod-only)
+        "183f084a-a26e-11e9-ae18-0e4dd3622c68", #Tutor
+        "270dc11c-1515-11ea-869f-0e977a19a62f", #Valued Contributor
+        "0d43518a-1523-11ea-8418-0e727d6e2445", #Notable Contributor
+        "a19aebb8-1578-11ea-8418-0e727d6e2445"] #Top Contributor
         ~flair_css_class: ["valuedcontributor",
         "notablecontributor",
         "topcontributor"]
@@ -712,27 +737,28 @@
         ~name: HomeworkHelpBot
 ---
     # XP: Auto user flair: IB Candidate
+    priority: 4
     type: submission
     title (includes, regex): ['IB\b']
     author:
-        ~flair_template_id: ["f52eff54-4c4b-11e9-b5ae-0e3820aba534",
-        "9810ca02-d52e-11e9-943e-0edaf10a785a",
-        "4741b0c2-d52f-11e9-a245-0ecc928c0770",
-        "da2f6b80-4c4b-11e9-8275-0eba9e62db4e",
-        "8dc4b2a4-ce29-11e9-9236-0e0acfc54a5a",
-        "e6a42c86-d52e-11e9-99f2-0ea4ea416f14",
-        "dff4491e-4c4b-11e9-945b-0e44d0af0afc",
-        "e614b96e-4c4b-11e9-8b14-0e3d58cc5582",
-        "33288604-4c4c-11e9-98b6-0e11653f4fc4",
-        "3a61705c-4c4c-11e9-8f3d-0e3820aba534",
-        "45b9b19e-4c4c-11e9-a32c-0e990aa34f58",
-        "bc06d182-5f3a-11e9-aa3b-0ed0c6ac5038",
-        "4bacad04-4c4c-11e9-83cd-0ebbc1e4ca72",
-        "553dad32-4c4c-11e9-a3d5-0e8099e3fcb2",
-        "183f084a-a26e-11e9-ae18-0e4dd3622c68",
-        "270dc11c-1515-11ea-869f-0e977a19a62f",
-        "0d43518a-1523-11ea-8418-0e727d6e2445",
-        "a19aebb8-1578-11ea-8418-0e727d6e2445"]
+        ~flair_template_id: ["f52eff54-4c4b-11e9-b5ae-0e3820aba534", #PSLE Candidate
+        "9810ca02-d52e-11e9-943e-0edaf10a785a", #CBSE Candidate
+        "4741b0c2-d52f-11e9-a245-0ecc928c0770", #GCSE Candidate
+        "da2f6b80-4c4b-11e9-8275-0eba9e62db4e", #'O' Level Candidate
+        "8dc4b2a4-ce29-11e9-9236-0e0acfc54a5a", #AP Student
+        "e6a42c86-d52e-11e9-99f2-0ea4ea416f14", #AS Level Candidate
+        "dff4491e-4c4b-11e9-945b-0e44d0af0afc", #'A' Level Candidate
+        "e614b96e-4c4b-11e9-8b14-0e3d58cc5582", #IB Candidate
+        "33288604-4c4c-11e9-98b6-0e11653f4fc4", #Primary School Student (Grade 1-6)
+        "3a61705c-4c4c-11e9-8f3d-0e3820aba534", #Secondary School Student (Grade 7-11)
+        "45b9b19e-4c4c-11e9-a32c-0e990aa34f58", #Pre-University (Grade 10-12/Further Education)
+        "bc06d182-5f3a-11e9-aa3b-0ed0c6ac5038", #University/College Student (Higher Education)
+        "4bacad04-4c4c-11e9-83cd-0ebbc1e4ca72", #Postgraduate Student
+        "553dad32-4c4c-11e9-a3d5-0e8099e3fcb2", #Educator (Mod-only)
+        "183f084a-a26e-11e9-ae18-0e4dd3622c68", #Tutor
+        "270dc11c-1515-11ea-869f-0e977a19a62f", #Valued Contributor
+        "0d43518a-1523-11ea-8418-0e727d6e2445", #Notable Contributor
+        "a19aebb8-1578-11ea-8418-0e727d6e2445"] #Top Contributor
         ~flair_css_class: ["valuedcontributor",
         "notablecontributor",
         "topcontributor"]
@@ -743,6 +769,7 @@
         ~name: HomeworkHelpBot
 ---
     # XP: Customise your flair: Primary School Student
+    priority: 4
     type: comment
     body (regex): .*
     author:
@@ -784,6 +811,7 @@
         How was your experience in this subreddit? Let us know how can we do better by taking part in our survey [here](https://fdier.co/0acnXZ).
 ---
     # XP: Customise your flair: Secondary School Student
+    priority: 4
     type: comment
     body (regex): .*
     author:
@@ -825,6 +853,7 @@
         How was your experience in this subreddit? Let us know how can we do better by taking part in our survey [here](https://fdier.co/0acnXZ).
 ---
     # XP: Customise your flair: Pre-University Student
+    priority: 4
     type: comment
     body (regex): .*
     author:
@@ -866,6 +895,7 @@
         How was your experience in this subreddit? Let us know how can we do better by taking part in our survey [here](https://fdier.co/0acnXZ).
 ---
     # XP: Customise your flair: University Student
+    priority: 4
     type: comment
     body (regex): .*
     author:
@@ -907,6 +937,7 @@
         How was your experience in this subreddit? Let us know how can we do better by taking part in our survey [here](https://fdier.co/0acnXZ).
 ---
     # XP: Customise your flair: Educator
+    priority: 4
     type: comment
     body (regex): .*
     author:
@@ -914,7 +945,7 @@
         flair_template_id: b6daa6d4-046c-11ea-8335-0e08de5aab91
         set_flair:
                 text: ":upvote: Educator"
-                template_id: 553dad32-4c4c-11e9-a3d5-0e8099e3fcb2
+                template_id: 553dad32-4c4c-11e9-a3d5-0e8099e3fcb2 #Educator (Mod-only)
         overwrite_flair: true
     message_subject: Attention Required!
     message: |
@@ -957,21 +988,22 @@
         How was your experience in this subreddit? Let us know how can we do better by taking part in our survey [here](https://fdier.co/0acnXZ).
 ---
     # XP: Educator: Customise flair
-    priority: 1
+    priority: 3
     type: submission
     action: remove
     title: 'Flair: Educator'
     body (regex): '(.*)'
     author:
         flair_text: ":upvote: Educator"
-        flair_template_id: 553dad32-4c4c-11e9-a3d5-0e8099e3fcb2
+        flair_template_id: 553dad32-4c4c-11e9-a3d5-0e8099e3fcb2 #Educator (Mod-only)
         set_flair:
                 text: ":upvote: {{match}}"
-                template_id: 553dad32-4c4c-11e9-a3d5-0e8099e3fcb2
+                template_id: 553dad32-4c4c-11e9-a3d5-0e8099e3fcb2 #Educator (Mod-only)
         overwrite_flair: true
     comment: 'Done! I have added "{{match}}" to your user flair.'
 ---
     # XP: First-time message to Valued Contributors
+    priority: 1
     type: comment
     body (regex): .*
     author:
@@ -982,7 +1014,7 @@
         overwrite_flair: true
     message_subject: Congratulations! You have been awarded the most prestigious user flair of this subreddit.
     message: |
-        ###Dear u/{{name}},
+        ###Dear u/{{author}},
 
         On behalf of everyone at r/HomeworkHelp, we would like to commend you on your unrelenting dedication to providing high-quality academic assistance to all users in our community. You are a very positive influence to all Redditors for choosing to commit your time to help the struggling learners.
 
@@ -996,11 +1028,12 @@
 
         **r/HomeworkHelp Moderators Team**
 
-        **Disclaimer:** This is not a permanent flair. Your flair will be reviewed again in 30 days time and you must remain in the top 10 percentile to retain this status.
+        **Disclaimer:** This is not a permanent flair. Your flair will be reviewed again in 30 days time and you must remain in the top 1 percentile to retain this status.
 
         ^(**Don't like these flairs?** You can request an opt-out here: https://rhomeworkhelp.typeform.com/to/tUFJ0u)
 ---
     # XP: First-time message to Notable Contributors
+    priority: 1
     type: comment
     body (regex): .*
     author:
@@ -1011,7 +1044,7 @@
         overwrite_flair: true
     message_subject: Congratulations! You have been bestowed a prestigious user flair of r/HomeworkHelp
     message: |
-        ###Greetings u/{{name}},
+        ###Greetings u/{{author}},
 
         Your persistent dedication to volunteer your time for struggling learners has gotten our attention and thoroughly impressed us. Your work has a profound impact to the community at large for generations to come.
 
@@ -1025,11 +1058,12 @@
 
         **r/HomeworkHelp Moderators Team**
 
-        **Disclaimer:** This is not a permanent flair. Your flair will be reviewed again in 30 days time and you must remain in the top 20 percentile to retain this status.
+        **Disclaimer:** This is not a permanent flair. Your flair will be reviewed again in 30 days time and you must remain in the top 10 percentile to retain this status.
 
         ^(**Don't like these flairs?** You can request an opt-out here: https://rhomeworkhelp.typeform.com/to/tUFJ0u)
 ---
     # XP: First-time message to Top Contributors
+    priority: 1
     type: comment
     body (regex): .*
     author:
@@ -1038,7 +1072,7 @@
         set_flair:
                 template_id: a19aebb8-1578-11ea-8418-0e727d6e2445
         overwrite_flair: true
-    message_subject: Congratulations! You have been bestowed a prestigious user flair of r/HomeworkHelp
+    message_subject: You have received a glossy user flair for your unflagging contributions to r/HomeworkHelp
     message: |
         ###Howdy!
 
@@ -1052,7 +1086,7 @@
 
         **r/HomeworkHelp Moderators Team**
 
-        **Disclaimer:** This is not a permanent flair. Your flair will be reviewed again in 30 days time and you must remain in the top 30 percentile to retain this status.
+        **Disclaimer:** This is not a permanent flair. Your flair will be reviewed again in 30 days time and you must remain in the top 20 percentile to retain this status.
 
         ^(**Don't like these flairs?** You can request an opt-out here:  https://rhomeworkhelp.typeform.com/to/tUFJ0u)
 --------------------------------------------------------------------
@@ -1895,7 +1929,6 @@
                 text: ":snoo_trollface: Social Studies"
                 template_id: 183e679a-4c4d-11e9-9528-0e7cf6650498
         overwrite_flair: true
-
 ---
     # XP: Social Studies (flagged)
     type: submission
@@ -2070,6 +2103,7 @@
 --------------------------------------------------------------------
 ---
     # XP: Manually Mark as "Answered"
+    priority: 4
     type: comment
     is_top_level: true
     body (regex): ['\*{2}[Aa]nswer:?\*{2}','\*{2}[Hh]ence;?,?\*{2}']
@@ -2089,6 +2123,7 @@
 --------------------------------------------------------------------
 ---
     # XP: Automated Final Warning for Posts
+    priority: 4
     type: submission
     reports: 2
     title (regex): ((\[|\{)|^\().*(\]|}|\))
@@ -2118,6 +2153,7 @@
         ######**IF YOU ARE AN OP, PLEASE IGNORE THE ABOVE TEXT.**
 ---
     # XP: Automated Final Warning for Comments
+    priority: 4
     type: comment
     body (regex): '.*'
     reports: 2
@@ -2146,8 +2182,8 @@
 
         ######**IF YOU ARE AN OP, PLEASE IGNORE THE ABOVE TEXT.**
 ---
-
     #XP: Auto remove top level comment
+    priority: 3
     type: comment
     is_top_level: true
     action: remove
@@ -2157,6 +2193,7 @@
         u/{{author}}, you are NOT supposed to use [User Moderation](https://www.reddit.com/r/HomeworkHelp/wiki/user_moderation) command as a top-level comment. You will face a consequence for repeated infringement of User Moderation clauses. **You are forewarned.**
 ---
     #XP: Report Abuse
+    priority: 4
     type: comment
     body (regex): ['\*{0,2}Mod:\*{0,2}.+[rR]eport [aA]buse(\n*.*)']
     action: report
@@ -2172,12 +2209,13 @@
         **Note:** In order for someone to use [User Moderation](https://www.reddit.com/r/HomeworkHelp/wiki/user_moderation) command, there is minimum criteria required to fulfil. It is unfeasible for bad actors to repeatedly abuse our functionality after the ban is handed out.
 ---
     #XP: Reader undo user removal
+    priority: 3
     type: comment
     body (regex): ['\*{0,2}Mod:\*{0,2}.?[Uu]ndo']
     author:
         combined_karma: 800
         account_age: 2 year
-        is_submitter: true
+        is_submitter: false
     comment: |
         Hello {{author}},
 
@@ -2186,19 +2224,25 @@
         _If you believe in no way this post should have ever been deleted and a repercussion is needed, please reply `Mod: report abuse` and this will be alerted to all moderators as very high priority._
 
         Thanks!
+    Modmail: "Hi there! {{author}} has exercised `Mod: undo` command as specified in User Moderation. Please review its validity."
     parent_submission:
         action: approve
 ---
     #XP: User Appeal
+    priority: 3
     type: comment
     body (regex): ['\*{0,2}Mod:\*{0,2}.?I appeal']
+    author:
+        is_submitter: true
     action: report
-    Modmail: Hi there! {{author}} appeals against user-voted removal of his/her post. Please check for false positive.
+    comment: Got it! Meanwhile, I have restored your post. :)
+    Modmail: Hi there! {{author}} appeals against user-voted/bot removal of his/her post. Please check for false positive.
     parent_submission:
         action: approve
         action_reason: OP appeals
 ---
     #XP: Failed use of command
+    priority: 4
     type: comment
     is_top_level: false
     body (regex): ['\*{0,2}Mod:\*{0,2}']
@@ -2215,6 +2259,7 @@
         [User Moderation](https://www.reddit.com/r/HomeworkHelp/wiki/user_moderation)
 ---
     #XP: Ineligible to use command
+    priority: 4
     type: comment
     is_top_level: false
     body (regex): ['\*{0,2}Mod:\*{0,2}']
@@ -2227,6 +2272,7 @@
     Comment: Sorry, u/{{author}}. I have deleted your command because you are ineligible to use it. Repeated infringement of [User Moderation](https://www.reddit.com/r/HomeworkHelp/wiki/user_moderation) could result in automated shadowban.
 ---
     #XP: Auto delete post for rule violation
+    priority: 4
     type: submission
     reports: 3
     action: filter
@@ -2248,6 +2294,7 @@
         **Readers:** Do not use this command without reading [User Moderation](https://www.reddit.com/r/HomeworkHelp/wiki/user_moderation). Ignorance or incorrect interpretation of our rules will not excuse you from being dealt harshly for wrongful removals.
 ---
     #XP: Auto delete comment for rule violation
+    priority: 4
     type: comment
     body (regex): ".*"
     reports: 3
@@ -2270,6 +2317,7 @@
         **Readers:** Do not use this command without reading [User Moderation](https://www.reddit.com/r/HomeworkHelp/wiki/user_moderation). Ignorance or incorrect interpretation of our rules will not excuse you from being dealt harshly for wrongful removals.
 ---
     #XP: Vote for rule #1 violation
+    priority: 4
     type: comment
     is_top_level: false
     body (regex): ['\*{0,2}Mod:\*{0,2} u\/(\S+).+violates? rule (#?1|one)\n+\*{0,2}(R|r)eason:\*{0,2}(.+)']
@@ -2300,7 +2348,41 @@
         reports: 3
         action: filter
 ---
+    #XP: Vote for rule #1 violation (Valued Contributor)
+    priority: 4
+    type: comment
+    is_top_level: false
+    body (regex): ['\*{0,2}Mod:\*{0,2} u\/(\S+).+violates? rule (#?1|one)\n+\*{0,2}(R|r)eason:\*{0,2}(.+)']
+    author:
+        flair_template_id: 270dc11c-1515-11ea-869f-0e977a19a62f
+    comment: |
+        Hello u/{{match-body-2}},
+
+        ####I regret to inform you that the users in this subreddit have voted and determined that your post violates our subreddit rule:
+        > _**Rule 1: Include instructor prompts**_
+        >
+        > What does your instructor want you to accomplish?
+        >
+        > Tell us what is holding you up. Where are you in the process? Explain your thoughts about the problem and the steps you've taken so far. Provide those who help with as much information as possible. Demonstrate that you have already put in some thought and effort into solving the problem.
+
+        u/{{author}}'s comments:
+        > {{match-body-5}}
+
+        ######This friendly takedown should be taken with gratitude because it has helped prevent a moderator from seeing this and taking action against you for rule violation
+
+        I encourage you to read up our rules so you are cognizant of how things work in this subreddit.
+
+        Have a nice day!
+
+        _If you strongly oppose this takedown and believe the moderators are likely to approve this post, please reply `Mod: I appeal` and elaborate in the next sentence. Otherwise, please reach out to u/{{author}} for further clarifications._
+
+        **Readers:** Do not use this command without reading [User Moderation](https://www.reddit.com/r/HomeworkHelp/wiki/user_moderation). Ignorance or incorrect interpretation of our rules will not excuse you from being dealt harshly for wrongful removals.
+    comment_stickied: true
+    parent_submission:
+        action: remove
+---
     #XP: Vote for rule #2 violation
+    priority: 4
     type: comment
     is_top_level: false
     body (regex): ['\*{0,2}Mod:\*{0,2} u\/(\S+).+violates? rule (#?2|two)\n+\*{0,2}(R|r)eason:\*{0,2}(.+)']
@@ -2332,7 +2414,42 @@
         reports: 2
         action: filter
 ---
+    #XP: Vote for rule #2 violation
+    priority: 4
+    type: comment
+    is_top_level: false
+    body (regex): ['\*{0,2}Mod:\*{0,2} u\/(\S+).+violates? rule (#?2|two)\n+\*{0,2}(R|r)eason:\*{0,2}(.+)']
+    author:
+        flair_template_id: 270dc11c-1515-11ea-869f-0e977a19a62f
+    comment: |
+        Hello u/{{match-body-2}},
+
+        ####I regret to inform you that users in this subreddit have voted and determined that you seem to have no intention to properly structuring your post title/flairing your post to classify your question accordingly.
+
+        **This is a violation of _Rule 2: Classify the question by structuring the post title with enclosed square brackets as prefix_**
+
+        > Your post title should contain the following as its prefix: [<Level/Syllabus><Discipline>and/or<Topic>] Question?
+
+        The purpose of this rule is to keep this subreddit as organised and as readable as possible for users to help the OP (you). If you cannot do this as a favour for receiving homework help from us, maybe you should look help elsewhere.
+
+        u/{{author}}'s comments:
+        > {{match-body-5}}
+
+        ######This friendly takedown should be taken with gratitude because it has helped prevent a moderator from seeing this and taking action against you for rule violation
+
+        I encourage you to read up our rules so you are cognizant of how things work in this subreddit.
+
+        Have a nice day!
+
+        _If you strongly oppose this takedown and believe the moderators are likely to approve this post, please reply `Mod: I appeal` and elaborate in the next sentence. Otherwise, please reach out to u/{{author}} for further clarifications._
+
+        **Readers:** Do not use this command without reading [User Moderation](https://www.reddit.com/r/HomeworkHelp/wiki/user_moderation). Ignorance or incorrect interpretation of our rules will not excuse you from being dealt harshly for wrongful removals.
+    comment_stickied: true
+    parent_submission:
+        action: remove
+---
     #XP: Vote for rule #3 violation
+    priority: 4
     type: comment
     is_top_level: false
     body (regex): ['\*{0,2}Mod:\*{0,2} u\/(\S+).+violates? rule (#?3|three)\n+\*{0,2}(R|r)eason:\*{0,2}(.+)']
@@ -2368,7 +2485,46 @@
         reports: 4
         action: filter
 ---
+    #XP: Vote for rule #3 violation (Valued Contributor)
+    priority: 4
+    type: comment
+    is_top_level: false
+    body (regex): ['\*{0,2}Mod:\*{0,2} u\/(\S+).+violates? rule (#?3|three)\n+\*{0,2}(R|r)eason:\*{0,2}(.+)']
+    author:
+        flair_template_id: 270dc11c-1515-11ea-869f-0e977a19a62f
+    comment: |
+        Hello u/{{match-body-2}},
+
+        ####We are sorry but the purpose of this subreddit is to **help you to learn/study,** not doing your last-minute homework. You did not read our rules.
+
+        The users in this subreddit have voted and determined that your post violates our subreddit rule:
+
+        > _**Rule 3: No "do this for me" posts.**_
+        >
+        > This includes quizzes or lists of questions without any context or explanation. Show your work.
+
+        You may like to explore r/cheatatmathhomework instead ;)
+
+        To prevent your post from being removed from r/HomeworkHelp in the future, please include your incorrect working or thought process towards the question. ;)
+
+        u/{{author}}'s comments:
+        > {{match-body-5}}
+
+        ######This friendly takedown should be taken with gratitude because it has helped prevent a moderator from seeing this and taking action against you for rule violation
+
+        I encourage you to read up our rules so you are cognizant of how things work in this subreddit.
+
+        Have a nice day!
+
+        _If you strongly oppose this takedown and believe the moderators are likely to approve this post, please reply `Mod: I appeal` and elaborate in the next sentence. Otherwise, please reach out to u/{{author}} for further clarifications._
+
+        **Readers:** Do not use this command without reading [User Moderation](https://www.reddit.com/r/HomeworkHelp/wiki/user_moderation). Ignorance or incorrect interpretation of our rules will not excuse you from being dealt harshly for wrongful removals.
+    comment_stickied: true
+    parent_submission:
+        action: remove
+---
     #XP: Vote for rule #4 violation
+    priority: 4
     type: comment
     is_top_level: false
     body (regex): ['\*{0,2}Mod:\*{0,2} u\/(\S+).+violates? rule (#?4|four)\n+\*{0,2}(R|r)eason:\*{0,2}(.+)']
@@ -2398,7 +2554,40 @@
         reports: 3
         action: filter
 ---
+    #XP: Vote for rule #4 violation (Valued Contributor)
+    priority: 4
+    type: comment
+    is_top_level: false
+    body (regex): ['\*{0,2}Mod:\*{0,2} u\/(\S+).+violates? rule (#?4|four)\n+\*{0,2}(R|r)eason:\*{0,2}(.+)']
+    author:
+        flair_template_id: 270dc11c-1515-11ea-869f-0e977a19a62f
+    comment: |
+        Hello u/{{match-body-2}},
+
+        ####I regret to inform you that the users in this subreddit have voted and determined that your post violates our subreddit rule:
+
+        > Rule 4: No urgent or last-minute posts.
+        >
+        > No posts tagged "urgent," "ASAP," "important," "due in an hour," etc.
+
+        u/{{author}}'s comments:
+        > {{match-body-5}}
+
+        ######This friendly takedown should be taken with gratitude because it has helped prevent a moderator from seeing this and taking action against you for rule violation
+
+        I encourage you to read up our rules so you are cognizant of how things work in this subreddit.
+
+        Have a nice day!
+
+        _If you strongly oppose this takedown and believe the moderators are likely to approve this post, please reply `Mod: I appeal` and elaborate in the next sentence. Otherwise, please reach out to u/{{author}} for further clarifications._
+
+        **Readers:** Do not use this command without reading [User Moderation](https://www.reddit.com/r/HomeworkHelp/wiki/user_moderation). Ignorance or incorrect interpretation of our rules will not excuse you from being dealt harshly for wrongful removals.
+    comment_stickied: true
+    parent_submission:
+        action: remove
+---
     #XP: Vote for rule #5 violation
+    priority: 4
     type: comment
     is_top_level: false
     body (regex): ['\*{0,2}Mod:\*{0,2} u\/(\S+).+violates? rule (#?5|five)\n+\*{0,2}(R|r)eason:\*{0,2}(.+)']
@@ -2427,7 +2616,39 @@
         reports: 2
         action: filter
 ---
+    #XP: Vote for rule #5 violation (Valued Contributor)
+    priority: 4
+    type: comment
+    is_top_level: false
+    body (regex): ['\*{0,2}Mod:\*{0,2} u\/(\S+).+violates? rule (#?5|five)\n+\*{0,2}(R|r)eason:\*{0,2}(.+)']
+    author:
+        flair_template_id: 270dc11c-1515-11ea-869f-0e977a19a62f
+    comment: |
+        Hello u/{{match-body-2}},
+
+        ####I regret to inform you that the users in this subreddit have voted and determined that your post violates our subreddit rule:
+        > _**Rule 5: No cheating.**_
+        >
+        > No requests for help with cheating, plagiarism, or other violations of academic integrity; violations of copyright or terms of use; or other illegal and unethical activities.
+
+        u/{{author}}'s comments:
+        > {{match-body-5}}
+
+        ######This friendly takedown should be taken with gratitude because it has helped prevent a moderator from seeing this and taking action against you for rule violation
+
+        I encourage you to read up our rules so you are cognizant of how things work in this subreddit.
+
+        Have a nice day!
+
+        _If you strongly oppose this takedown and believe the moderators are likely to approve this post, please reply `Mod: I appeal` and elaborate in the next sentence. Otherwise, please reach out to u/{{author}} for further clarifications._
+
+        **Readers:** Do not use this command without reading [User Moderation](https://www.reddit.com/r/HomeworkHelp/wiki/user_moderation). Ignorance or incorrect interpretation of our rules will not excuse you from being dealt harshly for wrongful removals
+    comment_stickied: true
+    parent_submission:
+        action: remove
+---
     #XP: Vote for rule #6 violation
+    priority: 4
     type: comment
     is_top_level: false
     body (regex): ['\*{0,2}Mod:\*{0,2} u\/(\S+).+violates? rule (#?6|six)\n+\*{0,2}(R|r)eason:\*{0,2}(.+)']
@@ -2456,7 +2677,39 @@
         reports: 4
         action: filter
 ---
+    #XP: Vote for rule #6 violation (Valued Contributor)
+    priority: 4
+    type: comment
+    is_top_level: false
+    body (regex): ['\*{0,2}Mod:\*{0,2} u\/(\S+).+violates? rule (#?6|six)\n+\*{0,2}(R|r)eason:\*{0,2}(.+)']
+    author:
+        flair_template_id: 270dc11c-1515-11ea-869f-0e977a19a62f
+    comment: |
+        Hello u/{{match-body-2}},
+
+        ####I regret to inform you that the users in this subreddit have voted and determined that your post violates our subreddit rule:
+        > _**Rule 6: Don't be a jerk.**_
+        >
+        > Don't be a jerk. Jerks get banned.
+
+        u/{{author}}'s comments:
+        > {{match-body-5}}
+
+        ######This friendly takedown should be taken with gratitude because it has helped prevent a moderator from seeing this and taking action against you for rule violation
+
+        I encourage you to read up our rules so you are cognizant of how things work in this subreddit.
+
+        Have a nice day!
+
+        _If you strongly oppose this takedown and believe the moderators are likely to approve this post, please reply `Mod: I appeal` and elaborate in the next sentence. Otherwise, please reach out to u/{{author}} for further clarifications._
+
+        **Readers:** Do not use this command without reading [User Moderation](https://www.reddit.com/r/HomeworkHelp/wiki/user_moderation). Ignorance or incorrect interpretation of our rules will not excuse you from being dealt harshly for wrongful removals
+    comment_stickied: true
+    parent_submission:
+        action: remove
+---
     #XP: Vote for rule #7 violation
+    priority: 4
     type: comment
     is_top_level: false
     body (regex): ['\*{0,2}Mod:\*{0,2} u\/(\S+).+violates? rule (#?1|one)\n+\*{0,2}(R|r)eason:\*{0,2}(.+)']
@@ -2483,10 +2736,40 @@
         reports: 2
         action: filter
 ---
-    #XP: Vote for rule #8 and #9 violation
+    #XP: Vote for rule #7 violation (Valued Contributor)
+    priority: 4
     type: comment
     is_top_level: false
-    body (regex): ['\*{0,2}Mod:\*{0,2} u\/(\S+).+violates? rule (#?8|#?9|eight|nine)\n+\*{0,2}(R|r)eason:\*{0,2}(.+)']
+    body (regex): ['\*{0,2}Mod:\*{0,2} u\/(\S+).+violates? rule (#?1|one)\n+\*{0,2}(R|r)eason:\*{0,2}(.+)']
+    author:
+        flair_template_id: 270dc11c-1515-11ea-869f-0e977a19a62f
+    comment: |
+        Hello u/{{match-body-2}},
+
+        ####I regret to inform you that the users in this subreddit have voted and determined that your post violates our subreddit rule:
+        > _**Rule 7: No offers or solicitations of payment.**_
+
+        u/{{author}}'s comments:
+        > {{match-body-5}}
+
+        ######This friendly takedown should be taken with gratitude because it has helped prevent a moderator from seeing this and taking action against you for rule violation
+
+        I encourage you to read up our rules so you are cognizant of how things work in this subreddit.
+
+        Have a nice day!
+
+        _If you strongly oppose this takedown and believe the moderators are likely to approve this post, please reply `Mod: I appeal` and elaborate in the next sentence. Otherwise, please reach out to u/{{author}} for further clarifications._
+
+        **Readers:** Do not use this command without reading [User Moderation](https://www.reddit.com/r/HomeworkHelp/wiki/user_moderation). Ignorance or incorrect interpretation of our rules will not excuse you from being dealt harshly for wrongful removals
+    comment_stickied: true
+    parent_submission:
+        action: remove
+---
+    #XP: Vote for rule #8 violation
+    priority: 4
+    type: comment
+    is_top_level: false
+    body (regex): ['\*{0,2}Mod:\*{0,2} u\/(\S+).+violates? rule (#?8|eight)\n+\*{0,2}(R|r)eason:\*{0,2}(.+)']
     comment: |
         Hello u/{{match-body-2}},
 
@@ -2513,6 +2796,325 @@
     parent_submission:
         reports: 1
         action: filter
+---
+    #XP: Vote for rule #8 violation (Valued Contributor)
+    priority: 4
+    type: comment
+    is_top_level: false
+    body (regex): ['\*{0,2}Mod:\*{0,2} u\/(\S+).+violates? rule (#?8|eight)\n+\*{0,2}(R|r)eason:\*{0,2}(.+)']
+    author:
+        flair_template_id: 270dc11c-1515-11ea-869f-0e977a19a62f
+    comment: |
+        Hello u/{{match-body-2}},
+
+        ####I regret to inform you that the users in this subreddit have voted and determined that your post violates our subreddit rule:
+        > > - _**Rule 8: No advertisements of any form.**_
+        > >
+        > > This includes asking for "likes," page views, or similar things.
+        >
+        > > - _**Rule 9: No surveys. Take them to /r/samplesize.**_
+
+        u/{{author}}'s comments:
+        > {{match-body-5}}
+
+        ######This friendly takedown should be taken with gratitude because it has helped prevent a moderator from seeing this and taking action against you for rule violation
+
+        I encourage you to read up our rules so you are cognizant of how things work in this subreddit.
+
+        Have a nice day!
+
+        _If you strongly oppose this takedown and believe the moderators are likely to approve this post, please reply `Mod: I appeal` and elaborate in the next sentence. Otherwise, please reach out to u/{{author}} for further clarifications._
+
+        **Readers:** Do not use this command without reading [User Moderation](https://www.reddit.com/r/HomeworkHelp/wiki/user_moderation). Ignorance or incorrect interpretation of our rules will not excuse you from being dealt harshly for wrongful removals
+    comment_stickied: true
+    parent_submission:
+        action: remove
+---
+    # XP: Decorated Contributors: change flair to English Language
+    priority: 4
+    type: comment
+    body (regex): ['\*{0,2}Mod:\*{0,2} change flair to \*{0,2}English Language\*{0,2}']
+    author:
+        flair_template_id: ["270dc11c-1515-11ea-869f-0e977a19a62f", #Valued Contributor
+        "0d43518a-1523-11ea-8418-0e727d6e2445", #Notable Contributor
+        "a19aebb8-1578-11ea-8418-0e727d6e2445"] #Top Contributor
+    parent_submission:
+        set_flair:
+                text: ":snoo: English Language"
+                template_id: d41dda5c-4c4a-11e9-bbdc-0ed17289e8dc
+        overwrite_flair: true
+    Comment: Done! You have successfully flaired this post to **English Language.**
+---
+    # XP: Decorated Contributors: change flair to Literature
+    priority: 4
+    type: comment
+    body (regex): ['\*{0,2}Mod:\*{0,2} change flair to \*{0,2}Literature\*{0,2}']
+    author:
+        flair_template_id: ["270dc11c-1515-11ea-869f-0e977a19a62f", #Valued Contributor
+        "0d43518a-1523-11ea-8418-0e727d6e2445", #Notable Contributor
+        "a19aebb8-1578-11ea-8418-0e727d6e2445"] #Top Contributor
+    parent_submission:
+        set_flair:
+                text: ":snoo_simple_smile: Literature"
+                template_id: 8db1615a-4c4b-11e9-91cb-0e9b0bf93c46
+        overwrite_flair: true
+    Comment: Done! You have successfully flaired this post to **Literature.**
+---
+    # XP: Decorated Contributors: change flair to Primary School
+    priority: 4
+    type: comment
+    body (regex): ['\*{0,2}Mod:\*{0,2} change flair to \*{0,2}Primary School\*{0,2}']
+    author:
+        flair_template_id: ["270dc11c-1515-11ea-869f-0e977a19a62f", #Valued Contributor
+        "0d43518a-1523-11ea-8418-0e727d6e2445", #Notable Contributor
+        "a19aebb8-1578-11ea-8418-0e727d6e2445"] #Top Contributor
+    parent_submission:
+        set_flair:
+                text: ":hamster: Primary School"
+                template_id: bdee835a-4d5b-11e9-9c6f-0e092e29b022
+        overwrite_flair: true
+    Comment: Done! You have successfully flaired this post to **Primary School.**
+---
+    # XP: Decorated Contributors: change flair to Middle School
+    priority: 4
+    type: comment
+    body (regex): ['\*{0,2}Mod:\*{0,2} change flair to \*{0,2}Middle School\*{0,2}']
+    author:
+        flair_template_id: ["270dc11c-1515-11ea-869f-0e977a19a62f", #Valued Contributor
+        "0d43518a-1523-11ea-8418-0e727d6e2445", #Notable Contributor
+        "a19aebb8-1578-11ea-8418-0e727d6e2445"] #Top Contributor
+    parent_submission:
+        set_flair:
+                text: ":snoo_shrug: Middle School Math"
+                template_id: d0967c56-4d5b-11e9-b9ef-0e98c5c24a0c
+        overwrite_flair: true
+    Comment: Done! You have successfully flaired this post to **Middle School.**
+---
+    # XP: Decorated Contributors: change flair to High School
+    priority: 4
+    type: comment
+    body (regex): ['\*{0,2}Mod:\*{0,2} change flair to \*{0,2}High School\*{0,2}']
+    author:
+        flair_template_id: ["270dc11c-1515-11ea-869f-0e977a19a62f", #Valued Contributor
+        "0d43518a-1523-11ea-8418-0e727d6e2445", #Notable Contributor
+        "a19aebb8-1578-11ea-8418-0e727d6e2445"] #Top Contributor
+    parent_submission:
+        set_flair:
+                text: ":snoo_facepalm: High School Math"
+                template_id: e9dbe69c-4d5b-11e9-909c-0e045f33938a
+        overwrite_flair: true
+    Comment: Done! You have successfully flaired this post to **High School.**
+---
+    # XP: Decorated Contributors: change flair to Elementary Mathematics
+    priority: 4
+    type: comment
+    body (regex): ['\*{0,2}Mod:\*{0,2} change flair to \*{0,2}Elementary Mathemaatics\*{0,2}']
+    author:
+        flair_template_id: ["270dc11c-1515-11ea-869f-0e977a19a62f", #Valued Contributor
+        "0d43518a-1523-11ea-8418-0e727d6e2445", #Notable Contributor
+        "a19aebb8-1578-11ea-8418-0e727d6e2445"] #Top Contributor
+    parent_submission:
+        set_flair:
+                text: ":snoo_tongue: Elementary Mathematics"
+                template_id: f44d9bdc-4c4a-11e9-b011-0e5a55295ed2
+        overwrite_flair: true
+    Comment: Done! You have successfully flaired this post to **Elementary Mathematics.**
+---
+    # XP: Decorated Contributors: change flair to Additional Mathematics
+    priority: 4
+    type: comment
+    body (regex): ['\*{0,2}Mod:\*{0,2} change flair to \*{0,2}Additional Mathemaatics\*{0,2}']
+    author:
+        flair_template_id: ["270dc11c-1515-11ea-869f-0e977a19a62f", #Valued Contributor
+        "0d43518a-1523-11ea-8418-0e727d6e2445", #Notable Contributor
+        "a19aebb8-1578-11ea-8418-0e727d6e2445"] #Top Contributor
+        is_submitter: true
+    parent_submission:
+        set_flair:
+                text: ":snoo_biblethump: Additional Mathematics"
+                template_id: fd985452-4c4a-11e9-bddd-0efaabcb6dd6
+        overwrite_flair: true
+    Comment: Done! You have successfully flaired this post to **Additional Mathematics.**
+---
+    # XP: Decorated Contributors: change flair to Mathematics (A-Levels/Tertiary/Grade 11-12)
+    priority: 4
+    type: comment
+    body (regex): ['\*{0,2}Mod:\*{0,2} change flair to \*{0,2}Mathematics \((?:A-Levels\/)?Tertiary\/Grade 11-12\)\*{0,2}']
+    author:
+        flair_template_id: ["270dc11c-1515-11ea-869f-0e977a19a62f", #Valued Contributor
+        "0d43518a-1523-11ea-8418-0e727d6e2445", #Notable Contributor
+        "a19aebb8-1578-11ea-8418-0e727d6e2445"] #Top Contributor
+    parent_submission:
+        set_flair:
+                text: ":snoo_feelsbadman: Mathematics (A-Levels/Tertiary/Grade 11-12)"
+                template_id: f37fecac-4c4d-11e9-9027-0e2cd7ef4bba
+        overwrite_flair: true
+    Comment: Done! You have successfully flaired this post to **Mathematics (A-Levels/Tertiary/Grade 11-12).**
+---
+    # XP: Decorated Contributors: change flair to Further Mathematics
+    priority: 4
+    type: comment
+    body (regex): ['\*{0,2}Mod:\*{0,2} change flair to \*{0,2}Further Mathematics\*{0,2}']
+    author:
+        flair_template_id: ["270dc11c-1515-11ea-869f-0e977a19a62f", #Valued Contributor
+        "0d43518a-1523-11ea-8418-0e727d6e2445", #Notable Contributor
+        "a19aebb8-1578-11ea-8418-0e727d6e2445"] #Top Contributor
+    parent_submission:
+        set_flair:
+                text: ":snoo_scream: Further Mathematics"
+                template_id: 8de0aaa8-4c4d-11e9-9c5a-0e255cafe3f8
+        overwrite_flair: true
+    Comment: Done! You have successfully flaired this post to **Further Mathematics.**
+---
+    # XP: Decorated Contributors: change flair to Pure Mathematics
+    priority: 4
+    type: comment
+    body (regex): ['\*{0,2}Mod:\*{0,2} change flair to \*{0,2}Pure Mathematics\*{0,2}']
+    author:
+        flair_template_id: ["270dc11c-1515-11ea-869f-0e977a19a62f", #Valued Contributor
+        "0d43518a-1523-11ea-8418-0e727d6e2445", #Notable Contributor
+        "a19aebb8-1578-11ea-8418-0e727d6e2445"] #Top Contributor
+    parent_submission:
+        set_flair:
+                text: ":snoo_biblethump: Pure Mathematics"
+                template_id: d5fb59b4-4c4d-11e9-9674-0eea7e58f486
+        overwrite_flair: true
+    Comment: Done! You have successfully flaired this post to **Further Mathematics.**
+---
+    # XP: Decorated Contributors: change flair to Chemistry
+    priority: 4
+    type: comment
+    body (regex): ['\*{0,2}Mod:\*{0,2} change flair to \*{0,2}Chemistry\*{0,2}']
+    author:
+        flair_template_id: ["270dc11c-1515-11ea-869f-0e977a19a62f", #Valued Contributor
+        "0d43518a-1523-11ea-8418-0e727d6e2445", #Notable Contributor
+        "a19aebb8-1578-11ea-8418-0e727d6e2445"] #Top Contributor
+    parent_submission:
+        set_flair:
+                text: ":snoo_thoughtful: Chemistry"
+                template_id: 155b6232-4c4b-11e9-af50-0ef8a8c5ca08
+        overwrite_flair: true
+    Comment: Done! You have successfully flaired this post to **Chemistry.**
+---
+    # XP: Decorated Contributors: change flair to Physics
+    priority: 4
+    type: comment
+    body (regex): ['\*{0,2}Mod:\*{0,2} change flair to \*{0,2}Physics\*{0,2}']
+    author:
+        flair_template_id: ["270dc11c-1515-11ea-869f-0e977a19a62f", #Valued Contributor
+        "0d43518a-1523-11ea-8418-0e727d6e2445", #Notable Contributor
+        "a19aebb8-1578-11ea-8418-0e727d6e2445"] #Top Contributor
+    parent_submission:
+        set_flair:
+                text: ":table_flip: Physics"
+                template_id: 2331aef2-4c4b-11e9-b4e8-0e104c17b0ea
+        overwrite_flair: true
+    Comment: Done! You have successfully flaired this post to **Physics.**
+---
+    # XP: Decorated Contributors: change flair to Biology
+    priority: 4
+    type: comment
+    body (regex): ['\*{0,2}Mod:\*{0,2} change flair to \*{0,2}Biology\*{0,2}']
+    author:
+        flair_template_id: ["270dc11c-1515-11ea-869f-0e977a19a62f", #Valued Contributor
+        "0d43518a-1523-11ea-8418-0e727d6e2445", #Notable Contributor
+        "a19aebb8-1578-11ea-8418-0e727d6e2445"] #Top Contributor
+    parent_submission:
+        set_flair:
+                text: ":snoo_tableflip: Biology"
+                template_id: 37568ac4-4c4b-11e9-988e-0e2b3e13b2ee
+        overwrite_flair: true
+    Comment: Done! You have successfully flaired this post to **Biology.**
+---
+    # XP: Decorated Contributors: change flair to History
+    priority: 4
+    type: comment
+    body (regex): ['\*{0,2}Mod:\*{0,2} change flair to \*{0,2}History\*{0,2}']
+    author:
+        flair_template_id: ["270dc11c-1515-11ea-869f-0e977a19a62f", #Valued Contributor
+        "0d43518a-1523-11ea-8418-0e727d6e2445", #Notable Contributor
+        "a19aebb8-1578-11ea-8418-0e727d6e2445"] #Top Contributor
+    parent_submission:
+        set_flair:
+                text: ":snoo_dealwithit: History"
+                template_id: 51a3a9de-4c4b-11e9-ba54-0ed17c973608
+        overwrite_flair: true
+    Comment: Done! You have successfully flaired this post to **History.**
+---
+    # XP: Decorated Contributors: change flair to Geography
+    priority: 4
+    type: comment
+    body (regex): ['\*{0,2}Mod:\*{0,2} change flair to \*{0,2}Geography\*{0,2}']
+    author:
+        flair_template_id: ["270dc11c-1515-11ea-869f-0e977a19a62f", #Valued Contributor
+        "0d43518a-1523-11ea-8418-0e727d6e2445", #Notable Contributor
+        "a19aebb8-1578-11ea-8418-0e727d6e2445"] #Top Contributor
+    parent_submission:
+        set_flair:
+                text: ":snoo_joy: Geography"
+                template_id: 5db21b8e-4c4b-11e9-99d8-0e4e53a8c476
+        overwrite_flair: true
+    Comment: Done! You have successfully flaired this post to **Geography.**
+---
+    # XP: Decorated Contributors: change flair to Social Studies
+    priority: 4
+    type: comment
+    body (regex): ['\*{0,2}Mod:\*{0,2} change flair to \*{0,2}Social Studies\*{0,2}']
+    author:
+        flair_template_id: ["270dc11c-1515-11ea-869f-0e977a19a62f", #Valued Contributor
+        "0d43518a-1523-11ea-8418-0e727d6e2445", #Notable Contributor
+        "a19aebb8-1578-11ea-8418-0e727d6e2445"] #Top Contributor
+    parent_submission:
+        set_flair:
+                text: ":snoo_trollface: Social Studies"
+                template_id: 183e679a-4c4d-11e9-9528-0e7cf6650498
+        overwrite_flair: true
+    Comment: Done! You have successfully flaired this post to **Social Studies.**
+---
+    # XP: Decorated Contributors: change flair to Economics
+    priority: 4
+    type: comment
+    body (regex): ['\*{0,2}Mod:\*{0,2} change flair to \*{0,2}Economics\*{0,2}']
+    author:
+        flair_template_id: ["270dc11c-1515-11ea-869f-0e977a19a62f", #Valued Contributor
+        "0d43518a-1523-11ea-8418-0e727d6e2445", #Notable Contributor
+        "a19aebb8-1578-11ea-8418-0e727d6e2445"] #Top Contributor
+    parent_submission:
+        set_flair:
+                text: ":snoo_hearteyes: Economics"
+                template_id: e9b5cec8-4d63-11e9-93f1-0e3e9f9ef214
+        overwrite_flair: true
+    Comment: Done! You have successfully flaired this post to **Economics.**
+---
+    # XP: Decorated Contributors: change flair to Computing
+    priority: 4
+    type: comment
+    body (regex): ['\*{0,2}Mod:\*{0,2} change flair to \*{0,2}Computing\*{0,2}']
+    author:
+        flair_template_id: ["270dc11c-1515-11ea-869f-0e977a19a62f", #Valued Contributor
+        "0d43518a-1523-11ea-8418-0e727d6e2445", #Notable Contributor
+        "a19aebb8-1578-11ea-8418-0e727d6e2445"] #Top Contributor
+    parent_submission:
+        set_flair:
+                text: ":snoo_surprised: Computing"
+                template_id: 133f7620-5f3b-11e9-9db4-0e90a029d678
+        overwrite_flair: true
+    Comment: Done! You have successfully flaired this post to **Computing.**
+---
+    # XP: Decorated Contributors: change flair to Others
+    priority: 4
+    type: comment
+    body (regex): ['\*{0,2}Mod:\*{0,2} change flair to \*{0,2}Others\*{0,2}']
+    author:
+        flair_template_id: ["270dc11c-1515-11ea-869f-0e977a19a62f", #Valued Contributor
+        "0d43518a-1523-11ea-8418-0e727d6e2445", #Notable Contributor
+        "a19aebb8-1578-11ea-8418-0e727d6e2445"] #Top Contributor
+    parent_submission:
+        set_flair:
+                text: ":snoo_putback: Others"
+                template_id: 3739af1a-4c4d-11e9-8e03-0e7cf6650498
+        overwrite_flair: true
+    Comment: Done! You have successfully flaired this post to **Others.**
 --------------------------------------------------------------------
         #Democratic Moderation END
 --------------------------------------------------------------------
