@@ -16,8 +16,6 @@ If this post violates our subreddit [rules](https://www.reddit.com/r/HomeworkHel
 > * Post must contain **instructor prompt** or or a **failed attempt of the question**
 >   * *by stating the syllabus requirements or presenting incorrect working/thought process towards the question*
 
-**You may use me as a comment thread for this post.** Making irrelevant top-level comments could interfere with systematic flairing by falsely flagging an unanswered question as ***Pending OP Reply***, depriving OP of help in timely fashion. Join our chatrooms instead! ^(For PC users: see bottom of sidebar on Reddit redesign. For Reddit App users: see **Rooms**)
-
 How was your experience in this subreddit? Let us know how can we do better by taking part in our survey [here](https://fdier.co/0acnXZ).
 
 ######Pro-tips:
