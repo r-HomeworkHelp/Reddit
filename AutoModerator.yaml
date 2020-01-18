@@ -119,11 +119,19 @@
         body_longer_than: 199
     action: approve
 ---
+    # XP: u/HomeworkHelpBot Posts
+    priority: 5
+    type: submission
+    author: HomeworkHelpBot
+    set_sticky: 2
+    set_locked: true
+    action: approve
+---
     # XP: Off-topic Comments Section
     priority: 3
     type: submission
     body_longer_than: 200
-    title (regex): \[.*\]
+    title (regex): ['((\[|\{)|^\().*(\]|}|\))']
     comment_stickied: true
     comment: |
         ##Off-topic Comments Section
@@ -139,7 +147,7 @@
     # XP: Remember to Mark as "Answered"
     priority: 3
     type: submission
-    title (regex): \[.*\]
+    title (regex): ['((\[|\{)|^\().*(\]|}|\))']
     author:
         ~flair_template_id: ["f52eff54-4c4b-11e9-b5ae-0e3820aba534", #PSLE Candidate
         "9810ca02-d52e-11e9-943e-0edaf10a785a", #CBSE Candidate
@@ -332,9 +340,11 @@
         "notablecontributor",
         "topcontributor"]
         set_flair:
-                template_id: fd2680c8-02c2-11ea-af3f-0e55f7a67683
+                template_id: fd2680c8-02c2-11ea-af3f-0e55f7a67683 #a fellow Redditor
         overwrite_flair: false
         ~name: HomeworkHelpBot
+    parent_submission:
+        ~flair_template_id: e677df10-9ec3-11e9-b082-0e436b6e764a #Meta
     message_subject: Welcome to r/{{subreddit}}
     message: |
         ####Dear u/{{author}},
