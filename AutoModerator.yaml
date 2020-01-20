@@ -69,7 +69,7 @@
 
         ---
 
-        ^(**OP** and **Valued Contributors** can close this post by using `/lock` command)
+        ^(**OP** and **Valued/Notable Contributors** can close this post by using `/lock` command)
         ---
     # XP: Minimum Post Requirement - square/curly/round brackets
     priority: 3
@@ -142,7 +142,7 @@
 
         ---
 
-        ^(**OP** and **Valued Contributors** can close this post by using `/lock` command)
+        ^(**OP** and **Valued/Notable Contributors** can close this post by using `/lock` command)
 ---
     # XP: Remember to Mark as "Answered"
     priority: 3
@@ -223,6 +223,16 @@
         Done! You have successfully locked this thread.
 
         ^(To unlock this thread, **report** u/{{author}}'s comment above.)
+---
+    # XP: Non-Valued Contributor/Notable Contributor locks thread (failure message)
+    priority: 4
+    type: comment
+    body (full-exact): "/lock"
+    author:
+        ~flair_template_id: ["270dc11c-1515-11ea-869f-0e977a19a62f", #Valued Contributor
+        "0d43518a-1523-11ea-8418-0e727d6e2445"] #Notable Contributor
+    comment: |
+        Oh no, you are neither an OP nor Valued/Notable Contributor. I cannot lock this thread at your command.
 ---
     # XP: Undo Valued Contributor's lock command
     priority: 4
@@ -2252,7 +2262,7 @@
         action_reason: OP appeals
 ---
     #XP: Failed use of command
-    priority: 4
+    priority: 5
     type: comment
     is_top_level: false
     body (regex): ['\*{0,2}Mod:\*{0,2}']
