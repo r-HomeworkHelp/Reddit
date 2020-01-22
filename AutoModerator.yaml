@@ -29,11 +29,11 @@
         Hello u/{{author}},
 
         ####I regret to inform you that our algorithms in this subreddit have determined that your post violates our subreddit rule(s):
-        > > - _**Rule 8: No advertisements of any form.**_
-        > >
-        > > This includes asking for "likes," page views, or similar things.
+        > _**Rule 8: No advertisements or surveys of any form.**_
         >
-        > > - _**Rule 9: No surveys. Take them to /r/samplesize.**_
+        > This includes asking for "likes," page views, or similar things.
+        >
+        > Take surveys to /r/samplesize.
 
         Matched keyword:
         > {{match}}
@@ -78,7 +78,7 @@
     action: remove
     action_reason: no square brackets at prefix
     comment: |
-        ### Hello **{{author}}**,
+        #### Hello **{{author}}**,
 
         Welcome to r/HomeworkHelp! It seems like you have not attempted to structure your post title to classify your question's level and discipline/topic enclosed with **square brackets** as a title prefix.
 
@@ -126,12 +126,16 @@
     set_sticky: 2
     set_locked: true
     action: approve
+    ~flair_template_id: ["e677df10-9ec3-11e9-b082-0e436b6e764a",
+    "08ce49e4-1e3c-11ea-89d1-0e2fae0089bd"]
+    set_flair:
+        template_id: e677df10-9ec3-11e9-b082-0e436b6e764a
+    overwrite_flair: true
 ---
     # XP: Off-topic Comments Section
     priority: 3
     type: submission
     body_longer_than: 200
-    title (regex): ['((\[|\{)|^\().*(\]|}|\))']
     comment_stickied: true
     comment: |
         ##Off-topic Comments Section
@@ -176,17 +180,39 @@
         #account_age: < 30 days
     message_subject: Remember to re-flair your post as "✔ Answered!"
     message: |
-        Hi **u/{{author}}**!
+        ####Hi **u/{{author}}**!
 
-        **Congratulations! Your question is successfully submitted to r/HomeworkHelp!** Typically, you will receive an answer within 24 hours unless it is not a very popular field. Once your question is deemed answered, please remember to re-flair this post as `✔ Answered` to save our volunteers' time from reading through an already helped question.
+        **Congratulations! You have successfully submitted your question to r/HomeworkHelp!** Typically, you will receive an answer within 24 hours unless it is not a very popular field. Once your question is deemed answered, please remember to re-flair this post as `✔ Answered` to save our volunteers' time from reading through an already helped question.
 
-        **Pro-tips:**
-
+        ###Pro-tips:
         1. **Google** the topic and try to learn it before posting your homework question.
 
         2. **Flair** your question appropriately so that users equipped with the right expertise can better help you. That is the sole purpose of flair—for you to receive help quicker from users who can do your level of question. Otherwise, all questions are all jumbled together so a supposedly qualified student wouldn't have helped you and would've given up searching; there is very little educators here because educators instinctively don't come here.
 
         3. Even if this is a **non-text** submission, you still have to include all details in one way or another. **e.g.** as *comments*.
+
+        4. Once your question is answered, you can stop others from commenting on it by using `/lock` command
+
+        ###Question remains unanswered? Re-post again
+
+        Sometimes your question might be overshadowed by other posts, this is perfectly normal. Simply re-post your question again, provided the question is at least 24 hours old.
+
+        If you would like, we can gild your question so it stands out from the crowd. ^([Learn more](https://www.reddit.com/r/HomeworkHelp/comments/erf22v/you_know_what_if_your_question_is_unanswered_we/))
+
+        ###Let's be part of this community and join us on Reddit Chat!
+
+        Channel | Link
+        :--|--:
+        General | [Join](https://s.reddit.com/channel/23950613_161a15494275fb82336634a870002775ce68fbf3)
+        Primary School Students (Grade 1-6) | [Join](https://s.reddit.com/channel/23950613_7a51955aa23eab9bda0d8763df129d58e9fb0e9d)
+        Secondary School Students (Grade 7-11) | [Join](https://s.reddit.com/channel/23950613_fc0bffc3fbbc09ebc5e45418acf1ec6e1fd0a5bf)
+        Pre-University Students (Grade 11-12) | [Join](https://s.reddit.com/channel/23950613_17233e92791c43ee47c3d87015cc369b1eb31db9)
+        University/College | [Join](https://s.reddit.com/channel/23950613_459f5b59899c60aab27ffaddc85fbdea2653db88)
+        Postgraduates | [Join](https://s.reddit.com/channel/23950613_c0179931449eeac3ca8a6490a29e9a45167cf0a7)
+        'O' Level | [Join](https://s.reddit.com/channel/23950613_9de7946b1284461b449644bcd63af0d6557a8d94)
+        'A' Level | [Join](https://s.reddit.com/channel/23950613_83651288a3b755cec9eff1fe2f964670d8c7ca05)
+
+        How was your experience in this subreddit? Let us know how can we do better by taking part in our survey [here](https://fdier.co/0acnXZ).
 
         **Warning:** This whole subreddit is free-for-all. No offers and solicitations of payment should exist here. All answers by default are to be 100% quality and original. If you receive any PMs for solicitation of payment like tutoring, please ignore and discard it (and block the sender). This text is written in response to users' feedback that they are targeted for PM spam after they have posted here. PMs is out of our jurisdiction, unfortunately.
 
@@ -1034,7 +1060,7 @@
         overwrite_flair: true
     message_subject: Congratulations! You have been awarded the most prestigious user flair of this subreddit.
     message: |
-        ###Dear u/{{author}},
+        ####Dear u/{{author}},
 
         On behalf of everyone at r/HomeworkHelp, we would like to commend you on your unrelenting dedication to providing high-quality academic assistance to all users in our community. You are a very positive influence to all Redditors for choosing to commit your time to help the struggling learners.
 
@@ -1064,7 +1090,7 @@
         overwrite_flair: true
     message_subject: Congratulations! You have been bestowed a prestigious user flair of r/HomeworkHelp
     message: |
-        ###Greetings u/{{author}},
+        ####Greetings u/{{author}},
 
         Your persistent dedication to volunteer your time for struggling learners has gotten our attention and thoroughly impressed us. Your work has a profound impact to the community at large for generations to come.
 
@@ -1094,7 +1120,7 @@
         overwrite_flair: true
     message_subject: You have received a glossy user flair for your unflagging contributions to r/HomeworkHelp
     message: |
-        ###Howdy!
+        ####Howdy!
 
         Thanks so much for actively helping out users on r/HomeworkHelp. Your contributions is invaluable and will inspire others to be like you one day.
 
@@ -2794,11 +2820,11 @@
         Hello u/{{match-body-2}},
 
         ####I regret to inform you that the users in this subreddit have voted and determined that your post violates our subreddit rule:
-        > > - _**Rule 8: No advertisements of any form.**_
-        > >
-        > > This includes asking for "likes," page views, or similar things.
+        > _**Rule 8: No advertisements or surveys of any form.**_
         >
-        > > - _**Rule 9: No surveys. Take them to /r/samplesize.**_
+        > This includes asking for "likes," page views, or similar things.
+        >
+        > Take surveys to /r/samplesize.
 
         u/{{author}}'s comments:
         > {{match-body-5}}
@@ -2828,11 +2854,11 @@
         Hello u/{{match-body-2}},
 
         ####I regret to inform you that the users in this subreddit have voted and determined that your post violates our subreddit rule:
-        > > - _**Rule 8: No advertisements of any form.**_
-        > >
-        > > This includes asking for "likes," page views, or similar things.
+        > _**Rule 8: No advertisements or surveys of any form.**_
         >
-        > > - _**Rule 9: No surveys. Take them to /r/samplesize.**_
+        > This includes asking for "likes," page views, or similar things.
+        >
+        > Take surveys to /r/samplesize.
 
         u/{{author}}'s comments:
         > {{match-body-5}}
