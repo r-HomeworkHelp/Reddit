@@ -1,4 +1,6 @@
 import praw
+import prawcore
+import time
 
 SUBREDDIT_NAME = 'HomeworkHelp'
 KEYWORDS = ['[','{','(']
@@ -45,6 +47,7 @@ reddit = praw.Reddit(
     username=USERNAME)
 print("Authenticated as {}".format(reddit.user.me()))
 
+
 def handlePost(post):
     if post.saved:
         return
@@ -60,19 +63,12 @@ def handlePost(post):
         initial_reply.mod.remove()
         print('Replied to post, reply URL: http://reddit.com{}'.format(main_reply.permalink))
 
+
 print('Starting submission stream...')
-for post in reddit.subreddit(SUBREDDIT_NAME).stream.submissions():
+while True:
     try:
-        handlePost(post)
-    except Exception as firstExcept:
-        print("Something went wrong...")
-        print(firstExcept)
-        print("Trying Again...")
-        try:
+        for post in reddit.subreddit(SUBREDDIT_NAME).stream.submissions():
             handlePost(post)
-        except Exception as secondExcept:
-            if firstExcept == secondExcept:
-                print("Tried again but had the same error.")
-            else:
-                print("Tried again and had a new error.")
-                print(secondExcept)
+    except (prawcore.NotFound, prawcore.RequestException, prawcore.ServerError) as e:
+        print("Error: \n\t" + str(e))
+        time.sleep(60)
