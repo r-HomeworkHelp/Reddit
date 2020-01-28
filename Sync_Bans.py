@@ -93,7 +93,8 @@ class Bot:
                             print(f"Error while banning /u/{ban.name} in {sub_to_ban_in.display_name}")
                             print(e)
 
-    def run(self):      
+    def run(self):
+        self.moderated = set(filter(self.has_ban_permissions, self.r.user.moderator_subreddits(limit=None)))
         self.read_bans()
         self.review_ban_lists()
 
@@ -101,6 +102,7 @@ class Bot:
 def main():
     while True:
         try:
+            
             bot.run()
             time.sleep(DELAY_BETWEEN_LOOPS_SECONDS)
         except Exception as e:
