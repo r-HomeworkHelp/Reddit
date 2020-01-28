@@ -2,7 +2,6 @@
 __author__ = "Jack Steel"
 
 import time
-
 import praw
 from praw.exceptions import APIException
 from praw.models import Message
@@ -107,6 +106,7 @@ def main():
         except Exception as e:
             print("Had an error while running! Will continue but if this keeps happening you should investigate")
             print(e)
+            time.sleep(DELAY_BETWEEN_LOOPS_SECONDS)
 
 
 if __name__ == "__main__":
