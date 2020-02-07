@@ -20,7 +20,7 @@
 
         Have a nice day!
 ---
-    title+body (includes-word, regex): ["surveymonkey", "nsf[wl]", "not safe for (work|life)", "I will pay", "willing to pay", "venmo","paypal", "affordable prices","Luke", "Kylo", "Snoke", "professional essay writer", "quality homework help", "best paper writers", "by a professional writer", "affordable price", "academic writing assistance", "experienced tutor", "essay writing service", "We do your homework", "essay writing services", "writing coach", "plagiarism free", "hire me", "highly qualified writers", "upvote","up vote", "forms.gle", "survey"]
+    title+body (includes-word, regex): ["surveymonkey", "nsf[wl]", "not safe for (work|life)", "I will pay", "willing to pay", "venmo","paypal", "affordable prices", "professional essay writer", "quality homework help", "best paper writers", "by a professional writer", "affordable price", "academic writing assistance", "experienced tutor", "essay writing service", "We do your homework", "essay writing services", "writing coach", "plagiarism free", "hire me", "highly qualified writers", "upvote","up vote", "forms.gle"]
     priority: 2
     type: submission
     action: filter
@@ -48,6 +48,30 @@
 
         **Readers:** Do not use this command without reading [User Moderation](https://www.reddit.com/r/HomeworkHelp/wiki/user_moderation). Ignorance or incorrect interpretation of our rules will not excuse you from being dealt harshly for wrongful removals
 ---
+    title+body (includes-word, regex): ["survey"]
+    priority: 2
+    type: submission
+    action: report
+    action_reason: Potential Rule 8 Violation
+    message: |
+        Hello u/{{author}},
+
+        ####I am sorry to inform you that our algorithms in this subreddit have determined that your post violates our subreddit rule(s):
+        > _**Rule 8: No advertisements or surveys of any form.**_
+        >
+        > This includes asking for "likes," page views, or similar things.
+        >
+        > Take surveys to /r/samplesize.
+
+        Matched keyword:
+        > {{match}}
+
+        ######No action has been taken. Our moderator will review this {{kind}}.
+
+        I encourage you to read up our rules so you are cognizant of how things work in this subreddit.
+
+        Have a nice day!
+---
     priority: 1
     domain+body+title: [myessayhub.net, Edusson, chriswriter4, sedofreelancer, essayservice, gonerdify, mypenservices9, high-quality academic papers, ukwritershub, researchpapers247, studypool, writepaperforme, proessays, canadaessays, EssayPro, edenpapers, smwas86@gmail.com, relaxessay, twinprofs, ownessays, trusted_essays, paypal, venmo, homeworkminutes.com, Snappypapers, phwriters, essaytom, vortexessay, speedypaper, customwriting4you.com, papercoach, grand-essays.com, papersmaster.com, academiaresearchservices, solutoninn.com, myassignmenthelp.co.uk, chrome782, Studyansh, solutoninn.com, supertechwriting, writepaperfor.me, theeducationalists.com, onlineassignment.co.in, schoolsolver.com, nativecustomwriters.com, writershubplus.com, helpjelp.com, mentyor.com, essaycorp.com, submityourassignments.org, cognitioexperts, submityourassignments.com, peachyessay, youressaygirl.com, superbpaper, studydaddy, penmypaper, KwikNotes, msahomeworkhelp.com, calltutors, summoremath.com, 7dollaressay, WeBestassignmentexperts.com, Alainchippy@gmail.com, morainechiri@gmail.com, topGradsForHire@gmail.com, myessayhub]
     action: filter
@@ -70,7 +94,7 @@
         ---
 
         ^(**OP** and **Valued/Notable Contributors** can close this post by using `/lock` command)
-        ---
+---
     # XP: Minimum Post Requirement - square/curly/round brackets
     priority: 3
     type: submission
