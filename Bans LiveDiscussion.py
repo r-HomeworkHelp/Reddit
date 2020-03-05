@@ -8,9 +8,9 @@ VERSION = '0.1.0'
 USER_AGENT = "{} v{}, to help remove all live discussion posts.".format(BOT_DESCRIPTION, VERSION)
 WAIT = 10
 
-reddit = praw.Reddit(client_id="2iUwXv3a1cWLkQ",
-                     client_secret="U98wWqlbGEPOcxdideaKPc6w3GM", password='@Sharedpassword',
-                     user_agent=USER_AGENT, username='HomeworkHelpBot')
+reddit = praw.Reddit(client_id="",
+                     client_secret="", password='',
+                     user_agent=USER_AGENT, username='')
 
 
 def main_runtime():

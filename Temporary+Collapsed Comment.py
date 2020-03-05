@@ -30,10 +30,10 @@ How was your experience in this subreddit? Let us know how can we do better by t
 
 ^(4. If there is a rule violation, inform the OP and **report** the offending content. Posts will be automatically removed once it reaches a certain threshold of reports or it will be removed earlier if there is sufficient reports for manual takedown trigger. [Learn more](https://www.reddit.com/r/HomeworkHelp/comments/br7vi9/new_updates_image_posts_enabled_vote_to_delete/))"""
 
-USERNAME = 'HomeworkHelpBot'
-PASSWORD = '@Sharedpassword'
-CLIENT_ID = '2iUwXv3a1cWLkQ'
-CLIENT_SECRET = 'U98wWqlbGEPOcxdideaKPc6w3GM'
+USERNAME = ''
+PASSWORD = ''
+CLIENT_ID = ''
+CLIENT_SECRET = ''
 
 USER_AGENT = 'script:reply to keywords in titles:v0.2:written by /u/doug89 and modified by /u/iPlain'
 
