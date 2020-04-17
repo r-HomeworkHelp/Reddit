@@ -1,4 +1,9 @@
 ---
+    # XP: Approve u/LaTeX4Reddit
+    type: comment
+    author: LaTeX4Reddit
+    action: approve
+---
     reports: 5
     modmail: The above {{kind}} by /u/{{author}} has received 5 reports. Please investigate.
 ---
@@ -187,7 +192,7 @@
         "e614b96e-4c4b-11e9-8b14-0e3d58cc5582", #IB Candidate
         "33288604-4c4c-11e9-98b6-0e11653f4fc4", #Primary School Student (Grade 1-6)
         "3a61705c-4c4c-11e9-8f3d-0e3820aba534", #Secondary School Student (Grade 7-11)
-        "45b9b19e-4c4c-11e9-a32c-0e990aa34f58", #Pre-University (Grade 10-12/Further Education)
+        "45b9b19e-4c4c-11e9-a32c-0e990aa34f58", #Pre-University (Grade 11-12/Further Education)
         "bc06d182-5f3a-11e9-aa3b-0ed0c6ac5038", #University/College Student (Higher Education)
         "4bacad04-4c4c-11e9-83cd-0ebbc1e4ca72", #Postgraduate Student
         "553dad32-4c4c-11e9-a3d5-0e8099e3fcb2", #Educator (Mod-only)
@@ -389,7 +394,7 @@
         "e614b96e-4c4b-11e9-8b14-0e3d58cc5582", #IB Candidate
         "33288604-4c4c-11e9-98b6-0e11653f4fc4", #Primary School Student (Grade 1-6)
         "3a61705c-4c4c-11e9-8f3d-0e3820aba534", #Secondary School Student (Grade 7-11)
-        "45b9b19e-4c4c-11e9-a32c-0e990aa34f58", #Pre-University (Grade 10-12/Further Education)
+        "45b9b19e-4c4c-11e9-a32c-0e990aa34f58", #Pre-University (Grade 11-12/Further Education)
         "bc06d182-5f3a-11e9-aa3b-0ed0c6ac5038", #University/College Student (Higher Education)
         "4bacad04-4c4c-11e9-83cd-0ebbc1e4ca72", #Postgraduate Student
         "553dad32-4c4c-11e9-a3d5-0e8099e3fcb2", #Educator (Mod only)
@@ -471,7 +476,7 @@
         "e614b96e-4c4b-11e9-8b14-0e3d58cc5582", #IB Candidate
         "33288604-4c4c-11e9-98b6-0e11653f4fc4", #Primary School Student (Grade 1-6)
         "3a61705c-4c4c-11e9-8f3d-0e3820aba534", #Secondary School Student (Grade 7-11)
-        "45b9b19e-4c4c-11e9-a32c-0e990aa34f58", #Pre-University (Grade 10-12/Further Education)
+        "45b9b19e-4c4c-11e9-a32c-0e990aa34f58", #Pre-University (Grade 11-12/Further Education)
         "bc06d182-5f3a-11e9-aa3b-0ed0c6ac5038", #University/College Student (Higher Education)
         "4bacad04-4c4c-11e9-83cd-0ebbc1e4ca72", #Postgraduate Student
         "553dad32-4c4c-11e9-a3d5-0e8099e3fcb2", #Educator (Mod-only)
@@ -503,7 +508,7 @@
         "e614b96e-4c4b-11e9-8b14-0e3d58cc5582", #IB Candidate
         "33288604-4c4c-11e9-98b6-0e11653f4fc4", #Primary School Student (Grade 1-6)
         "3a61705c-4c4c-11e9-8f3d-0e3820aba534", #Secondary School Student (Grade 7-11)
-        "45b9b19e-4c4c-11e9-a32c-0e990aa34f58", #Pre-University (Grade 10-12/Further Education)
+        "45b9b19e-4c4c-11e9-a32c-0e990aa34f58", #Pre-University (Grade 11-12/Further Education)
         "bc06d182-5f3a-11e9-aa3b-0ed0c6ac5038", #University/College Student (Higher Education)
         "4bacad04-4c4c-11e9-83cd-0ebbc1e4ca72", #Postgraduate Student
         "553dad32-4c4c-11e9-a3d5-0e8099e3fcb2", #Educator (Mod-only)
@@ -520,7 +525,7 @@
         overwrite_flair: true
         ~name: HomeworkHelpBot
 ---
-    # XP: Auto user flair: Pre-university
+    # XP: Auto user flair: Pre-University
     priority: 4
     type: submission
     title (includes, regex): ['(?:Grade ?|Gr ?)(11|12)\b','(?:Year ?|Y|Yr ?)(12|13)\b','(?:JC|Junior College) ?(1|2)\b','Poly(?:technic)? (?:Y|y)(?:(?:R|r)|ear)? ?(1|2|3)\b','(Vocational|Trade) School']
@@ -535,7 +540,7 @@
         "e614b96e-4c4b-11e9-8b14-0e3d58cc5582", #IB Candidate
         "33288604-4c4c-11e9-98b6-0e11653f4fc4", #Primary School Student (Grade 1-6)
         "3a61705c-4c4c-11e9-8f3d-0e3820aba534", #Secondary School Student (Grade 7-11)
-        "45b9b19e-4c4c-11e9-a32c-0e990aa34f58", #Pre-University (Grade 10-12/Further Education)
+        "45b9b19e-4c4c-11e9-a32c-0e990aa34f58", #Pre-University (Grade 11-12/Further Education)
         "bc06d182-5f3a-11e9-aa3b-0ed0c6ac5038", #University/College Student (Higher Education)
         "4bacad04-4c4c-11e9-83cd-0ebbc1e4ca72", #Postgraduate Student
         "553dad32-4c4c-11e9-a3d5-0e8099e3fcb2", #Educator (Mod-only)
@@ -547,7 +552,7 @@
         "notablecontributor",
         "topcontributor"]
         set_flair:
-                text: ":snoo_shrug: Pre-University (Grade 10-12/Further Education)"
+                text: ":snoo_shrug: Pre-University (Grade 11-12/Further Education)"
                 template_id: 45b9b19e-4c4c-11e9-a32c-0e990aa34f58
         overwrite_flair: true
         ~name: HomeworkHelpBot
@@ -567,7 +572,7 @@
         "e614b96e-4c4b-11e9-8b14-0e3d58cc5582", #IB Candidate
         "33288604-4c4c-11e9-98b6-0e11653f4fc4", #Primary School Student (Grade 1-6)
         "3a61705c-4c4c-11e9-8f3d-0e3820aba534", #Secondary School Student (Grade 7-11)
-        "45b9b19e-4c4c-11e9-a32c-0e990aa34f58", #Pre-University (Grade 10-12/Further Education)
+        "45b9b19e-4c4c-11e9-a32c-0e990aa34f58", #Pre-University (Grade 11-12/Further Education)
         "bc06d182-5f3a-11e9-aa3b-0ed0c6ac5038", #University/College Student (Higher Education)
         "4bacad04-4c4c-11e9-83cd-0ebbc1e4ca72", #Postgraduate Student
         "553dad32-4c4c-11e9-a3d5-0e8099e3fcb2", #Educator (Mod-only)
@@ -599,7 +604,7 @@
         "e614b96e-4c4b-11e9-8b14-0e3d58cc5582", #IB Candidate
         "33288604-4c4c-11e9-98b6-0e11653f4fc4", #Primary School Student (Grade 1-6)
         "3a61705c-4c4c-11e9-8f3d-0e3820aba534", #Secondary School Student (Grade 7-11)
-        "45b9b19e-4c4c-11e9-a32c-0e990aa34f58", #Pre-University (Grade 10-12/Further Education)
+        "45b9b19e-4c4c-11e9-a32c-0e990aa34f58", #Pre-University (Grade 11-12/Further Education)
         "bc06d182-5f3a-11e9-aa3b-0ed0c6ac5038", #University/College Student (Higher Education)
         "4bacad04-4c4c-11e9-83cd-0ebbc1e4ca72", #Postgraduate Student
         "553dad32-4c4c-11e9-a3d5-0e8099e3fcb2", #Educator (Mod-only)
@@ -631,7 +636,7 @@
         "e614b96e-4c4b-11e9-8b14-0e3d58cc5582", #IB Candidate
         "33288604-4c4c-11e9-98b6-0e11653f4fc4", #Primary School Student (Grade 1-6)
         "3a61705c-4c4c-11e9-8f3d-0e3820aba534", #Secondary School Student (Grade 7-11)
-        "45b9b19e-4c4c-11e9-a32c-0e990aa34f58", #Pre-University (Grade 10-12/Further Education)
+        "45b9b19e-4c4c-11e9-a32c-0e990aa34f58", #Pre-University (Grade 11-12/Further Education)
         "bc06d182-5f3a-11e9-aa3b-0ed0c6ac5038", #University/College Student (Higher Education)
         "4bacad04-4c4c-11e9-83cd-0ebbc1e4ca72", #Postgraduate Student
         "553dad32-4c4c-11e9-a3d5-0e8099e3fcb2", #Educator (Mod-only)
@@ -663,7 +668,7 @@
         "e614b96e-4c4b-11e9-8b14-0e3d58cc5582", #IB Candidate
         "33288604-4c4c-11e9-98b6-0e11653f4fc4", #Primary School Student (Grade 1-6)
         "3a61705c-4c4c-11e9-8f3d-0e3820aba534", #Secondary School Student (Grade 7-11)
-        "45b9b19e-4c4c-11e9-a32c-0e990aa34f58", #Pre-University (Grade 10-12/Further Education)
+        "45b9b19e-4c4c-11e9-a32c-0e990aa34f58", #Pre-University (Grade 11-12/Further Education)
         "bc06d182-5f3a-11e9-aa3b-0ed0c6ac5038", #University/College Student (Higher Education)
         "4bacad04-4c4c-11e9-83cd-0ebbc1e4ca72", #Postgraduate Student
         "553dad32-4c4c-11e9-a3d5-0e8099e3fcb2", #Educator (Mod-only)
@@ -695,7 +700,7 @@
         "e614b96e-4c4b-11e9-8b14-0e3d58cc5582", #IB Candidate
         "33288604-4c4c-11e9-98b6-0e11653f4fc4", #Primary School Student (Grade 1-6)
         "3a61705c-4c4c-11e9-8f3d-0e3820aba534", #Secondary School Student (Grade 7-11)
-        "45b9b19e-4c4c-11e9-a32c-0e990aa34f58", #Pre-University (Grade 10-12/Further Education)
+        "45b9b19e-4c4c-11e9-a32c-0e990aa34f58", #Pre-University (Grade 11-12/Further Education)
         "bc06d182-5f3a-11e9-aa3b-0ed0c6ac5038", #University/College Student (Higher Education)
         "4bacad04-4c4c-11e9-83cd-0ebbc1e4ca72", #Postgraduate Student
         "553dad32-4c4c-11e9-a3d5-0e8099e3fcb2", #Educator (Mod-only)
@@ -727,7 +732,7 @@
         "e614b96e-4c4b-11e9-8b14-0e3d58cc5582", #IB Candidate
         "33288604-4c4c-11e9-98b6-0e11653f4fc4", #Primary School Student (Grade 1-6)
         "3a61705c-4c4c-11e9-8f3d-0e3820aba534", #Secondary School Student (Grade 7-11)
-        "45b9b19e-4c4c-11e9-a32c-0e990aa34f58", #Pre-University (Grade 10-12/Further Education)
+        "45b9b19e-4c4c-11e9-a32c-0e990aa34f58", #Pre-University (Grade 11-12/Further Education)
         "bc06d182-5f3a-11e9-aa3b-0ed0c6ac5038", #University/College Student (Higher Education)
         "4bacad04-4c4c-11e9-83cd-0ebbc1e4ca72", #Postgraduate Student
         "553dad32-4c4c-11e9-a3d5-0e8099e3fcb2", #Educator (Mod-only)
@@ -759,7 +764,7 @@
         "e614b96e-4c4b-11e9-8b14-0e3d58cc5582", #IB Candidate
         "33288604-4c4c-11e9-98b6-0e11653f4fc4", #Primary School Student (Grade 1-6)
         "3a61705c-4c4c-11e9-8f3d-0e3820aba534", #Secondary School Student (Grade 7-11)
-        "45b9b19e-4c4c-11e9-a32c-0e990aa34f58", #Pre-University (Grade 10-12/Further Education)
+        "45b9b19e-4c4c-11e9-a32c-0e990aa34f58", #Pre-University (Grade 11-12/Further Education)
         "bc06d182-5f3a-11e9-aa3b-0ed0c6ac5038", #University/College Student (Higher Education)
         "4bacad04-4c4c-11e9-83cd-0ebbc1e4ca72", #Postgraduate Student
         "553dad32-4c4c-11e9-a3d5-0e8099e3fcb2", #Educator (Mod-only)
@@ -791,7 +796,7 @@
         "e614b96e-4c4b-11e9-8b14-0e3d58cc5582", #IB Candidate
         "33288604-4c4c-11e9-98b6-0e11653f4fc4", #Primary School Student (Grade 1-6)
         "3a61705c-4c4c-11e9-8f3d-0e3820aba534", #Secondary School Student (Grade 7-11)
-        "45b9b19e-4c4c-11e9-a32c-0e990aa34f58", #Pre-University (Grade 10-12/Further Education)
+        "45b9b19e-4c4c-11e9-a32c-0e990aa34f58", #Pre-University (Grade 11-12/Further Education)
         "bc06d182-5f3a-11e9-aa3b-0ed0c6ac5038", #University/College Student (Higher Education)
         "4bacad04-4c4c-11e9-83cd-0ebbc1e4ca72", #Postgraduate Student
         "553dad32-4c4c-11e9-a3d5-0e8099e3fcb2", #Educator (Mod-only)
@@ -823,7 +828,7 @@
         "e614b96e-4c4b-11e9-8b14-0e3d58cc5582", #IB Candidate
         "33288604-4c4c-11e9-98b6-0e11653f4fc4", #Primary School Student (Grade 1-6)
         "3a61705c-4c4c-11e9-8f3d-0e3820aba534", #Secondary School Student (Grade 7-11)
-        "45b9b19e-4c4c-11e9-a32c-0e990aa34f58", #Pre-University (Grade 10-12/Further Education)
+        "45b9b19e-4c4c-11e9-a32c-0e990aa34f58", #Pre-University (Grade 11-12/Further Education)
         "bc06d182-5f3a-11e9-aa3b-0ed0c6ac5038", #University/College Student (Higher Education)
         "4bacad04-4c4c-11e9-83cd-0ebbc1e4ca72", #Postgraduate Student
         "553dad32-4c4c-11e9-a3d5-0e8099e3fcb2", #Educator (Mod-only)
@@ -924,12 +929,54 @@
 
         How was your experience in this subreddit? Let us know how can we do better by taking part in our survey [here](https://fdier.co/0acnXZ).
 ---
-    # XP: Customise your flair: Pre-University Student
+    # XP: Customise your flair: Pre-University Student (old flair that states Grade 10-12)
     priority: 4
     type: comment
     body (regex): .*
     author:
         flair_text: ":snoo_shrug: Pre-University (Grade 10-12/Further Education)"
+        flair_template_id: 45b9b19e-4c4c-11e9-a32c-0e990aa34f58
+        set_flair:
+                text: ":snoo_shrug: Pre-University Student"
+                template_id: 45b9b19e-4c4c-11e9-a32c-0e990aa34f58
+        overwrite_flair: true
+    message_subject: Customise your user flair!
+    message: |
+        Customise your user flair!
+
+        ####Howdy u/{{author}}!
+
+        **Did you know?** You can briefly introduce yourself to everyone who are helping you by adding some details about you into your user flair.
+
+        **Here are some suggestions:**
+
+        - your country?
+        - your grade?
+        - your national examination/board?
+
+        **e.g.** UK A-Level School Student (6th Form)
+
+        ####Let's be part of this community and join us on Reddit Chat!
+
+        Channel | Link
+        :--|--:
+        **General** | [Join](https://s.reddit.com/channel/23950613_161a15494275fb82336634a870002775ce68fbf3)
+        Primary School Students (Grade 1-6) | [Join](https://s.reddit.com/channel/23950613_7a51955aa23eab9bda0d8763df129d58e9fb0e9d)
+        Secondary School Students (Grade 7-11) | [Join](https://s.reddit.com/channel/23950613_fc0bffc3fbbc09ebc5e45418acf1ec6e1fd0a5bf)
+        **Pre-University Students (Grade 11-12)** | [Join](https://s.reddit.com/channel/23950613_17233e92791c43ee47c3d87015cc369b1eb31db9)
+        University/College | [Join](https://s.reddit.com/channel/23950613_459f5b59899c60aab27ffaddc85fbdea2653db88)
+        Postgraduates | [Join](https://s.reddit.com/channel/23950613_c0179931449eeac3ca8a6490a29e9a45167cf0a7)
+        'O' Level | [Join](https://s.reddit.com/channel/23950613_9de7946b1284461b449644bcd63af0d6557a8d94)
+        'A' Level | [Join](https://s.reddit.com/channel/23950613_83651288a3b755cec9eff1fe2f964670d8c7ca05)
+
+        How was your experience in this subreddit? Let us know how can we do better by taking part in our survey [here](https://fdier.co/0acnXZ).
+---
+    # XP: Customise your flair: Pre-University Student
+    priority: 4
+    type: comment
+    body (regex): .*
+    author:
+        flair_text: ":snoo_shrug: Pre-University (Grade 11-12/Further Education)"
         flair_template_id: 45b9b19e-4c4c-11e9-a32c-0e990aa34f58
         set_flair:
                 text: ":snoo_shrug: Pre-University Student"
