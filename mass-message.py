@@ -123,13 +123,4 @@ if __name__ == '__main__':
     a = AnnouncerBot(SECRET, ID, PASSWORD, AGENT, USERNAME, SUBREDDIT, MESSAGE, SUBJECT,
                      START_EPOCH, LIMIT)
 
-    a.message('Oryv', SUBJECT, MESSAGE)
-    a.message('XPMai', SUBJECT, MESSAGE)
-
-    starttime = time.time()
-    while True:
-        try:
-            a.run()
-            time.sleep(60.0 - ((time.time() - starttime) % 60.0))
-        except:
-            pass
+    a.run()

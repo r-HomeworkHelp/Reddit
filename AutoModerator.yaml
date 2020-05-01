@@ -125,6 +125,7 @@
     # XP: Minimum Text Needed
     priority: 3
     type: text submission
+    title (includes, regex): ['((\[|\{)|^\().*(\]|}|\))']
     body_shorter_than: 200
     comment_stickied: true
     comment: |
@@ -164,6 +165,7 @@
     # XP: Off-topic Comments Section
     priority: 3
     type: submission
+    title (includes, regex): ['((\[|\{)|^\().*(\]|}|\))']
     body_longer_than: 200
     comment_stickied: true
     comment: |
@@ -1149,7 +1151,7 @@
 
         **Disclaimer:** This is not a permanent flair. Your flair will be reviewed again in 30 days time and you must remain in the top 1 percentile to retain this status.
 
-        ^(**Don't like these flairs?** You can request an opt-out here: https://rhomeworkhelp.typeform.com/to/tUFJ0u)
+        ^(**Don't like these flairs?** You can manually replace the flair and request an opt-out here: https://rhomeworkhelp.typeform.com/to/tUFJ0u)
 ---
     # XP: First-time message to Notable Contributors
     priority: 1
@@ -1179,7 +1181,7 @@
 
         **Disclaimer:** This is not a permanent flair. Your flair will be reviewed again in 30 days time and you must remain in the top 10 percentile to retain this status.
 
-        ^(**Don't like these flairs?** You can request an opt-out here: https://rhomeworkhelp.typeform.com/to/tUFJ0u)
+        ^(**Don't like these flairs?** You can manually replace the flair and request an opt-out here: https://rhomeworkhelp.typeform.com/to/tUFJ0u)
 ---
     # XP: First-time message to Top Contributors
     priority: 1
@@ -1207,7 +1209,7 @@
 
         **Disclaimer:** This is not a permanent flair. Your flair will be reviewed again in 30 days time and you must remain in the top 20 percentile to retain this status.
 
-        ^(**Don't like these flairs?** You can request an opt-out here:  https://rhomeworkhelp.typeform.com/to/tUFJ0u)
+        ^(**Don't like these flairs?** You can manually replace the flair and request an opt-out here:  https://rhomeworkhelp.typeform.com/to/tUFJ0u)
 --------------------------------------------------------------------
         #Systematic Flairing START
 --------------------------------------------------------------------
