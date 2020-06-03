@@ -60,7 +60,13 @@ def handlePost(post):
         post.save()
         initial_reply = post.reply(INITIAL_RESPONSE)
         main_reply = initial_reply.reply(MAIN_RESPONSE)
-        initial_reply.mod.remove()
+        try:
+            try:
+                initial_reply.delete()
+            except:
+                initial_reply.mod.remove()
+        except:
+            pass
         print('Replied to post, reply URL: http://reddit.com{}'.format(main_reply.permalink))
 
 
